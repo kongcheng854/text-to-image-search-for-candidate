@@ -1,0 +1,85 @@
+{
+  "query": "A plate of food on a table.",
+  "ranking": {
+    "version": "object-guard-multiobject-prompt-v1",
+    "contrast_weight": 0.5,
+    "prompt_weight": 0.5,
+    "vocabulary_sha256": "602d47c1987b184602ccb845e5772abfa989cf00d98516e5ad1043035c732e5b",
+    "multiobject_policy": "average normalized original/photo text features; no class penalty",
+    "single_object_policy": "subtract positive part of competing-object advantage",
+    "fallback": "original whole-sentence cosine for negation, alternatives or unknown objects"
+  },
+  "elapsed_seconds": 0.0242,
+  "results": [
+    {
+      "rank": 1,
+      "image_id": "coco-000000419312",
+      "path": "materials/data/images/000000419312.jpg",
+      "score": 0.2979707717895508,
+      "clip_score": 0.2987123727798462
+    },
+    {
+      "rank": 2,
+      "image_id": "coco-000000320664",
+      "path": "materials/data/images/000000320664.jpg",
+      "score": 0.2932502031326294,
+      "clip_score": 0.2883351743221283
+    },
+    {
+      "rank": 3,
+      "image_id": "coco-000000460494",
+      "path": "materials/data/images/000000460494.jpg",
+      "score": 0.28956592082977295,
+      "clip_score": 0.28466346859931946
+    },
+    {
+      "rank": 4,
+      "image_id": "coco-000000250766",
+      "path": "materials/data/images/000000250766.jpg",
+      "score": 0.2862702012062073,
+      "clip_score": 0.28441882133483887
+    },
+    {
+      "rank": 5,
+      "image_id": "coco-000000017714",
+      "path": "materials/data/images/000000017714.jpg",
+      "score": 0.28103598952293396,
+      "clip_score": 0.27838706970214844
+    },
+    {
+      "rank": 6,
+      "image_id": "coco-000000511453",
+      "path": "materials/data/images/000000511453.jpg",
+      "score": 0.2745705842971802,
+      "clip_score": 0.2721739709377289
+    },
+    {
+      "rank": 7,
+      "image_id": "coco-000000256407",
+      "path": "materials/data/images/000000256407.jpg",
+      "score": 0.27167004346847534,
+      "clip_score": 0.26605355739593506
+    },
+    {
+      "rank": 8,
+      "image_id": "coco-000000256916",
+      "path": "materials/data/images/000000256916.jpg",
+      "score": 0.2714582681655884,
+      "clip_score": 0.2691878080368042
+    },
+    {
+      "rank": 9,
+      "image_id": "coco-000000265518",
+      "path": "materials/data/images/000000265518.jpg",
+      "score": 0.270904541015625,
+      "clip_score": 0.263495534658432
+    },
+    {
+      "rank": 10,
+      "image_id": "coco-000000181796",
+      "path": "materials/data/images/000000181796.jpg",
+      "score": 0.27087125182151794,
+      "clip_score": 0.26557648181915283
+    }
+  ]
+}

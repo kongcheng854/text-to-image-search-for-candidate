@@ -1,0 +1,3784 @@
+{
+  "method": "Provisional assistant visual judgments, 0/1/2; strict relevance requires grade 2. Pooled nDCG uses only judged candidates, not complete-corpus relevance.",
+  "queries_sha256": "29f0e012a1828a70bea6f7228e335facf2a50b1dab18c6a00042f3fb3138e23e",
+  "review_sha256": "ba2170078081a555e3c6b09c092f2ad0b208ac38d5b818022fbd3dd1eb0a0ae9",
+  "query_count": 25,
+  "judgment_count": 284,
+  "queries_without_confirmed_full_match_in_pool": [
+    "R01",
+    "R05"
+  ],
+  "summary": {
+    "all": {
+      "baseline": {
+        "strict_p5": 0.552,
+        "related_p5": 0.8959999999999999,
+        "pooled_ndcg5": 0.8303953204335248,
+        "strict_top1": 0.72,
+        "pool_attainable_strict_p5": 0.7040000000000001,
+        "strict_p10": 0.456
+      },
+      "letterbox": {
+        "strict_p5": 0.496,
+        "related_p5": 0.8959999999999999,
+        "pooled_ndcg5": 0.798252040423547,
+        "strict_top1": 0.72,
+        "pool_attainable_strict_p5": 0.7040000000000001
+      },
+      "dual_max": {
+        "strict_p5": 0.536,
+        "related_p5": 0.92,
+        "pooled_ndcg5": 0.841109181876107,
+        "strict_top1": 0.72,
+        "pool_attainable_strict_p5": 0.7040000000000001
+      }
+    },
+    "subject": {
+      "baseline": {
+        "strict_p5": 0.9199999999999999,
+        "related_p5": 0.9199999999999999,
+        "pooled_ndcg5": 0.9368703095040971,
+        "strict_top1": 1.0,
+        "pool_attainable_strict_p5": 1.0,
+        "strict_p10": 0.9199999999999999
+      },
+      "letterbox": {
+        "strict_p5": 0.8800000000000001,
+        "related_p5": 1.0,
+        "pooled_ndcg5": 0.9178088489828446,
+        "strict_top1": 0.8,
+        "pool_attainable_strict_p5": 1.0
+      },
+      "dual_max": {
+        "strict_p5": 0.9199999999999999,
+        "related_p5": 1.0,
+        "pooled_ndcg5": 0.9353028593178238,
+        "strict_top1": 0.8,
+        "pool_attainable_strict_p5": 1.0
+      }
+    },
+    "action": {
+      "baseline": {
+        "strict_p5": 0.6,
+        "related_p5": 0.9199999999999999,
+        "pooled_ndcg5": 0.8730220575678646,
+        "strict_top1": 0.8,
+        "pool_attainable_strict_p5": 0.72,
+        "strict_p10": 0.48
+      },
+      "letterbox": {
+        "strict_p5": 0.5599999999999999,
+        "related_p5": 0.9199999999999999,
+        "pooled_ndcg5": 0.8583170632374555,
+        "strict_top1": 1.0,
+        "pool_attainable_strict_p5": 0.72
+      },
+      "dual_max": {
+        "strict_p5": 0.6,
+        "related_p5": 0.96,
+        "pooled_ndcg5": 0.88482882490554,
+        "strict_top1": 0.8,
+        "pool_attainable_strict_p5": 0.72
+      }
+    },
+    "edge_small": {
+      "baseline": {
+        "strict_p5": 0.36,
+        "related_p5": 0.8,
+        "pooled_ndcg5": 0.6292516184119051,
+        "strict_top1": 0.2,
+        "pool_attainable_strict_p5": 0.6,
+        "strict_p10": 0.27999999999999997
+      },
+      "letterbox": {
+        "strict_p5": 0.28,
+        "related_p5": 0.8400000000000001,
+        "pooled_ndcg5": 0.6335218225300933,
+        "strict_top1": 0.4,
+        "pool_attainable_strict_p5": 0.6
+      },
+      "dual_max": {
+        "strict_p5": 0.32,
+        "related_p5": 0.8400000000000001,
+        "pooled_ndcg5": 0.6628286905471223,
+        "strict_top1": 0.4,
+        "pool_attainable_strict_p5": 0.6
+      }
+    },
+    "color": {
+      "baseline": {
+        "strict_p5": 0.52,
+        "related_p5": 0.8800000000000001,
+        "pooled_ndcg5": 0.7996625215117171,
+        "strict_top1": 1.0,
+        "pool_attainable_strict_p5": 0.76,
+        "strict_p10": 0.36
+      },
+      "letterbox": {
+        "strict_p5": 0.44000000000000006,
+        "related_p5": 0.8400000000000001,
+        "pooled_ndcg5": 0.7272848993803684,
+        "strict_top1": 0.8,
+        "pool_attainable_strict_p5": 0.76
+      },
+      "dual_max": {
+        "strict_p5": 0.52,
+        "related_p5": 0.8800000000000001,
+        "pooled_ndcg5": 0.8147323711308465,
+        "strict_top1": 1.0,
+        "pool_attainable_strict_p5": 0.76
+      }
+    },
+    "relation": {
+      "baseline": {
+        "strict_p5": 0.36,
+        "related_p5": 0.96,
+        "pooled_ndcg5": 0.9131700951720403,
+        "strict_top1": 0.6,
+        "pool_attainable_strict_p5": 0.44000000000000006,
+        "strict_p10": 0.24
+      },
+      "letterbox": {
+        "strict_p5": 0.32,
+        "related_p5": 0.8800000000000001,
+        "pooled_ndcg5": 0.8543275679869732,
+        "strict_top1": 0.6,
+        "pool_attainable_strict_p5": 0.44000000000000006
+      },
+      "dual_max": {
+        "strict_p5": 0.32,
+        "related_p5": 0.9199999999999999,
+        "pooled_ndcg5": 0.907853163479202,
+        "strict_top1": 0.6,
+        "pool_attainable_strict_p5": 0.44000000000000006
+      }
+    }
+  },
+  "queries": [
+    {
+      "id": "S01",
+      "category": "subject",
+      "query": "A cat.",
+      "judged_candidates": 11,
+      "fully_matching_in_pool": 11,
+      "metrics": {
+        "baseline": {
+          "strict_p5": 1.0,
+          "related_p5": 1.0,
+          "pooled_ndcg5": 1.0,
+          "strict_top1": 1,
+          "pool_attainable_strict_p5": 1.0,
+          "strict_p10": 1.0
+        },
+        "letterbox": {
+          "strict_p5": 1.0,
+          "related_p5": 1.0,
+          "pooled_ndcg5": 1.0,
+          "strict_top1": 1,
+          "pool_attainable_strict_p5": 1.0
+        },
+        "dual_max": {
+          "strict_p5": 1.0,
+          "related_p5": 1.0,
+          "pooled_ndcg5": 1.0,
+          "strict_top1": 1,
+          "pool_attainable_strict_p5": 1.0
+        }
+      },
+      "variants": {
+        "baseline": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000524280",
+            "path": "materials/data/images/000000524280.jpg",
+            "score": 0.2745139002799988,
+            "grade": 2
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000118515",
+            "path": "materials/data/images/000000118515.jpg",
+            "score": 0.26776108145713806,
+            "grade": 2
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000360943",
+            "path": "materials/data/images/000000360943.jpg",
+            "score": 0.2649138569831848,
+            "grade": 2
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000213445",
+            "path": "materials/data/images/000000213445.jpg",
+            "score": 0.2603321671485901,
+            "grade": 2
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000015497",
+            "path": "materials/data/images/000000015497.jpg",
+            "score": 0.25834304094314575,
+            "grade": 2
+          }
+        ],
+        "letterbox": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000118515",
+            "path": "materials/data/images/000000118515.jpg",
+            "score": 0.27842995524406433,
+            "grade": 2
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000524280",
+            "path": "materials/data/images/000000524280.jpg",
+            "score": 0.2745139002799988,
+            "grade": 2
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000112798",
+            "path": "materials/data/images/000000112798.jpg",
+            "score": 0.2743399739265442,
+            "grade": 2
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000360943",
+            "path": "materials/data/images/000000360943.jpg",
+            "score": 0.2706278860569,
+            "grade": 2
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000361621",
+            "path": "materials/data/images/000000361621.jpg",
+            "score": 0.2701210379600525,
+            "grade": 2
+          }
+        ],
+        "dual_max": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000118515",
+            "path": "materials/data/images/000000118515.jpg",
+            "score": 0.27842995524406433,
+            "grade": 2
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000524280",
+            "path": "materials/data/images/000000524280.jpg",
+            "score": 0.2745139002799988,
+            "grade": 2
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000112798",
+            "path": "materials/data/images/000000112798.jpg",
+            "score": 0.2743399739265442,
+            "grade": 2
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000360943",
+            "path": "materials/data/images/000000360943.jpg",
+            "score": 0.2706278860569,
+            "grade": 2
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000361621",
+            "path": "materials/data/images/000000361621.jpg",
+            "score": 0.2701210379600525,
+            "grade": 2
+          }
+        ]
+      },
+      "note": ""
+    },
+    {
+      "id": "S02",
+      "category": "subject",
+      "query": "A dog.",
+      "judged_candidates": 12,
+      "fully_matching_in_pool": 10,
+      "metrics": {
+        "baseline": {
+          "strict_p5": 0.8,
+          "related_p5": 0.8,
+          "pooled_ndcg5": 0.830419897363192,
+          "strict_top1": 1,
+          "pool_attainable_strict_p5": 1.0,
+          "strict_p10": 0.9
+        },
+        "letterbox": {
+          "strict_p5": 0.8,
+          "related_p5": 1.0,
+          "pooled_ndcg5": 0.773893196484256,
+          "strict_top1": 0,
+          "pool_attainable_strict_p5": 1.0
+        },
+        "dual_max": {
+          "strict_p5": 0.8,
+          "related_p5": 1.0,
+          "pooled_ndcg5": 0.773893196484256,
+          "strict_top1": 0,
+          "pool_attainable_strict_p5": 1.0
+        }
+      },
+      "variants": {
+        "baseline": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000253386",
+            "path": "materials/data/images/000000253386.jpg",
+            "score": 0.267575204372406,
+            "grade": 2
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000446522",
+            "path": "materials/data/images/000000446522.jpg",
+            "score": 0.26037150621414185,
+            "grade": 2
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000153217",
+            "path": "materials/data/images/000000153217.jpg",
+            "score": 0.2564200162887573,
+            "grade": 0
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000355905",
+            "path": "materials/data/images/000000355905.jpg",
+            "score": 0.25576716661453247,
+            "grade": 2
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000421455",
+            "path": "materials/data/images/000000421455.jpg",
+            "score": 0.25230157375335693,
+            "grade": 2
+          }
+        ],
+        "letterbox": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000106330",
+            "path": "materials/data/images/000000106330.jpg",
+            "score": 0.2730187177658081,
+            "grade": 1
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000138492",
+            "path": "materials/data/images/000000138492.jpg",
+            "score": 0.2715795040130615,
+            "grade": 2
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000253386",
+            "path": "materials/data/images/000000253386.jpg",
+            "score": 0.2710707187652588,
+            "grade": 2
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000221693",
+            "path": "materials/data/images/000000221693.jpg",
+            "score": 0.2685835063457489,
+            "grade": 2
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000446522",
+            "path": "materials/data/images/000000446522.jpg",
+            "score": 0.2523132562637329,
+            "grade": 2
+          }
+        ],
+        "dual_max": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000106330",
+            "path": "materials/data/images/000000106330.jpg",
+            "score": 0.2730187177658081,
+            "grade": 1
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000138492",
+            "path": "materials/data/images/000000138492.jpg",
+            "score": 0.2715795040130615,
+            "grade": 2
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000253386",
+            "path": "materials/data/images/000000253386.jpg",
+            "score": 0.2710707187652588,
+            "grade": 2
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000221693",
+            "path": "materials/data/images/000000221693.jpg",
+            "score": 0.2685835063457489,
+            "grade": 2
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000446522",
+            "path": "materials/data/images/000000446522.jpg",
+            "score": 0.26037150621414185,
+            "grade": 2
+          }
+        ]
+      },
+      "note": "Rank 3 (153217) is a black cat by a motorcycle, confirmed from the original image, not a dog."
+    },
+    {
+      "id": "S03",
+      "category": "subject",
+      "query": "An elephant.",
+      "judged_candidates": 10,
+      "fully_matching_in_pool": 10,
+      "metrics": {
+        "baseline": {
+          "strict_p5": 1.0,
+          "related_p5": 1.0,
+          "pooled_ndcg5": 1.0,
+          "strict_top1": 1,
+          "pool_attainable_strict_p5": 1.0,
+          "strict_p10": 1.0
+        },
+        "letterbox": {
+          "strict_p5": 1.0,
+          "related_p5": 1.0,
+          "pooled_ndcg5": 1.0,
+          "strict_top1": 1,
+          "pool_attainable_strict_p5": 1.0
+        },
+        "dual_max": {
+          "strict_p5": 1.0,
+          "related_p5": 1.0,
+          "pooled_ndcg5": 1.0,
+          "strict_top1": 1,
+          "pool_attainable_strict_p5": 1.0
+        }
+      },
+      "variants": {
+        "baseline": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000475779",
+            "path": "materials/data/images/000000475779.jpg",
+            "score": 0.3010753393173218,
+            "grade": 2
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000526103",
+            "path": "materials/data/images/000000526103.jpg",
+            "score": 0.2929380536079407,
+            "grade": 2
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000293300",
+            "path": "materials/data/images/000000293300.jpg",
+            "score": 0.2824385464191437,
+            "grade": 2
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000232244",
+            "path": "materials/data/images/000000232244.jpg",
+            "score": 0.28222644329071045,
+            "grade": 2
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000267169",
+            "path": "materials/data/images/000000267169.jpg",
+            "score": 0.27077335119247437,
+            "grade": 2
+          }
+        ],
+        "letterbox": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000526103",
+            "path": "materials/data/images/000000526103.jpg",
+            "score": 0.2909724712371826,
+            "grade": 2
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000232244",
+            "path": "materials/data/images/000000232244.jpg",
+            "score": 0.2868671715259552,
+            "grade": 2
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000167128",
+            "path": "materials/data/images/000000167128.jpg",
+            "score": 0.28678885102272034,
+            "grade": 2
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000475779",
+            "path": "materials/data/images/000000475779.jpg",
+            "score": 0.28195396065711975,
+            "grade": 2
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000267169",
+            "path": "materials/data/images/000000267169.jpg",
+            "score": 0.28008413314819336,
+            "grade": 2
+          }
+        ],
+        "dual_max": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000475779",
+            "path": "materials/data/images/000000475779.jpg",
+            "score": 0.3010753393173218,
+            "grade": 2
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000526103",
+            "path": "materials/data/images/000000526103.jpg",
+            "score": 0.2929380536079407,
+            "grade": 2
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000232244",
+            "path": "materials/data/images/000000232244.jpg",
+            "score": 0.2868671715259552,
+            "grade": 2
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000167128",
+            "path": "materials/data/images/000000167128.jpg",
+            "score": 0.28678885102272034,
+            "grade": 2
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000293300",
+            "path": "materials/data/images/000000293300.jpg",
+            "score": 0.2824385464191437,
+            "grade": 2
+          }
+        ]
+      },
+      "note": ""
+    },
+    {
+      "id": "S04",
+      "category": "subject",
+      "query": "A bicycle.",
+      "judged_candidates": 11,
+      "fully_matching_in_pool": 8,
+      "metrics": {
+        "baseline": {
+          "strict_p5": 0.8,
+          "related_p5": 0.8,
+          "pooled_ndcg5": 0.8539316501572936,
+          "strict_top1": 1,
+          "pool_attainable_strict_p5": 1.0,
+          "strict_p10": 0.7
+        },
+        "letterbox": {
+          "strict_p5": 1.0,
+          "related_p5": 1.0,
+          "pooled_ndcg5": 1.0,
+          "strict_top1": 1,
+          "pool_attainable_strict_p5": 1.0
+        },
+        "dual_max": {
+          "strict_p5": 1.0,
+          "related_p5": 1.0,
+          "pooled_ndcg5": 1.0,
+          "strict_top1": 1,
+          "pool_attainable_strict_p5": 1.0
+        }
+      },
+      "variants": {
+        "baseline": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000144333",
+            "path": "materials/data/images/000000144333.jpg",
+            "score": 0.2764102518558502,
+            "grade": 2
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000274687",
+            "path": "materials/data/images/000000274687.jpg",
+            "score": 0.27595436573028564,
+            "grade": 2
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000070774",
+            "path": "materials/data/images/000000070774.jpg",
+            "score": 0.27022820711135864,
+            "grade": 2
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000546976",
+            "path": "materials/data/images/000000546976.jpg",
+            "score": 0.26197025179862976,
+            "grade": 0
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000135670",
+            "path": "materials/data/images/000000135670.jpg",
+            "score": 0.2610498368740082,
+            "grade": 2
+          }
+        ],
+        "letterbox": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000070774",
+            "path": "materials/data/images/000000070774.jpg",
+            "score": 0.29397642612457275,
+            "grade": 2
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000274687",
+            "path": "materials/data/images/000000274687.jpg",
+            "score": 0.28241825103759766,
+            "grade": 2
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000256941",
+            "path": "materials/data/images/000000256941.jpg",
+            "score": 0.2763271629810333,
+            "grade": 2
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000144333",
+            "path": "materials/data/images/000000144333.jpg",
+            "score": 0.26573288440704346,
+            "grade": 2
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000441586",
+            "path": "materials/data/images/000000441586.jpg",
+            "score": 0.2623162269592285,
+            "grade": 2
+          }
+        ],
+        "dual_max": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000070774",
+            "path": "materials/data/images/000000070774.jpg",
+            "score": 0.29397642612457275,
+            "grade": 2
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000274687",
+            "path": "materials/data/images/000000274687.jpg",
+            "score": 0.28241825103759766,
+            "grade": 2
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000144333",
+            "path": "materials/data/images/000000144333.jpg",
+            "score": 0.2764102518558502,
+            "grade": 2
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000256941",
+            "path": "materials/data/images/000000256941.jpg",
+            "score": 0.2763271629810333,
+            "grade": 2
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000441586",
+            "path": "materials/data/images/000000441586.jpg",
+            "score": 0.2623162269592285,
+            "grade": 2
+          }
+        ]
+      },
+      "note": "Motorcycles are retrieved for bicycle. Original rank 3 shows bicycles carried on a motorcycle; rank 6 contains a partial bicycle at the bottom left. Both contain actual bicycles."
+    },
+    {
+      "id": "S05",
+      "category": "subject",
+      "query": "A plate of food.",
+      "judged_candidates": 12,
+      "fully_matching_in_pool": 10,
+      "metrics": {
+        "baseline": {
+          "strict_p5": 1.0,
+          "related_p5": 1.0,
+          "pooled_ndcg5": 1.0,
+          "strict_top1": 1,
+          "pool_attainable_strict_p5": 1.0,
+          "strict_p10": 1.0
+        },
+        "letterbox": {
+          "strict_p5": 0.6,
+          "related_p5": 1.0,
+          "pooled_ndcg5": 0.8151510484299679,
+          "strict_top1": 1,
+          "pool_attainable_strict_p5": 1.0
+        },
+        "dual_max": {
+          "strict_p5": 0.8,
+          "related_p5": 1.0,
+          "pooled_ndcg5": 0.9026211001048624,
+          "strict_top1": 1,
+          "pool_attainable_strict_p5": 1.0
+        }
+      },
+      "variants": {
+        "baseline": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000419312",
+            "path": "materials/data/images/000000419312.jpg",
+            "score": 0.286418616771698,
+            "grade": 2
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000320664",
+            "path": "materials/data/images/000000320664.jpg",
+            "score": 0.2839076519012451,
+            "grade": 2
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000250766",
+            "path": "materials/data/images/000000250766.jpg",
+            "score": 0.28107962012290955,
+            "grade": 2
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000460494",
+            "path": "materials/data/images/000000460494.jpg",
+            "score": 0.27451974153518677,
+            "grade": 2
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000017714",
+            "path": "materials/data/images/000000017714.jpg",
+            "score": 0.27106595039367676,
+            "grade": 2
+          }
+        ],
+        "letterbox": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000419312",
+            "path": "materials/data/images/000000419312.jpg",
+            "score": 0.29201894998550415,
+            "grade": 2
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000460494",
+            "path": "materials/data/images/000000460494.jpg",
+            "score": 0.2877040207386017,
+            "grade": 2
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000320664",
+            "path": "materials/data/images/000000320664.jpg",
+            "score": 0.28407907485961914,
+            "grade": 2
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000105014",
+            "path": "materials/data/images/000000105014.jpg",
+            "score": 0.28396791219711304,
+            "grade": 1
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000221872",
+            "path": "materials/data/images/000000221872.jpg",
+            "score": 0.2784775495529175,
+            "grade": 1
+          }
+        ],
+        "dual_max": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000419312",
+            "path": "materials/data/images/000000419312.jpg",
+            "score": 0.29201894998550415,
+            "grade": 2
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000460494",
+            "path": "materials/data/images/000000460494.jpg",
+            "score": 0.2877040207386017,
+            "grade": 2
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000320664",
+            "path": "materials/data/images/000000320664.jpg",
+            "score": 0.28407907485961914,
+            "grade": 2
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000105014",
+            "path": "materials/data/images/000000105014.jpg",
+            "score": 0.28396791219711304,
+            "grade": 1
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000250766",
+            "path": "materials/data/images/000000250766.jpg",
+            "score": 0.28107962012290955,
+            "grade": 2
+          }
+        ]
+      },
+      "note": ""
+    },
+    {
+      "id": "A01",
+      "category": "action",
+      "query": "A person riding a bicycle.",
+      "judged_candidates": 12,
+      "fully_matching_in_pool": 2,
+      "metrics": {
+        "baseline": {
+          "strict_p5": 0.4,
+          "related_p5": 0.6,
+          "pooled_ndcg5": 0.8571968910711802,
+          "strict_top1": 1,
+          "pool_attainable_strict_p5": 0.4,
+          "strict_p10": 0.2
+        },
+        "letterbox": {
+          "strict_p5": 0.4,
+          "related_p5": 0.6,
+          "pooled_ndcg5": 0.8571968910711802,
+          "strict_top1": 1,
+          "pool_attainable_strict_p5": 0.4
+        },
+        "dual_max": {
+          "strict_p5": 0.4,
+          "related_p5": 0.8,
+          "pooled_ndcg5": 0.9194888330036862,
+          "strict_top1": 1,
+          "pool_attainable_strict_p5": 0.4
+        }
+      },
+      "variants": {
+        "baseline": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000144333",
+            "path": "materials/data/images/000000144333.jpg",
+            "score": 0.30569449067115784,
+            "grade": 2
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000549390",
+            "path": "materials/data/images/000000549390.jpg",
+            "score": 0.2887091338634491,
+            "grade": 2
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000546976",
+            "path": "materials/data/images/000000546976.jpg",
+            "score": 0.28566184639930725,
+            "grade": 0
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000424162",
+            "path": "materials/data/images/000000424162.jpg",
+            "score": 0.27373290061950684,
+            "grade": 1
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000361506",
+            "path": "materials/data/images/000000361506.jpg",
+            "score": 0.2700733542442322,
+            "grade": 0
+          }
+        ],
+        "letterbox": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000549390",
+            "path": "materials/data/images/000000549390.jpg",
+            "score": 0.2998538613319397,
+            "grade": 2
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000144333",
+            "path": "materials/data/images/000000144333.jpg",
+            "score": 0.29907697439193726,
+            "grade": 2
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000546976",
+            "path": "materials/data/images/000000546976.jpg",
+            "score": 0.2791594862937927,
+            "grade": 0
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000070774",
+            "path": "materials/data/images/000000070774.jpg",
+            "score": 0.2771344780921936,
+            "grade": 1
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000044877",
+            "path": "materials/data/images/000000044877.jpg",
+            "score": 0.27236998081207275,
+            "grade": 0
+          }
+        ],
+        "dual_max": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000144333",
+            "path": "materials/data/images/000000144333.jpg",
+            "score": 0.30569449067115784,
+            "grade": 2
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000549390",
+            "path": "materials/data/images/000000549390.jpg",
+            "score": 0.2998538613319397,
+            "grade": 2
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000546976",
+            "path": "materials/data/images/000000546976.jpg",
+            "score": 0.28566184639930725,
+            "grade": 0
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000070774",
+            "path": "materials/data/images/000000070774.jpg",
+            "score": 0.2771344780921936,
+            "grade": 1
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000424162",
+            "path": "materials/data/images/000000424162.jpg",
+            "score": 0.27373290061950684,
+            "grade": 1
+          }
+        ]
+      },
+      "note": "Motorcycle and skateboard confusion; parked bicycles and people standing beside bicycles do not establish riding."
+    },
+    {
+      "id": "A02",
+      "category": "action",
+      "query": "A person surfing a wave.",
+      "judged_candidates": 11,
+      "fully_matching_in_pool": 10,
+      "metrics": {
+        "baseline": {
+          "strict_p5": 0.8,
+          "related_p5": 1.0,
+          "pooled_ndcg5": 0.9125299483251055,
+          "strict_top1": 1,
+          "pool_attainable_strict_p5": 1.0,
+          "strict_p10": 0.9
+        },
+        "letterbox": {
+          "strict_p5": 1.0,
+          "related_p5": 1.0,
+          "pooled_ndcg5": 1.0,
+          "strict_top1": 1,
+          "pool_attainable_strict_p5": 1.0
+        },
+        "dual_max": {
+          "strict_p5": 1.0,
+          "related_p5": 1.0,
+          "pooled_ndcg5": 1.0,
+          "strict_top1": 1,
+          "pool_attainable_strict_p5": 1.0
+        }
+      },
+      "variants": {
+        "baseline": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000122672",
+            "path": "materials/data/images/000000122672.jpg",
+            "score": 0.3268927037715912,
+            "grade": 2
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000389197",
+            "path": "materials/data/images/000000389197.jpg",
+            "score": 0.3257150948047638,
+            "grade": 2
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000199442",
+            "path": "materials/data/images/000000199442.jpg",
+            "score": 0.3098065257072449,
+            "grade": 2
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000449603",
+            "path": "materials/data/images/000000449603.jpg",
+            "score": 0.3030818998813629,
+            "grade": 2
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000535858",
+            "path": "materials/data/images/000000535858.jpg",
+            "score": 0.30122900009155273,
+            "grade": 1
+          }
+        ],
+        "letterbox": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000389197",
+            "path": "materials/data/images/000000389197.jpg",
+            "score": 0.32014763355255127,
+            "grade": 2
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000063154",
+            "path": "materials/data/images/000000063154.jpg",
+            "score": 0.3179449439048767,
+            "grade": 2
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000230819",
+            "path": "materials/data/images/000000230819.jpg",
+            "score": 0.3134356141090393,
+            "grade": 2
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000148739",
+            "path": "materials/data/images/000000148739.jpg",
+            "score": 0.3128543496131897,
+            "grade": 2
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000574520",
+            "path": "materials/data/images/000000574520.jpg",
+            "score": 0.31281137466430664,
+            "grade": 2
+          }
+        ],
+        "dual_max": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000122672",
+            "path": "materials/data/images/000000122672.jpg",
+            "score": 0.3268927037715912,
+            "grade": 2
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000389197",
+            "path": "materials/data/images/000000389197.jpg",
+            "score": 0.3257150948047638,
+            "grade": 2
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000063154",
+            "path": "materials/data/images/000000063154.jpg",
+            "score": 0.3179449439048767,
+            "grade": 2
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000230819",
+            "path": "materials/data/images/000000230819.jpg",
+            "score": 0.3134356141090393,
+            "grade": 2
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000148739",
+            "path": "materials/data/images/000000148739.jpg",
+            "score": 0.3128543496131897,
+            "grade": 2
+          }
+        ]
+      },
+      "note": "Bodyboarding is accepted as surfing. Rank 5 does not clearly establish the activity in the review image."
+    },
+    {
+      "id": "A03",
+      "category": "action",
+      "query": "A dog running.",
+      "judged_candidates": 11,
+      "fully_matching_in_pool": 2,
+      "metrics": {
+        "baseline": {
+          "strict_p5": 0.4,
+          "related_p5": 1.0,
+          "pooled_ndcg5": 0.8166524211685232,
+          "strict_top1": 0,
+          "pool_attainable_strict_p5": 0.4,
+          "strict_p10": 0.2
+        },
+        "letterbox": {
+          "strict_p5": 0.2,
+          "related_p5": 1.0,
+          "pooled_ndcg5": 0.7968124369890611,
+          "strict_top1": 1,
+          "pool_attainable_strict_p5": 0.4
+        },
+        "dual_max": {
+          "strict_p5": 0.4,
+          "related_p5": 1.0,
+          "pooled_ndcg5": 0.8389776660073724,
+          "strict_top1": 0,
+          "pool_attainable_strict_p5": 0.4
+        }
+      },
+      "variants": {
+        "baseline": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000355905",
+            "path": "materials/data/images/000000355905.jpg",
+            "score": 0.30064907670021057,
+            "grade": 1
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000238039",
+            "path": "materials/data/images/000000238039.jpg",
+            "score": 0.29262590408325195,
+            "grade": 2
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000364636",
+            "path": "materials/data/images/000000364636.jpg",
+            "score": 0.285220205783844,
+            "grade": 1
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000221693",
+            "path": "materials/data/images/000000221693.jpg",
+            "score": 0.28186750411987305,
+            "grade": 2
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000225184",
+            "path": "materials/data/images/000000225184.jpg",
+            "score": 0.2799614667892456,
+            "grade": 1
+          }
+        ],
+        "letterbox": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000221693",
+            "path": "materials/data/images/000000221693.jpg",
+            "score": 0.29385578632354736,
+            "grade": 2
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000355905",
+            "path": "materials/data/images/000000355905.jpg",
+            "score": 0.2916439473628998,
+            "grade": 1
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000509403",
+            "path": "materials/data/images/000000509403.jpg",
+            "score": 0.29109126329421997,
+            "grade": 1
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000138492",
+            "path": "materials/data/images/000000138492.jpg",
+            "score": 0.2875553369522095,
+            "grade": 1
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000225184",
+            "path": "materials/data/images/000000225184.jpg",
+            "score": 0.27825549244880676,
+            "grade": 1
+          }
+        ],
+        "dual_max": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000355905",
+            "path": "materials/data/images/000000355905.jpg",
+            "score": 0.30064907670021057,
+            "grade": 1
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000221693",
+            "path": "materials/data/images/000000221693.jpg",
+            "score": 0.29385578632354736,
+            "grade": 2
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000238039",
+            "path": "materials/data/images/000000238039.jpg",
+            "score": 0.29262590408325195,
+            "grade": 2
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000509403",
+            "path": "materials/data/images/000000509403.jpg",
+            "score": 0.29109126329421997,
+            "grade": 1
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000138492",
+            "path": "materials/data/images/000000138492.jpg",
+            "score": 0.2875553369522095,
+            "grade": 1
+          }
+        ]
+      },
+      "note": "Running vs walking, standing and jumping is ambiguous in single frames. Grade 1 is used when running is not clearly established, including rank 1 beach dog."
+    },
+    {
+      "id": "A04",
+      "category": "action",
+      "query": "A person holding an umbrella.",
+      "judged_candidates": 12,
+      "fully_matching_in_pool": 7,
+      "metrics": {
+        "baseline": {
+          "strict_p5": 0.8,
+          "related_p5": 1.0,
+          "pooled_ndcg5": 0.9026211001048624,
+          "strict_top1": 1,
+          "pool_attainable_strict_p5": 1.0,
+          "strict_p10": 0.7
+        },
+        "letterbox": {
+          "strict_p5": 0.6,
+          "related_p5": 1.0,
+          "pooled_ndcg5": 0.7442890884191097,
+          "strict_top1": 1,
+          "pool_attainable_strict_p5": 1.0
+        },
+        "dual_max": {
+          "strict_p5": 0.6,
+          "related_p5": 1.0,
+          "pooled_ndcg5": 0.7895676983469904,
+          "strict_top1": 1,
+          "pool_attainable_strict_p5": 1.0
+        }
+      },
+      "variants": {
+        "baseline": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000360960",
+            "path": "materials/data/images/000000360960.jpg",
+            "score": 0.340652197599411,
+            "grade": 2
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000232563",
+            "path": "materials/data/images/000000232563.jpg",
+            "score": 0.3201170265674591,
+            "grade": 2
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000575243",
+            "path": "materials/data/images/000000575243.jpg",
+            "score": 0.29553595185279846,
+            "grade": 2
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000455157",
+            "path": "materials/data/images/000000455157.jpg",
+            "score": 0.2916721999645233,
+            "grade": 1
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000333745",
+            "path": "materials/data/images/000000333745.jpg",
+            "score": 0.284726619720459,
+            "grade": 2
+          }
+        ],
+        "letterbox": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000360960",
+            "path": "materials/data/images/000000360960.jpg",
+            "score": 0.32508379220962524,
+            "grade": 2
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000256941",
+            "path": "materials/data/images/000000256941.jpg",
+            "score": 0.31300634145736694,
+            "grade": 1
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000203580",
+            "path": "materials/data/images/000000203580.jpg",
+            "score": 0.3093824088573456,
+            "grade": 1
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000232563",
+            "path": "materials/data/images/000000232563.jpg",
+            "score": 0.30003228783607483,
+            "grade": 2
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000575243",
+            "path": "materials/data/images/000000575243.jpg",
+            "score": 0.29843130707740784,
+            "grade": 2
+          }
+        ],
+        "dual_max": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000360960",
+            "path": "materials/data/images/000000360960.jpg",
+            "score": 0.340652197599411,
+            "grade": 2
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000232563",
+            "path": "materials/data/images/000000232563.jpg",
+            "score": 0.3201170265674591,
+            "grade": 2
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000256941",
+            "path": "materials/data/images/000000256941.jpg",
+            "score": 0.31300634145736694,
+            "grade": 1
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000203580",
+            "path": "materials/data/images/000000203580.jpg",
+            "score": 0.3093824088573456,
+            "grade": 1
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000575243",
+            "path": "materials/data/images/000000575243.jpg",
+            "score": 0.29843130707740784,
+            "grade": 2
+          }
+        ]
+      },
+      "note": "Holding vs merely sitting under an umbrella is distinguished; original rank 4 umbrella rests on the table, and rank 7 is a kite."
+    },
+    {
+      "id": "A05",
+      "category": "action",
+      "query": "A person cutting food with a knife.",
+      "judged_candidates": 11,
+      "fully_matching_in_pool": 4,
+      "metrics": {
+        "baseline": {
+          "strict_p5": 0.6,
+          "related_p5": 1.0,
+          "pooled_ndcg5": 0.876109927169651,
+          "strict_top1": 1,
+          "pool_attainable_strict_p5": 0.8,
+          "strict_p10": 0.4
+        },
+        "letterbox": {
+          "strict_p5": 0.6,
+          "related_p5": 1.0,
+          "pooled_ndcg5": 0.8932868997079265,
+          "strict_top1": 1,
+          "pool_attainable_strict_p5": 0.8
+        },
+        "dual_max": {
+          "strict_p5": 0.6,
+          "related_p5": 1.0,
+          "pooled_ndcg5": 0.876109927169651,
+          "strict_top1": 1,
+          "pool_attainable_strict_p5": 0.8
+        }
+      },
+      "variants": {
+        "baseline": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000284764",
+            "path": "materials/data/images/000000284764.jpg",
+            "score": 0.31701165437698364,
+            "grade": 2
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000570471",
+            "path": "materials/data/images/000000570471.jpg",
+            "score": 0.30857861042022705,
+            "grade": 2
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000400794",
+            "path": "materials/data/images/000000400794.jpg",
+            "score": 0.2986965775489807,
+            "grade": 1
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000182611",
+            "path": "materials/data/images/000000182611.jpg",
+            "score": 0.2976509630680084,
+            "grade": 2
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000502737",
+            "path": "materials/data/images/000000502737.jpg",
+            "score": 0.2844877541065216,
+            "grade": 1
+          }
+        ],
+        "letterbox": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000284764",
+            "path": "materials/data/images/000000284764.jpg",
+            "score": 0.30751073360443115,
+            "grade": 2
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000570471",
+            "path": "materials/data/images/000000570471.jpg",
+            "score": 0.30483800172805786,
+            "grade": 2
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000182611",
+            "path": "materials/data/images/000000182611.jpg",
+            "score": 0.27731233835220337,
+            "grade": 2
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000294831",
+            "path": "materials/data/images/000000294831.jpg",
+            "score": 0.27666348218917847,
+            "grade": 1
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000580294",
+            "path": "materials/data/images/000000580294.jpg",
+            "score": 0.27589336037635803,
+            "grade": 1
+          }
+        ],
+        "dual_max": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000284764",
+            "path": "materials/data/images/000000284764.jpg",
+            "score": 0.31701165437698364,
+            "grade": 2
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000570471",
+            "path": "materials/data/images/000000570471.jpg",
+            "score": 0.30857861042022705,
+            "grade": 2
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000400794",
+            "path": "materials/data/images/000000400794.jpg",
+            "score": 0.2986965775489807,
+            "grade": 1
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000182611",
+            "path": "materials/data/images/000000182611.jpg",
+            "score": 0.2976509630680084,
+            "grade": 2
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000502737",
+            "path": "materials/data/images/000000502737.jpg",
+            "score": 0.2844877541065216,
+            "grade": 1
+          }
+        ]
+      },
+      "note": "Eating, holding food, cooking with a spatula and serving food are not equivalent to cutting with a knife; rank 1 original has utensils held over food; rank 10 original shows grating, not knife cutting."
+    },
+    {
+      "id": "E01",
+      "category": "edge_small",
+      "query": "A dog near the edge of the image.",
+      "judged_candidates": 12,
+      "fully_matching_in_pool": 1,
+      "metrics": {
+        "baseline": {
+          "strict_p5": 0.2,
+          "related_p5": 0.8,
+          "pooled_ndcg5": 0.6688571443176244,
+          "strict_top1": 0,
+          "pool_attainable_strict_p5": 0.2,
+          "strict_p10": 0.1
+        },
+        "letterbox": {
+          "strict_p5": 0.0,
+          "related_p5": 0.6,
+          "pooled_ndcg5": 0.38130108017580844,
+          "strict_top1": 0,
+          "pool_attainable_strict_p5": 0.2
+        },
+        "dual_max": {
+          "strict_p5": 0.0,
+          "related_p5": 0.6,
+          "pooled_ndcg5": 0.38130108017580844,
+          "strict_top1": 0,
+          "pool_attainable_strict_p5": 0.2
+        }
+      },
+      "variants": {
+        "baseline": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000225184",
+            "path": "materials/data/images/000000225184.jpg",
+            "score": 0.2801170349121094,
+            "grade": 1
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000446522",
+            "path": "materials/data/images/000000446522.jpg",
+            "score": 0.27955949306488037,
+            "grade": 1
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000153217",
+            "path": "materials/data/images/000000153217.jpg",
+            "score": 0.26569896936416626,
+            "grade": 0
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000427034",
+            "path": "materials/data/images/000000427034.jpg",
+            "score": 0.26516586542129517,
+            "grade": 2
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000490171",
+            "path": "materials/data/images/000000490171.jpg",
+            "score": 0.2647656798362732,
+            "grade": 1
+          }
+        ],
+        "letterbox": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000225184",
+            "path": "materials/data/images/000000225184.jpg",
+            "score": 0.30285343527793884,
+            "grade": 1
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000151516",
+            "path": "materials/data/images/000000151516.jpg",
+            "score": 0.29937535524368286,
+            "grade": 0
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000490171",
+            "path": "materials/data/images/000000490171.jpg",
+            "score": 0.29789140820503235,
+            "grade": 1
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000161044",
+            "path": "materials/data/images/000000161044.jpg",
+            "score": 0.29531630873680115,
+            "grade": 0
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000253386",
+            "path": "materials/data/images/000000253386.jpg",
+            "score": 0.28997528553009033,
+            "grade": 1
+          }
+        ],
+        "dual_max": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000225184",
+            "path": "materials/data/images/000000225184.jpg",
+            "score": 0.30285343527793884,
+            "grade": 1
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000151516",
+            "path": "materials/data/images/000000151516.jpg",
+            "score": 0.29937535524368286,
+            "grade": 0
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000490171",
+            "path": "materials/data/images/000000490171.jpg",
+            "score": 0.29789140820503235,
+            "grade": 1
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000161044",
+            "path": "materials/data/images/000000161044.jpg",
+            "score": 0.29531630873680115,
+            "grade": 0
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000253386",
+            "path": "materials/data/images/000000253386.jpg",
+            "score": 0.28997528553009033,
+            "grade": 1
+          }
+        ]
+      },
+      "note": "Position is a qualitative judgment in the full original image: main target clearly near a side border (including visibly side-clipped body), not a centrally placed close-up. Borderline locations are partial. Most results match dog but ignore edge position. Rank 3 is a cat."
+    },
+    {
+      "id": "E02",
+      "category": "edge_small",
+      "query": "A person standing on the right side of the image.",
+      "judged_candidates": 15,
+      "fully_matching_in_pool": 6,
+      "metrics": {
+        "baseline": {
+          "strict_p5": 0.4,
+          "related_p5": 0.8,
+          "pooled_ndcg5": 0.5069341939523102,
+          "strict_top1": 0,
+          "pool_attainable_strict_p5": 1.0,
+          "strict_p10": 0.4
+        },
+        "letterbox": {
+          "strict_p5": 0.4,
+          "related_p5": 0.8,
+          "pooled_ndcg5": 0.6238040886593808,
+          "strict_top1": 1,
+          "pool_attainable_strict_p5": 1.0
+        },
+        "dual_max": {
+          "strict_p5": 0.4,
+          "related_p5": 0.8,
+          "pooled_ndcg5": 0.6238040886593808,
+          "strict_top1": 1,
+          "pool_attainable_strict_p5": 1.0
+        }
+      },
+      "variants": {
+        "baseline": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000333745",
+            "path": "materials/data/images/000000333745.jpg",
+            "score": 0.28583934903144836,
+            "grade": 1
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000163057",
+            "path": "materials/data/images/000000163057.jpg",
+            "score": 0.2822958528995514,
+            "grade": 2
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000326627",
+            "path": "materials/data/images/000000326627.jpg",
+            "score": 0.2758214473724365,
+            "grade": 0
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000007977",
+            "path": "materials/data/images/000000007977.jpg",
+            "score": 0.2740093767642975,
+            "grade": 1
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000007511",
+            "path": "materials/data/images/000000007511.jpg",
+            "score": 0.2734972834587097,
+            "grade": 2
+          }
+        ],
+        "letterbox": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000389532",
+            "path": "materials/data/images/000000389532.jpg",
+            "score": 0.29517731070518494,
+            "grade": 2
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000343803",
+            "path": "materials/data/images/000000343803.jpg",
+            "score": 0.2938482463359833,
+            "grade": 1
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000474344",
+            "path": "materials/data/images/000000474344.jpg",
+            "score": 0.29137468338012695,
+            "grade": 2
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000000802",
+            "path": "materials/data/images/000000000802.jpg",
+            "score": 0.2907716631889343,
+            "grade": 0
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000347265",
+            "path": "materials/data/images/000000347265.jpg",
+            "score": 0.29014652967453003,
+            "grade": 1
+          }
+        ],
+        "dual_max": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000389532",
+            "path": "materials/data/images/000000389532.jpg",
+            "score": 0.29517731070518494,
+            "grade": 2
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000343803",
+            "path": "materials/data/images/000000343803.jpg",
+            "score": 0.2938482463359833,
+            "grade": 1
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000474344",
+            "path": "materials/data/images/000000474344.jpg",
+            "score": 0.29137468338012695,
+            "grade": 2
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000000802",
+            "path": "materials/data/images/000000000802.jpg",
+            "score": 0.2907716631889343,
+            "grade": 0
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000347265",
+            "path": "materials/data/images/000000347265.jpg",
+            "score": 0.29014652967453003,
+            "grade": 1
+          }
+        ]
+      },
+      "note": "Right side means target center in the rightmost third; at least one visibly standing person suffices, including distant people. Several results contain no person at all."
+    },
+    {
+      "id": "E03",
+      "category": "edge_small",
+      "query": "A small airplane high in the sky.",
+      "judged_candidates": 12,
+      "fully_matching_in_pool": 2,
+      "metrics": {
+        "baseline": {
+          "strict_p5": 0.2,
+          "related_p5": 0.4,
+          "pooled_ndcg5": 0.4658036785090359,
+          "strict_top1": 0,
+          "pool_attainable_strict_p5": 0.4,
+          "strict_p10": 0.1
+        },
+        "letterbox": {
+          "strict_p5": 0.4,
+          "related_p5": 1.0,
+          "pooled_ndcg5": 0.8389776660073724,
+          "strict_top1": 0,
+          "pool_attainable_strict_p5": 0.4
+        },
+        "dual_max": {
+          "strict_p5": 0.4,
+          "related_p5": 1.0,
+          "pooled_ndcg5": 0.8389776660073724,
+          "strict_top1": 0,
+          "pool_attainable_strict_p5": 0.4
+        }
+      },
+      "variants": {
+        "baseline": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000545407",
+            "path": "materials/data/images/000000545407.jpg",
+            "score": 0.2797388732433319,
+            "grade": 1
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000135673",
+            "path": "materials/data/images/000000135673.jpg",
+            "score": 0.2778557538986206,
+            "grade": 2
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000024027",
+            "path": "materials/data/images/000000024027.jpg",
+            "score": 0.2704465687274933,
+            "grade": 0
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000007511",
+            "path": "materials/data/images/000000007511.jpg",
+            "score": 0.26601600646972656,
+            "grade": 0
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000382743",
+            "path": "materials/data/images/000000382743.jpg",
+            "score": 0.2626723647117615,
+            "grade": 0
+          }
+        ],
+        "letterbox": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000545407",
+            "path": "materials/data/images/000000545407.jpg",
+            "score": 0.3070915937423706,
+            "grade": 1
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000161044",
+            "path": "materials/data/images/000000161044.jpg",
+            "score": 0.2986917495727539,
+            "grade": 2
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000135673",
+            "path": "materials/data/images/000000135673.jpg",
+            "score": 0.29532933235168457,
+            "grade": 2
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000144114",
+            "path": "materials/data/images/000000144114.jpg",
+            "score": 0.29052913188934326,
+            "grade": 1
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000452122",
+            "path": "materials/data/images/000000452122.jpg",
+            "score": 0.2809901237487793,
+            "grade": 1
+          }
+        ],
+        "dual_max": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000545407",
+            "path": "materials/data/images/000000545407.jpg",
+            "score": 0.3070915937423706,
+            "grade": 1
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000161044",
+            "path": "materials/data/images/000000161044.jpg",
+            "score": 0.2986917495727539,
+            "grade": 2
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000135673",
+            "path": "materials/data/images/000000135673.jpg",
+            "score": 0.29532933235168457,
+            "grade": 2
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000144114",
+            "path": "materials/data/images/000000144114.jpg",
+            "score": 0.29052913188934326,
+            "grade": 1
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000452122",
+            "path": "materials/data/images/000000452122.jpg",
+            "score": 0.2809901237487793,
+            "grade": 1
+          }
+        ]
+      },
+      "note": "Small means small in the frame, not a small aircraft type; use approximate target bounding-box area at most 10% of image. Kites are not airplanes."
+    },
+    {
+      "id": "E04",
+      "category": "edge_small",
+      "query": "A small bird in a wide outdoor scene.",
+      "judged_candidates": 11,
+      "fully_matching_in_pool": 6,
+      "metrics": {
+        "baseline": {
+          "strict_p5": 0.6,
+          "related_p5": 1.0,
+          "pooled_ndcg5": 0.7442890884191097,
+          "strict_top1": 1,
+          "pool_attainable_strict_p5": 1.0,
+          "strict_p10": 0.6
+        },
+        "letterbox": {
+          "strict_p5": 0.4,
+          "related_p5": 0.8,
+          "pooled_ndcg5": 0.6455709457931598,
+          "strict_top1": 1,
+          "pool_attainable_strict_p5": 1.0
+        },
+        "dual_max": {
+          "strict_p5": 0.4,
+          "related_p5": 0.8,
+          "pooled_ndcg5": 0.653408196724527,
+          "strict_top1": 1,
+          "pool_attainable_strict_p5": 1.0
+        }
+      },
+      "variants": {
+        "baseline": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000489046",
+            "path": "materials/data/images/000000489046.jpg",
+            "score": 0.30490198731422424,
+            "grade": 2
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000494188",
+            "path": "materials/data/images/000000494188.jpg",
+            "score": 0.28680312633514404,
+            "grade": 1
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000407518",
+            "path": "materials/data/images/000000407518.jpg",
+            "score": 0.2855779528617859,
+            "grade": 1
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000357060",
+            "path": "materials/data/images/000000357060.jpg",
+            "score": 0.2795271873474121,
+            "grade": 2
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000197870",
+            "path": "materials/data/images/000000197870.jpg",
+            "score": 0.2707715928554535,
+            "grade": 2
+          }
+        ],
+        "letterbox": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000489046",
+            "path": "materials/data/images/000000489046.jpg",
+            "score": 0.314663290977478,
+            "grade": 2
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000197870",
+            "path": "materials/data/images/000000197870.jpg",
+            "score": 0.30358293652534485,
+            "grade": 2
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000161044",
+            "path": "materials/data/images/000000161044.jpg",
+            "score": 0.2859804034233093,
+            "grade": 0
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000407518",
+            "path": "materials/data/images/000000407518.jpg",
+            "score": 0.285127729177475,
+            "grade": 1
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000494188",
+            "path": "materials/data/images/000000494188.jpg",
+            "score": 0.27943527698516846,
+            "grade": 1
+          }
+        ],
+        "dual_max": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000489046",
+            "path": "materials/data/images/000000489046.jpg",
+            "score": 0.314663290977478,
+            "grade": 2
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000197870",
+            "path": "materials/data/images/000000197870.jpg",
+            "score": 0.30358293652534485,
+            "grade": 2
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000494188",
+            "path": "materials/data/images/000000494188.jpg",
+            "score": 0.28680312633514404,
+            "grade": 1
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000161044",
+            "path": "materials/data/images/000000161044.jpg",
+            "score": 0.2859804034233093,
+            "grade": 0
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000407518",
+            "path": "materials/data/images/000000407518.jpg",
+            "score": 0.2855779528617859,
+            "grade": 1
+          }
+        ]
+      },
+      "note": "Small bird is evaluated relative to the frame (roughly <=10% area), with outdoor surroundings visible. Rank 8 is a stuffed teddy bear on a fence, confirmed in original."
+    },
+    {
+      "id": "E05",
+      "category": "edge_small",
+      "query": "A traffic light near the top of the image.",
+      "judged_candidates": 11,
+      "fully_matching_in_pool": 2,
+      "metrics": {
+        "baseline": {
+          "strict_p5": 0.4,
+          "related_p5": 1.0,
+          "pooled_ndcg5": 0.7603739868614454,
+          "strict_top1": 0,
+          "pool_attainable_strict_p5": 0.4,
+          "strict_p10": 0.2
+        },
+        "letterbox": {
+          "strict_p5": 0.2,
+          "related_p5": 1.0,
+          "pooled_ndcg5": 0.6779553320147448,
+          "strict_top1": 0,
+          "pool_attainable_strict_p5": 0.4
+        },
+        "dual_max": {
+          "strict_p5": 0.4,
+          "related_p5": 1.0,
+          "pooled_ndcg5": 0.8166524211685232,
+          "strict_top1": 0,
+          "pool_attainable_strict_p5": 0.4
+        }
+      },
+      "variants": {
+        "baseline": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000166391",
+            "path": "materials/data/images/000000166391.jpg",
+            "score": 0.30080920457839966,
+            "grade": 1
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000289222",
+            "path": "materials/data/images/000000289222.jpg",
+            "score": 0.2924436330795288,
+            "grade": 1
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000032941",
+            "path": "materials/data/images/000000032941.jpg",
+            "score": 0.28503939509391785,
+            "grade": 2
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000520009",
+            "path": "materials/data/images/000000520009.jpg",
+            "score": 0.28481781482696533,
+            "grade": 1
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000453841",
+            "path": "materials/data/images/000000453841.jpg",
+            "score": 0.2844141721725464,
+            "grade": 2
+          }
+        ],
+        "letterbox": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000166391",
+            "path": "materials/data/images/000000166391.jpg",
+            "score": 0.3201834559440613,
+            "grade": 1
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000453841",
+            "path": "materials/data/images/000000453841.jpg",
+            "score": 0.30853143334388733,
+            "grade": 2
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000289222",
+            "path": "materials/data/images/000000289222.jpg",
+            "score": 0.2969703674316406,
+            "grade": 1
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000339870",
+            "path": "materials/data/images/000000339870.jpg",
+            "score": 0.2832182049751282,
+            "grade": 1
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000520009",
+            "path": "materials/data/images/000000520009.jpg",
+            "score": 0.28265437483787537,
+            "grade": 1
+          }
+        ],
+        "dual_max": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000166391",
+            "path": "materials/data/images/000000166391.jpg",
+            "score": 0.3201834559440613,
+            "grade": 1
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000453841",
+            "path": "materials/data/images/000000453841.jpg",
+            "score": 0.30853143334388733,
+            "grade": 2
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000289222",
+            "path": "materials/data/images/000000289222.jpg",
+            "score": 0.2969703674316406,
+            "grade": 1
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000032941",
+            "path": "materials/data/images/000000032941.jpg",
+            "score": 0.28503939509391785,
+            "grade": 2
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000520009",
+            "path": "materials/data/images/000000520009.jpg",
+            "score": 0.28481781482696533,
+            "grade": 1
+          }
+        ]
+      },
+      "note": "Near top means traffic-light center in the upper third of the full frame. Stop signs and hydrants are not traffic lights; original rank 7 shows illuminated road signs, not a confirmed traffic light."
+    },
+    {
+      "id": "C01",
+      "category": "color",
+      "query": "A red bus.",
+      "judged_candidates": 12,
+      "fully_matching_in_pool": 4,
+      "metrics": {
+        "baseline": {
+          "strict_p5": 0.6,
+          "related_p5": 1.0,
+          "pooled_ndcg5": 0.8932868997079265,
+          "strict_top1": 1,
+          "pool_attainable_strict_p5": 0.8,
+          "strict_p10": 0.4
+        },
+        "letterbox": {
+          "strict_p5": 0.4,
+          "related_p5": 1.0,
+          "pooled_ndcg5": 0.7693968268775774,
+          "strict_top1": 1,
+          "pool_attainable_strict_p5": 0.8
+        },
+        "dual_max": {
+          "strict_p5": 0.6,
+          "related_p5": 1.0,
+          "pooled_ndcg5": 0.8932868997079265,
+          "strict_top1": 1,
+          "pool_attainable_strict_p5": 0.8
+        }
+      },
+      "variants": {
+        "baseline": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000148508",
+            "path": "materials/data/images/000000148508.jpg",
+            "score": 0.29337385296821594,
+            "grade": 2
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000568290",
+            "path": "materials/data/images/000000568290.jpg",
+            "score": 0.2908029854297638,
+            "grade": 2
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000550691",
+            "path": "materials/data/images/000000550691.jpg",
+            "score": 0.2795395851135254,
+            "grade": 2
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000455085",
+            "path": "materials/data/images/000000455085.jpg",
+            "score": 0.2701406180858612,
+            "grade": 1
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000499775",
+            "path": "materials/data/images/000000499775.jpg",
+            "score": 0.2677115797996521,
+            "grade": 1
+          }
+        ],
+        "letterbox": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000148508",
+            "path": "materials/data/images/000000148508.jpg",
+            "score": 0.29677149653434753,
+            "grade": 2
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000568290",
+            "path": "materials/data/images/000000568290.jpg",
+            "score": 0.2916094660758972,
+            "grade": 2
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000165039",
+            "path": "materials/data/images/000000165039.jpg",
+            "score": 0.27676495909690857,
+            "grade": 1
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000315187",
+            "path": "materials/data/images/000000315187.jpg",
+            "score": 0.26964229345321655,
+            "grade": 1
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000138979",
+            "path": "materials/data/images/000000138979.jpg",
+            "score": 0.26824045181274414,
+            "grade": 1
+          }
+        ],
+        "dual_max": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000148508",
+            "path": "materials/data/images/000000148508.jpg",
+            "score": 0.29677149653434753,
+            "grade": 2
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000568290",
+            "path": "materials/data/images/000000568290.jpg",
+            "score": 0.2916094660758972,
+            "grade": 2
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000550691",
+            "path": "materials/data/images/000000550691.jpg",
+            "score": 0.2795395851135254,
+            "grade": 2
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000165039",
+            "path": "materials/data/images/000000165039.jpg",
+            "score": 0.27676495909690857,
+            "grade": 1
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000455085",
+            "path": "materials/data/images/000000455085.jpg",
+            "score": 0.2701406180858612,
+            "grade": 1
+          }
+        ]
+      },
+      "note": "Red must belong to a substantial part of the bus body. A yellow bus beside a red car is only partial relevance."
+    },
+    {
+      "id": "C02",
+      "category": "color",
+      "query": "A yellow banana.",
+      "judged_candidates": 11,
+      "fully_matching_in_pool": 4,
+      "metrics": {
+        "baseline": {
+          "strict_p5": 0.4,
+          "related_p5": 0.8,
+          "pooled_ndcg5": 0.721469604414665,
+          "strict_top1": 1,
+          "pool_attainable_strict_p5": 0.8,
+          "strict_p10": 0.4
+        },
+        "letterbox": {
+          "strict_p5": 0.4,
+          "related_p5": 0.6,
+          "pooled_ndcg5": 0.5796670913920701,
+          "strict_top1": 1,
+          "pool_attainable_strict_p5": 0.8
+        },
+        "dual_max": {
+          "strict_p5": 0.4,
+          "related_p5": 0.6,
+          "pooled_ndcg5": 0.6681130542686283,
+          "strict_top1": 1,
+          "pool_attainable_strict_p5": 0.8
+        }
+      },
+      "variants": {
+        "baseline": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000457262",
+            "path": "materials/data/images/000000457262.jpg",
+            "score": 0.29101184010505676,
+            "grade": 2
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000012667",
+            "path": "materials/data/images/000000012667.jpg",
+            "score": 0.2830100953578949,
+            "grade": 2
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000346707",
+            "path": "materials/data/images/000000346707.jpg",
+            "score": 0.2582835853099823,
+            "grade": 1
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000013004",
+            "path": "materials/data/images/000000013004.jpg",
+            "score": 0.24699415266513824,
+            "grade": 1
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000352760",
+            "path": "materials/data/images/000000352760.jpg",
+            "score": 0.24614867568016052,
+            "grade": 0
+          }
+        ],
+        "letterbox": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000457262",
+            "path": "materials/data/images/000000457262.jpg",
+            "score": 0.29101184010505676,
+            "grade": 2
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000009378",
+            "path": "materials/data/images/000000009378.jpg",
+            "score": 0.25096485018730164,
+            "grade": 0
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000323895",
+            "path": "materials/data/images/000000323895.jpg",
+            "score": 0.24783647060394287,
+            "grade": 0
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000189078",
+            "path": "materials/data/images/000000189078.jpg",
+            "score": 0.24320943653583527,
+            "grade": 2
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000346707",
+            "path": "materials/data/images/000000346707.jpg",
+            "score": 0.23945915699005127,
+            "grade": 1
+          }
+        ],
+        "dual_max": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000457262",
+            "path": "materials/data/images/000000457262.jpg",
+            "score": 0.29101184010505676,
+            "grade": 2
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000012667",
+            "path": "materials/data/images/000000012667.jpg",
+            "score": 0.2830100953578949,
+            "grade": 2
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000346707",
+            "path": "materials/data/images/000000346707.jpg",
+            "score": 0.2582835853099823,
+            "grade": 1
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000009378",
+            "path": "materials/data/images/000000009378.jpg",
+            "score": 0.25096485018730164,
+            "grade": 0
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000323895",
+            "path": "materials/data/images/000000323895.jpg",
+            "score": 0.24783647060394287,
+            "grade": 0
+          }
+        ]
+      },
+      "note": "Yellow skin must be visible. Green bananas and a completely peeled banana are partial; yellow clothing or a truck is unrelated."
+    },
+    {
+      "id": "C03",
+      "category": "color",
+      "query": "A black and white cat.",
+      "judged_candidates": 11,
+      "fully_matching_in_pool": 5,
+      "metrics": {
+        "baseline": {
+          "strict_p5": 0.8,
+          "related_p5": 1.0,
+          "pooled_ndcg5": 0.8573424901769817,
+          "strict_top1": 1,
+          "pool_attainable_strict_p5": 1.0,
+          "strict_p10": 0.5
+        },
+        "letterbox": {
+          "strict_p5": 0.4,
+          "related_p5": 0.8,
+          "pooled_ndcg5": 0.5168430421725534,
+          "strict_top1": 0,
+          "pool_attainable_strict_p5": 1.0
+        },
+        "dual_max": {
+          "strict_p5": 0.6,
+          "related_p5": 1.0,
+          "pooled_ndcg5": 0.759963590281844,
+          "strict_top1": 1,
+          "pool_attainable_strict_p5": 1.0
+        }
+      },
+      "variants": {
+        "baseline": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000333772",
+            "path": "materials/data/images/000000333772.jpg",
+            "score": 0.2832722067832947,
+            "grade": 2
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000118515",
+            "path": "materials/data/images/000000118515.jpg",
+            "score": 0.27403971552848816,
+            "grade": 1
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000001675",
+            "path": "materials/data/images/000000001675.jpg",
+            "score": 0.27196574211120605,
+            "grade": 2
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000456292",
+            "path": "materials/data/images/000000456292.jpg",
+            "score": 0.2623119056224823,
+            "grade": 2
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000540928",
+            "path": "materials/data/images/000000540928.jpg",
+            "score": 0.2581316828727722,
+            "grade": 2
+          }
+        ],
+        "letterbox": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000153217",
+            "path": "materials/data/images/000000153217.jpg",
+            "score": 0.26354843378067017,
+            "grade": 1
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000545826",
+            "path": "materials/data/images/000000545826.jpg",
+            "score": 0.2598322927951813,
+            "grade": 2
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000564280",
+            "path": "materials/data/images/000000564280.jpg",
+            "score": 0.2597368359565735,
+            "grade": 0
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000333772",
+            "path": "materials/data/images/000000333772.jpg",
+            "score": 0.25907278060913086,
+            "grade": 2
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000107087",
+            "path": "materials/data/images/000000107087.jpg",
+            "score": 0.2566576898097992,
+            "grade": 1
+          }
+        ],
+        "dual_max": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000333772",
+            "path": "materials/data/images/000000333772.jpg",
+            "score": 0.2832722067832947,
+            "grade": 2
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000118515",
+            "path": "materials/data/images/000000118515.jpg",
+            "score": 0.27403971552848816,
+            "grade": 1
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000001675",
+            "path": "materials/data/images/000000001675.jpg",
+            "score": 0.27196574211120605,
+            "grade": 2
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000153217",
+            "path": "materials/data/images/000000153217.jpg",
+            "score": 0.26354843378067017,
+            "grade": 1
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000456292",
+            "path": "materials/data/images/000000456292.jpg",
+            "score": 0.2623119056224823,
+            "grade": 2
+          }
+        ]
+      },
+      "note": "Black and white must both be visible on the cat, not merely a black cat or a brown/white tabby. A visible depicted cat is accepted because the query does not specify a live animal. Rank 8 is a dog."
+    },
+    {
+      "id": "C04",
+      "category": "color",
+      "query": "A blue train.",
+      "judged_candidates": 11,
+      "fully_matching_in_pool": 4,
+      "metrics": {
+        "baseline": {
+          "strict_p5": 0.6,
+          "related_p5": 1.0,
+          "pooled_ndcg5": 0.8932868997079265,
+          "strict_top1": 1,
+          "pool_attainable_strict_p5": 0.8,
+          "strict_p10": 0.4
+        },
+        "letterbox": {
+          "strict_p5": 0.6,
+          "related_p5": 1.0,
+          "pooled_ndcg5": 0.8328094783921471,
+          "strict_top1": 1,
+          "pool_attainable_strict_p5": 0.8
+        },
+        "dual_max": {
+          "strict_p5": 0.6,
+          "related_p5": 1.0,
+          "pooled_ndcg5": 0.8328094783921471,
+          "strict_top1": 1,
+          "pool_attainable_strict_p5": 0.8
+        }
+      },
+      "variants": {
+        "baseline": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000303863",
+            "path": "materials/data/images/000000303863.jpg",
+            "score": 0.28248167037963867,
+            "grade": 2
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000155443",
+            "path": "materials/data/images/000000155443.jpg",
+            "score": 0.2707178592681885,
+            "grade": 2
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000184400",
+            "path": "materials/data/images/000000184400.jpg",
+            "score": 0.2673770487308502,
+            "grade": 2
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000127624",
+            "path": "materials/data/images/000000127624.jpg",
+            "score": 0.26559582352638245,
+            "grade": 1
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000249643",
+            "path": "materials/data/images/000000249643.jpg",
+            "score": 0.2606995403766632,
+            "grade": 1
+          }
+        ],
+        "letterbox": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000303863",
+            "path": "materials/data/images/000000303863.jpg",
+            "score": 0.29303306341171265,
+            "grade": 2
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000231169",
+            "path": "materials/data/images/000000231169.jpg",
+            "score": 0.27956366539001465,
+            "grade": 1
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000155443",
+            "path": "materials/data/images/000000155443.jpg",
+            "score": 0.2771591544151306,
+            "grade": 2
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000440508",
+            "path": "materials/data/images/000000440508.jpg",
+            "score": 0.27406370639801025,
+            "grade": 1
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000184400",
+            "path": "materials/data/images/000000184400.jpg",
+            "score": 0.27196815609931946,
+            "grade": 2
+          }
+        ],
+        "dual_max": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000303863",
+            "path": "materials/data/images/000000303863.jpg",
+            "score": 0.29303306341171265,
+            "grade": 2
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000231169",
+            "path": "materials/data/images/000000231169.jpg",
+            "score": 0.27956366539001465,
+            "grade": 1
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000155443",
+            "path": "materials/data/images/000000155443.jpg",
+            "score": 0.2771591544151306,
+            "grade": 2
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000440508",
+            "path": "materials/data/images/000000440508.jpg",
+            "score": 0.27406370639801025,
+            "grade": 1
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000184400",
+            "path": "materials/data/images/000000184400.jpg",
+            "score": 0.27196815609931946,
+            "grade": 2
+          }
+        ]
+      },
+      "note": "Blue must be visible on a train. Black-and-white photos or unclear train color are partial. Background blue trains count when visible."
+    },
+    {
+      "id": "C05",
+      "category": "color",
+      "query": "A red car.",
+      "judged_candidates": 11,
+      "fully_matching_in_pool": 2,
+      "metrics": {
+        "baseline": {
+          "strict_p5": 0.2,
+          "related_p5": 0.6,
+          "pooled_ndcg5": 0.6329267135510858,
+          "strict_top1": 1,
+          "pool_attainable_strict_p5": 0.4,
+          "strict_p10": 0.1
+        },
+        "letterbox": {
+          "strict_p5": 0.4,
+          "related_p5": 0.8,
+          "pooled_ndcg5": 0.937708058067494,
+          "strict_top1": 1,
+          "pool_attainable_strict_p5": 0.4
+        },
+        "dual_max": {
+          "strict_p5": 0.4,
+          "related_p5": 0.8,
+          "pooled_ndcg5": 0.9194888330036862,
+          "strict_top1": 1,
+          "pool_attainable_strict_p5": 0.4
+        }
+      },
+      "variants": {
+        "baseline": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000065485",
+            "path": "materials/data/images/000000065485.jpg",
+            "score": 0.2566409707069397,
+            "grade": 2
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000050165",
+            "path": "materials/data/images/000000050165.jpg",
+            "score": 0.25469574332237244,
+            "grade": 0
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000148508",
+            "path": "materials/data/images/000000148508.jpg",
+            "score": 0.2527260184288025,
+            "grade": 1
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000568290",
+            "path": "materials/data/images/000000568290.jpg",
+            "score": 0.25004470348358154,
+            "grade": 1
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000034071",
+            "path": "materials/data/images/000000034071.jpg",
+            "score": 0.24744108319282532,
+            "grade": 0
+          }
+        ],
+        "letterbox": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000065485",
+            "path": "materials/data/images/000000065485.jpg",
+            "score": 0.2700791656970978,
+            "grade": 2
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000453841",
+            "path": "materials/data/images/000000453841.jpg",
+            "score": 0.25644630193710327,
+            "grade": 2
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000568290",
+            "path": "materials/data/images/000000568290.jpg",
+            "score": 0.25425446033477783,
+            "grade": 1
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000148508",
+            "path": "materials/data/images/000000148508.jpg",
+            "score": 0.25216221809387207,
+            "grade": 1
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000050165",
+            "path": "materials/data/images/000000050165.jpg",
+            "score": 0.24748995900154114,
+            "grade": 0
+          }
+        ],
+        "dual_max": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000065485",
+            "path": "materials/data/images/000000065485.jpg",
+            "score": 0.2700791656970978,
+            "grade": 2
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000453841",
+            "path": "materials/data/images/000000453841.jpg",
+            "score": 0.25644630193710327,
+            "grade": 2
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000050165",
+            "path": "materials/data/images/000000050165.jpg",
+            "score": 0.25469574332237244,
+            "grade": 0
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000568290",
+            "path": "materials/data/images/000000568290.jpg",
+            "score": 0.25425446033477783,
+            "grade": 1
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000148508",
+            "path": "materials/data/images/000000148508.jpg",
+            "score": 0.2527260184288025,
+            "grade": 1
+          }
+        ]
+      },
+      "note": "Red must belong to a car, not a train, bus or parking meter. Cars of another color are partial relevance."
+    },
+    {
+      "id": "R01",
+      "category": "relation",
+      "query": "A cat sitting on a chair.",
+      "judged_candidates": 10,
+      "fully_matching_in_pool": 0,
+      "metrics": {
+        "baseline": {
+          "strict_p5": 0.0,
+          "related_p5": 1.0,
+          "pooled_ndcg5": 1.0,
+          "strict_top1": 0,
+          "pool_attainable_strict_p5": 0.0,
+          "strict_p10": 0.0
+        },
+        "letterbox": {
+          "strict_p5": 0.0,
+          "related_p5": 0.8,
+          "pooled_ndcg5": 0.830419897363192,
+          "strict_top1": 0,
+          "pool_attainable_strict_p5": 0.0
+        },
+        "dual_max": {
+          "strict_p5": 0.0,
+          "related_p5": 1.0,
+          "pooled_ndcg5": 1.0,
+          "strict_top1": 0,
+          "pool_attainable_strict_p5": 0.0
+        }
+      },
+      "variants": {
+        "baseline": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000213445",
+            "path": "materials/data/images/000000213445.jpg",
+            "score": 0.290045827627182,
+            "grade": 1
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000540928",
+            "path": "materials/data/images/000000540928.jpg",
+            "score": 0.28988176584243774,
+            "grade": 1
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000333772",
+            "path": "materials/data/images/000000333772.jpg",
+            "score": 0.2801212966442108,
+            "grade": 1
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000118515",
+            "path": "materials/data/images/000000118515.jpg",
+            "score": 0.2747894525527954,
+            "grade": 1
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000520531",
+            "path": "materials/data/images/000000520531.jpg",
+            "score": 0.27030009031295776,
+            "grade": 1
+          }
+        ],
+        "letterbox": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000213445",
+            "path": "materials/data/images/000000213445.jpg",
+            "score": 0.29012179374694824,
+            "grade": 1
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000540928",
+            "path": "materials/data/images/000000540928.jpg",
+            "score": 0.2747581899166107,
+            "grade": 1
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000446522",
+            "path": "materials/data/images/000000446522.jpg",
+            "score": 0.25964105129241943,
+            "grade": 0
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000118515",
+            "path": "materials/data/images/000000118515.jpg",
+            "score": 0.25832945108413696,
+            "grade": 1
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000360943",
+            "path": "materials/data/images/000000360943.jpg",
+            "score": 0.25675252079963684,
+            "grade": 1
+          }
+        ],
+        "dual_max": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000213445",
+            "path": "materials/data/images/000000213445.jpg",
+            "score": 0.29012179374694824,
+            "grade": 1
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000540928",
+            "path": "materials/data/images/000000540928.jpg",
+            "score": 0.28988176584243774,
+            "grade": 1
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000333772",
+            "path": "materials/data/images/000000333772.jpg",
+            "score": 0.2801212966442108,
+            "grade": 1
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000118515",
+            "path": "materials/data/images/000000118515.jpg",
+            "score": 0.2747894525527954,
+            "grade": 1
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000520531",
+            "path": "materials/data/images/000000520531.jpg",
+            "score": 0.27030009031295776,
+            "grade": 1
+          }
+        ]
+      },
+      "note": "Plate/table/windowsill/steps are not a chair; under an upside-down chair is not sitting on it. No fully matching candidate is confirmed in the reviewed pool; this does not establish absence from all 1000 images."
+    },
+    {
+      "id": "R02",
+      "category": "relation",
+      "query": "A dog standing next to a person.",
+      "judged_candidates": 10,
+      "fully_matching_in_pool": 2,
+      "metrics": {
+        "baseline": {
+          "strict_p5": 0.4,
+          "related_p5": 1.0,
+          "pooled_ndcg5": 1.0,
+          "strict_top1": 1,
+          "pool_attainable_strict_p5": 0.4,
+          "strict_p10": 0.2
+        },
+        "letterbox": {
+          "strict_p5": 0.4,
+          "related_p5": 0.8,
+          "pooled_ndcg5": 0.8549983591465258,
+          "strict_top1": 1,
+          "pool_attainable_strict_p5": 0.4
+        },
+        "dual_max": {
+          "strict_p5": 0.4,
+          "related_p5": 0.8,
+          "pooled_ndcg5": 0.937708058067494,
+          "strict_top1": 1,
+          "pool_attainable_strict_p5": 0.4
+        }
+      },
+      "variants": {
+        "baseline": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000149568",
+            "path": "materials/data/images/000000149568.jpg",
+            "score": 0.29312849044799805,
+            "grade": 2
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000424162",
+            "path": "materials/data/images/000000424162.jpg",
+            "score": 0.2854306101799011,
+            "grade": 2
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000338624",
+            "path": "materials/data/images/000000338624.jpg",
+            "score": 0.27621006965637207,
+            "grade": 1
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000295478",
+            "path": "materials/data/images/000000295478.jpg",
+            "score": 0.2731076180934906,
+            "grade": 1
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000494869",
+            "path": "materials/data/images/000000494869.jpg",
+            "score": 0.2656683325767517,
+            "grade": 1
+          }
+        ],
+        "letterbox": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000149568",
+            "path": "materials/data/images/000000149568.jpg",
+            "score": 0.27893608808517456,
+            "grade": 2
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000338624",
+            "path": "materials/data/images/000000338624.jpg",
+            "score": 0.2741847336292267,
+            "grade": 1
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000289594",
+            "path": "materials/data/images/000000289594.jpg",
+            "score": 0.2686178982257843,
+            "grade": 0
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000424162",
+            "path": "materials/data/images/000000424162.jpg",
+            "score": 0.2633807063102722,
+            "grade": 2
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000295478",
+            "path": "materials/data/images/000000295478.jpg",
+            "score": 0.26322177052497864,
+            "grade": 1
+          }
+        ],
+        "dual_max": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000149568",
+            "path": "materials/data/images/000000149568.jpg",
+            "score": 0.29312849044799805,
+            "grade": 2
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000424162",
+            "path": "materials/data/images/000000424162.jpg",
+            "score": 0.2854306101799011,
+            "grade": 2
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000338624",
+            "path": "materials/data/images/000000338624.jpg",
+            "score": 0.27621006965637207,
+            "grade": 1
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000295478",
+            "path": "materials/data/images/000000295478.jpg",
+            "score": 0.2731076180934906,
+            "grade": 1
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000289594",
+            "path": "materials/data/images/000000289594.jpg",
+            "score": 0.2686178982257843,
+            "grade": 0
+          }
+        ]
+      },
+      "note": "Walking and lying down are not confirmed standing. Rank 6 is a cat; rank 7 original has no visible dog. Separated sheepdogs and shepherd are partial."
+    },
+    {
+      "id": "R03",
+      "category": "relation",
+      "query": "A person riding a horse.",
+      "judged_candidates": 11,
+      "fully_matching_in_pool": 4,
+      "metrics": {
+        "baseline": {
+          "strict_p5": 0.6,
+          "related_p5": 1.0,
+          "pooled_ndcg5": 0.8328094783921471,
+          "strict_top1": 1,
+          "pool_attainable_strict_p5": 0.8,
+          "strict_p10": 0.4
+        },
+        "letterbox": {
+          "strict_p5": 0.4,
+          "related_p5": 0.8,
+          "pooled_ndcg5": 0.6835984833202856,
+          "strict_top1": 1,
+          "pool_attainable_strict_p5": 0.8
+        },
+        "dual_max": {
+          "strict_p5": 0.4,
+          "related_p5": 0.8,
+          "pooled_ndcg5": 0.68902781100341,
+          "strict_top1": 1,
+          "pool_attainable_strict_p5": 0.8
+        }
+      },
+      "variants": {
+        "baseline": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000275392",
+            "path": "materials/data/images/000000275392.jpg",
+            "score": 0.31510695815086365,
+            "grade": 2
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000356261",
+            "path": "materials/data/images/000000356261.jpg",
+            "score": 0.28847283124923706,
+            "grade": 1
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000045070",
+            "path": "materials/data/images/000000045070.jpg",
+            "score": 0.2881509065628052,
+            "grade": 2
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000227686",
+            "path": "materials/data/images/000000227686.jpg",
+            "score": 0.2670615613460541,
+            "grade": 1
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000456015",
+            "path": "materials/data/images/000000456015.jpg",
+            "score": 0.2663004696369171,
+            "grade": 2
+          }
+        ],
+        "letterbox": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000275392",
+            "path": "materials/data/images/000000275392.jpg",
+            "score": 0.29025083780288696,
+            "grade": 2
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000367818",
+            "path": "materials/data/images/000000367818.jpg",
+            "score": 0.2838820219039917,
+            "grade": 1
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000045070",
+            "path": "materials/data/images/000000045070.jpg",
+            "score": 0.28108012676239014,
+            "grade": 2
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000223188",
+            "path": "materials/data/images/000000223188.jpg",
+            "score": 0.2714552879333496,
+            "grade": 0
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000227686",
+            "path": "materials/data/images/000000227686.jpg",
+            "score": 0.27143898606300354,
+            "grade": 1
+          }
+        ],
+        "dual_max": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000275392",
+            "path": "materials/data/images/000000275392.jpg",
+            "score": 0.31510695815086365,
+            "grade": 2
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000356261",
+            "path": "materials/data/images/000000356261.jpg",
+            "score": 0.28847283124923706,
+            "grade": 1
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000045070",
+            "path": "materials/data/images/000000045070.jpg",
+            "score": 0.2881509065628052,
+            "grade": 2
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000367818",
+            "path": "materials/data/images/000000367818.jpg",
+            "score": 0.2838820219039917,
+            "grade": 1
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000223188",
+            "path": "materials/data/images/000000223188.jpg",
+            "score": 0.2714552879333496,
+            "grade": 0
+          }
+        ]
+      },
+      "note": "A saddled horse alone is partial; riding an elephant, a skateboard or a motorcycle is unrelated to the horse target."
+    },
+    {
+      "id": "R04",
+      "category": "relation",
+      "query": "A cup on a table next to a plate of food.",
+      "judged_candidates": 11,
+      "fully_matching_in_pool": 6,
+      "metrics": {
+        "baseline": {
+          "strict_p5": 0.8,
+          "related_p5": 1.0,
+          "pooled_ndcg5": 0.9026211001048624,
+          "strict_top1": 1,
+          "pool_attainable_strict_p5": 1.0,
+          "strict_p10": 0.6
+        },
+        "letterbox": {
+          "strict_p5": 0.8,
+          "related_p5": 1.0,
+          "pooled_ndcg5": 0.9026211001048624,
+          "strict_top1": 1,
+          "pool_attainable_strict_p5": 1.0
+        },
+        "dual_max": {
+          "strict_p5": 0.8,
+          "related_p5": 1.0,
+          "pooled_ndcg5": 0.9125299483251055,
+          "strict_top1": 1,
+          "pool_attainable_strict_p5": 1.0
+        }
+      },
+      "variants": {
+        "baseline": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000311303",
+            "path": "materials/data/images/000000311303.jpg",
+            "score": 0.2883567810058594,
+            "grade": 2
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000017714",
+            "path": "materials/data/images/000000017714.jpg",
+            "score": 0.2866692543029785,
+            "grade": 2
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000541634",
+            "path": "materials/data/images/000000541634.jpg",
+            "score": 0.2840561270713806,
+            "grade": 2
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000013004",
+            "path": "materials/data/images/000000013004.jpg",
+            "score": 0.27785831689834595,
+            "grade": 1
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000460494",
+            "path": "materials/data/images/000000460494.jpg",
+            "score": 0.2745663523674011,
+            "grade": 2
+          }
+        ],
+        "letterbox": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000311303",
+            "path": "materials/data/images/000000311303.jpg",
+            "score": 0.3139016032218933,
+            "grade": 2
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000460494",
+            "path": "materials/data/images/000000460494.jpg",
+            "score": 0.2889088988304138,
+            "grade": 2
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000541634",
+            "path": "materials/data/images/000000541634.jpg",
+            "score": 0.2840561270713806,
+            "grade": 2
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000172571",
+            "path": "materials/data/images/000000172571.jpg",
+            "score": 0.28258877992630005,
+            "grade": 1
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000017714",
+            "path": "materials/data/images/000000017714.jpg",
+            "score": 0.281919002532959,
+            "grade": 2
+          }
+        ],
+        "dual_max": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000311303",
+            "path": "materials/data/images/000000311303.jpg",
+            "score": 0.3139016032218933,
+            "grade": 2
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000460494",
+            "path": "materials/data/images/000000460494.jpg",
+            "score": 0.2889088988304138,
+            "grade": 2
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000017714",
+            "path": "materials/data/images/000000017714.jpg",
+            "score": 0.2866692543029785,
+            "grade": 2
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000541634",
+            "path": "materials/data/images/000000541634.jpg",
+            "score": 0.2840561270713806,
+            "grade": 2
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000172571",
+            "path": "materials/data/images/000000172571.jpg",
+            "score": 0.28258877992630005,
+            "grade": 1
+          }
+        ]
+      },
+      "note": "Both a cup and a plate of food must be on the table and adjacent. Banana on a plate alone is partial; original rank 10 has plates but no clearly visible cup."
+    },
+    {
+      "id": "R05",
+      "category": "relation",
+      "query": "A bicycle leaning against a wall.",
+      "judged_candidates": 12,
+      "fully_matching_in_pool": 0,
+      "metrics": {
+        "baseline": {
+          "strict_p5": 0.0,
+          "related_p5": 0.8,
+          "pooled_ndcg5": 0.830419897363192,
+          "strict_top1": 0,
+          "pool_attainable_strict_p5": 0.0,
+          "strict_p10": 0.0
+        },
+        "letterbox": {
+          "strict_p5": 0.0,
+          "related_p5": 1.0,
+          "pooled_ndcg5": 1.0,
+          "strict_top1": 0,
+          "pool_attainable_strict_p5": 0.0
+        },
+        "dual_max": {
+          "strict_p5": 0.0,
+          "related_p5": 1.0,
+          "pooled_ndcg5": 1.0,
+          "strict_top1": 0,
+          "pool_attainable_strict_p5": 0.0
+        }
+      },
+      "variants": {
+        "baseline": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000274687",
+            "path": "materials/data/images/000000274687.jpg",
+            "score": 0.2793911099433899,
+            "grade": 1
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000135670",
+            "path": "materials/data/images/000000135670.jpg",
+            "score": 0.254763662815094,
+            "grade": 1
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000288391",
+            "path": "materials/data/images/000000288391.jpg",
+            "score": 0.25433096289634705,
+            "grade": 0
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000144333",
+            "path": "materials/data/images/000000144333.jpg",
+            "score": 0.25102096796035767,
+            "grade": 1
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000070774",
+            "path": "materials/data/images/000000070774.jpg",
+            "score": 0.24193266034126282,
+            "grade": 1
+          }
+        ],
+        "letterbox": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000070774",
+            "path": "materials/data/images/000000070774.jpg",
+            "score": 0.28515616059303284,
+            "grade": 1
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000256941",
+            "path": "materials/data/images/000000256941.jpg",
+            "score": 0.27113986015319824,
+            "grade": 1
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000274687",
+            "path": "materials/data/images/000000274687.jpg",
+            "score": 0.26983922719955444,
+            "grade": 1
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000144333",
+            "path": "materials/data/images/000000144333.jpg",
+            "score": 0.2555222809314728,
+            "grade": 1
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000473118",
+            "path": "materials/data/images/000000473118.jpg",
+            "score": 0.24638156592845917,
+            "grade": 1
+          }
+        ],
+        "dual_max": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000070774",
+            "path": "materials/data/images/000000070774.jpg",
+            "score": 0.28515616059303284,
+            "grade": 1
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000274687",
+            "path": "materials/data/images/000000274687.jpg",
+            "score": 0.2793911099433899,
+            "grade": 1
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000256941",
+            "path": "materials/data/images/000000256941.jpg",
+            "score": 0.27113986015319824,
+            "grade": 1
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000144333",
+            "path": "materials/data/images/000000144333.jpg",
+            "score": 0.2555222809314728,
+            "grade": 1
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000135670",
+            "path": "materials/data/images/000000135670.jpg",
+            "score": 0.254763662815094,
+            "grade": 1
+          }
+        ]
+      },
+      "note": "Rank 1 bicycle leans against a sofa, not clearly a wall; rank 2 is hanging on a train wall. Neither establishes leaning against a wall. No full match confirmed in reviewed pool."
+    }
+  ]
+}

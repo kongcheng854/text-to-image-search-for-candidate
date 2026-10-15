@@ -1,0 +1,12 @@
+[
+  {"id":"V01","category":"color","query":"A black dog."},
+  {"id":"V02","category":"relation","query":"A cat resting beside a window."},
+  {"id":"V03","category":"action","query":"People walking with umbrellas in the rain."},
+  {"id":"V04","category":"action","query":"A person balancing on a surfboard in the ocean."},
+  {"id":"V05","category":"subject","query":"A motorcycle parked outdoors."},
+  {"id":"V06","category":"color","query":"A green bus on a road."},
+  {"id":"V07","category":"relation","query":"A bird standing on a beach."},
+  {"id":"V08","category":"action","query":"A person sitting on a bicycle."},
+  {"id":"V09","category":"color","query":"A white airplane flying against a blue sky."},
+  {"id":"V10","category":"relation","query":"A meal served on a plate with a fork."}
+]

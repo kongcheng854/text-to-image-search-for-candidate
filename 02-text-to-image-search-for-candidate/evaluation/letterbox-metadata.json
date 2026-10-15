@@ -1,0 +1,14 @@
+{
+  "signature": {
+    "model": {
+      "model_id": "openai/clip-vit-base-patch32",
+      "model_revision": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268",
+      "dimension": 512,
+      "pipeline": "clip-rgb-center-crop-fp32-l2-v1",
+      "metric": "cosine"
+    },
+    "dataset_sha256": "8e5e3b4aab744ed876fd6d74b90f970de80e3a1823e0ad268c2b20430a79dde6",
+    "view": "PIL-ImageOps.pad-224-bicubic-fill-123-117-104-v1"
+  },
+  "sha256": "04b612a1e670d39f3260c165b63b8ffa58b48059a073412f4dfd08ba8803ae2b"
+}

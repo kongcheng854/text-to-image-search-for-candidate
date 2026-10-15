@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "browser": "Microsoft Edge / Playwright, headless",
+  "viewport": {
+    "width": 1440,
+    "height": 1040
+  },
+  "checks": [
+    "3 query pages render 10 decoded images each",
+    "Displayed image IDs and order match saved JSON results",
+    "Baseline and optimized modes match audit records, including UI mode switching",
+    "Downloaded JSON includes ranking version and original CLIP scores",
+    "Form submission updates results",
+    "Empty input displays a warning",
+    "Overlong input displays an actionable error",
+    "No uncaught browser page errors"
+  ]
+}

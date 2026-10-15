@@ -1,0 +1,35 @@
+[
+  {
+    "query_id": "R05",
+    "image_id": "coco-000000473118",
+    "ranks": {
+      "center": 84,
+      "letterbox": 5,
+      "dual_max": 7
+    },
+    "center_retained_area_fraction": 0.692,
+    "observation": "Bicycle at the top is outside the center crop."
+  },
+  {
+    "query_id": "A04",
+    "image_id": "coco-000000256941",
+    "ranks": {
+      "center": 40,
+      "letterbox": 2,
+      "dual_max": 3
+    },
+    "center_retained_area_fraction": 0.664,
+    "observation": "Full view shows an umbrella, but no person holding it."
+  },
+  {
+    "query_id": "R01",
+    "image_id": "coco-000000213445",
+    "ranks": {
+      "center": 1,
+      "letterbox": 1,
+      "dual_max": 1
+    },
+    "center_retained_area_fraction": 0.816,
+    "observation": "Cat on a plate: the chair relation is not satisfied."
+  }
+]

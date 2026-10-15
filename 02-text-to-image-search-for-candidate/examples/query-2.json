@@ -1,0 +1,85 @@
+{
+  "query": "A person riding a bicycle on a street.",
+  "ranking": {
+    "version": "object-guard-multiobject-prompt-v1",
+    "contrast_weight": 0.5,
+    "prompt_weight": 0.5,
+    "vocabulary_sha256": "602d47c1987b184602ccb845e5772abfa989cf00d98516e5ad1043035c732e5b",
+    "multiobject_policy": "average normalized original/photo text features; no class penalty",
+    "single_object_policy": "subtract positive part of competing-object advantage",
+    "fallback": "original whole-sentence cosine for negation, alternatives or unknown objects"
+  },
+  "elapsed_seconds": 0.0126,
+  "results": [
+    {
+      "rank": 1,
+      "image_id": "coco-000000144333",
+      "path": "materials/data/images/000000144333.jpg",
+      "score": 0.2852064371109009,
+      "clip_score": 0.2949303984642029
+    },
+    {
+      "rank": 2,
+      "image_id": "coco-000000424162",
+      "path": "materials/data/images/000000424162.jpg",
+      "score": 0.2784474492073059,
+      "clip_score": 0.2784474492073059
+    },
+    {
+      "rank": 3,
+      "image_id": "coco-000000336232",
+      "path": "materials/data/images/000000336232.jpg",
+      "score": 0.26769208908081055,
+      "clip_score": 0.2685314416885376
+    },
+    {
+      "rank": 4,
+      "image_id": "coco-000000549390",
+      "path": "materials/data/images/000000549390.jpg",
+      "score": 0.26030880212783813,
+      "clip_score": 0.26030880212783813
+    },
+    {
+      "rank": 5,
+      "image_id": "coco-000000309391",
+      "path": "materials/data/images/000000309391.jpg",
+      "score": 0.25937971472740173,
+      "clip_score": 0.25937971472740173
+    },
+    {
+      "rank": 6,
+      "image_id": "coco-000000135410",
+      "path": "materials/data/images/000000135410.jpg",
+      "score": 0.2564578056335449,
+      "clip_score": 0.2564578056335449
+    },
+    {
+      "rank": 7,
+      "image_id": "coco-000000333745",
+      "path": "materials/data/images/000000333745.jpg",
+      "score": 0.2510727643966675,
+      "clip_score": 0.2604984641075134
+    },
+    {
+      "rank": 8,
+      "image_id": "coco-000000326627",
+      "path": "materials/data/images/000000326627.jpg",
+      "score": 0.2445976585149765,
+      "clip_score": 0.2445976585149765
+    },
+    {
+      "rank": 9,
+      "image_id": "coco-000000546976",
+      "path": "materials/data/images/000000546976.jpg",
+      "score": 0.24353155493736267,
+      "clip_score": 0.24795041978359222
+    },
+    {
+      "rank": 10,
+      "image_id": "coco-000000006723",
+      "path": "materials/data/images/000000006723.jpg",
+      "score": 0.24295425415039062,
+      "clip_score": 0.24295425415039062
+    }
+  ]
+}

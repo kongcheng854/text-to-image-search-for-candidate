@@ -1,0 +1,2127 @@
+[
+  {
+    "id": "S01",
+    "category": "subject",
+    "query": "A cat.",
+    "results": [
+      {
+        "rank": 1,
+        "image_id": "coco-000000524280",
+        "path": "materials/data/images/000000524280.jpg",
+        "score": 0.2745139002799988,
+        "clip_score": 0.2745139002799988
+      },
+      {
+        "rank": 2,
+        "image_id": "coco-000000118515",
+        "path": "materials/data/images/000000118515.jpg",
+        "score": 0.26776108145713806,
+        "clip_score": 0.26776108145713806
+      },
+      {
+        "rank": 3,
+        "image_id": "coco-000000360943",
+        "path": "materials/data/images/000000360943.jpg",
+        "score": 0.2649138569831848,
+        "clip_score": 0.2649138569831848
+      },
+      {
+        "rank": 4,
+        "image_id": "coco-000000213445",
+        "path": "materials/data/images/000000213445.jpg",
+        "score": 0.2603321671485901,
+        "clip_score": 0.2603321671485901
+      },
+      {
+        "rank": 5,
+        "image_id": "coco-000000015497",
+        "path": "materials/data/images/000000015497.jpg",
+        "score": 0.25834304094314575,
+        "clip_score": 0.25834304094314575
+      },
+      {
+        "rank": 6,
+        "image_id": "coco-000000107087",
+        "path": "materials/data/images/000000107087.jpg",
+        "score": 0.2580453157424927,
+        "clip_score": 0.2580453157424927
+      },
+      {
+        "rank": 7,
+        "image_id": "coco-000000574810",
+        "path": "materials/data/images/000000574810.jpg",
+        "score": 0.2577914893627167,
+        "clip_score": 0.2577914893627167
+      },
+      {
+        "rank": 8,
+        "image_id": "coco-000000520531",
+        "path": "materials/data/images/000000520531.jpg",
+        "score": 0.2574405372142792,
+        "clip_score": 0.2574405372142792
+      },
+      {
+        "rank": 9,
+        "image_id": "coco-000000112798",
+        "path": "materials/data/images/000000112798.jpg",
+        "score": 0.256936252117157,
+        "clip_score": 0.256936252117157
+      },
+      {
+        "rank": 10,
+        "image_id": "coco-000000286708",
+        "path": "materials/data/images/000000286708.jpg",
+        "score": 0.25468435883522034,
+        "clip_score": 0.25468435883522034
+      }
+    ],
+    "metrics": {
+      "strict_p5": 1.0,
+      "related_p5": 1.0,
+      "pooled_ndcg5": 1.0,
+      "strict_top1": 1
+    },
+    "missing_judgments": [],
+    "elapsed_seconds": 0.014279300001362571
+  },
+  {
+    "id": "S02",
+    "category": "subject",
+    "query": "A dog.",
+    "results": [
+      {
+        "rank": 1,
+        "image_id": "coco-000000253386",
+        "path": "materials/data/images/000000253386.jpg",
+        "score": 0.267575204372406,
+        "clip_score": 0.267575204372406
+      },
+      {
+        "rank": 2,
+        "image_id": "coco-000000446522",
+        "path": "materials/data/images/000000446522.jpg",
+        "score": 0.26037150621414185,
+        "clip_score": 0.26037150621414185
+      },
+      {
+        "rank": 3,
+        "image_id": "coco-000000153217",
+        "path": "materials/data/images/000000153217.jpg",
+        "score": 0.2564200162887573,
+        "clip_score": 0.2564200162887573
+      },
+      {
+        "rank": 4,
+        "image_id": "coco-000000355905",
+        "path": "materials/data/images/000000355905.jpg",
+        "score": 0.25576716661453247,
+        "clip_score": 0.25576716661453247
+      },
+      {
+        "rank": 5,
+        "image_id": "coco-000000421455",
+        "path": "materials/data/images/000000421455.jpg",
+        "score": 0.25230157375335693,
+        "clip_score": 0.25230157375335693
+      },
+      {
+        "rank": 6,
+        "image_id": "coco-000000295478",
+        "path": "materials/data/images/000000295478.jpg",
+        "score": 0.25167763233184814,
+        "clip_score": 0.25167763233184814
+      },
+      {
+        "rank": 7,
+        "image_id": "coco-000000138492",
+        "path": "materials/data/images/000000138492.jpg",
+        "score": 0.25160595774650574,
+        "clip_score": 0.25160595774650574
+      },
+      {
+        "rank": 8,
+        "image_id": "coco-000000311190",
+        "path": "materials/data/images/000000311190.jpg",
+        "score": 0.25057005882263184,
+        "clip_score": 0.25057005882263184
+      },
+      {
+        "rank": 9,
+        "image_id": "coco-000000273642",
+        "path": "materials/data/images/000000273642.jpg",
+        "score": 0.24933931231498718,
+        "clip_score": 0.24933931231498718
+      },
+      {
+        "rank": 10,
+        "image_id": "coco-000000364636",
+        "path": "materials/data/images/000000364636.jpg",
+        "score": 0.24916233122348785,
+        "clip_score": 0.24916233122348785
+      }
+    ],
+    "metrics": {
+      "strict_p5": 0.8,
+      "related_p5": 0.8,
+      "pooled_ndcg5": 0.830419897363192,
+      "strict_top1": 1
+    },
+    "missing_judgments": [],
+    "elapsed_seconds": 0.011210099997697398
+  },
+  {
+    "id": "S03",
+    "category": "subject",
+    "query": "An elephant.",
+    "results": [
+      {
+        "rank": 1,
+        "image_id": "coco-000000475779",
+        "path": "materials/data/images/000000475779.jpg",
+        "score": 0.3010753393173218,
+        "clip_score": 0.3010753393173218
+      },
+      {
+        "rank": 2,
+        "image_id": "coco-000000526103",
+        "path": "materials/data/images/000000526103.jpg",
+        "score": 0.2929380536079407,
+        "clip_score": 0.2929380536079407
+      },
+      {
+        "rank": 3,
+        "image_id": "coco-000000293300",
+        "path": "materials/data/images/000000293300.jpg",
+        "score": 0.2824385464191437,
+        "clip_score": 0.2824385464191437
+      },
+      {
+        "rank": 4,
+        "image_id": "coco-000000232244",
+        "path": "materials/data/images/000000232244.jpg",
+        "score": 0.28222644329071045,
+        "clip_score": 0.28222644329071045
+      },
+      {
+        "rank": 5,
+        "image_id": "coco-000000267169",
+        "path": "materials/data/images/000000267169.jpg",
+        "score": 0.27077335119247437,
+        "clip_score": 0.27077335119247437
+      },
+      {
+        "rank": 6,
+        "image_id": "coco-000000562207",
+        "path": "materials/data/images/000000562207.jpg",
+        "score": 0.2705245614051819,
+        "clip_score": 0.2705245614051819
+      },
+      {
+        "rank": 7,
+        "image_id": "coco-000000167128",
+        "path": "materials/data/images/000000167128.jpg",
+        "score": 0.26819393038749695,
+        "clip_score": 0.26819393038749695
+      },
+      {
+        "rank": 8,
+        "image_id": "coco-000000445248",
+        "path": "materials/data/images/000000445248.jpg",
+        "score": 0.2589607238769531,
+        "clip_score": 0.2589607238769531
+      },
+      {
+        "rank": 9,
+        "image_id": "coco-000000433374",
+        "path": "materials/data/images/000000433374.jpg",
+        "score": 0.2585374116897583,
+        "clip_score": 0.2585374116897583
+      },
+      {
+        "rank": 10,
+        "image_id": "coco-000000415748",
+        "path": "materials/data/images/000000415748.jpg",
+        "score": 0.2546188533306122,
+        "clip_score": 0.2546188533306122
+      }
+    ],
+    "metrics": {
+      "strict_p5": 1.0,
+      "related_p5": 1.0,
+      "pooled_ndcg5": 1.0,
+      "strict_top1": 1
+    },
+    "missing_judgments": [],
+    "elapsed_seconds": 0.010583200000837678
+  },
+  {
+    "id": "S04",
+    "category": "subject",
+    "query": "A bicycle.",
+    "results": [
+      {
+        "rank": 1,
+        "image_id": "coco-000000274687",
+        "path": "materials/data/images/000000274687.jpg",
+        "score": 0.27595436573028564,
+        "clip_score": 0.27595436573028564
+      },
+      {
+        "rank": 2,
+        "image_id": "coco-000000144333",
+        "path": "materials/data/images/000000144333.jpg",
+        "score": 0.26668626070022583,
+        "clip_score": 0.2764102518558502
+      },
+      {
+        "rank": 3,
+        "image_id": "coco-000000070774",
+        "path": "materials/data/images/000000070774.jpg",
+        "score": 0.26448923349380493,
+        "clip_score": 0.27022820711135864
+      },
+      {
+        "rank": 4,
+        "image_id": "coco-000000135670",
+        "path": "materials/data/images/000000135670.jpg",
+        "score": 0.2610498368740082,
+        "clip_score": 0.2610498368740082
+      },
+      {
+        "rank": 5,
+        "image_id": "coco-000000135410",
+        "path": "materials/data/images/000000135410.jpg",
+        "score": 0.25921761989593506,
+        "clip_score": 0.25921761989593506
+      },
+      {
+        "rank": 6,
+        "image_id": "coco-000000424162",
+        "path": "materials/data/images/000000424162.jpg",
+        "score": 0.25761353969573975,
+        "clip_score": 0.25761353969573975
+      },
+      {
+        "rank": 7,
+        "image_id": "coco-000000546976",
+        "path": "materials/data/images/000000546976.jpg",
+        "score": 0.257551372051239,
+        "clip_score": 0.26197025179862976
+      },
+      {
+        "rank": 8,
+        "image_id": "coco-000000441586",
+        "path": "materials/data/images/000000441586.jpg",
+        "score": 0.253934770822525,
+        "clip_score": 0.25622355937957764
+      },
+      {
+        "rank": 9,
+        "image_id": "coco-000000549390",
+        "path": "materials/data/images/000000549390.jpg",
+        "score": 0.25165435671806335,
+        "clip_score": 0.25165435671806335
+      },
+      {
+        "rank": 10,
+        "image_id": "coco-000000345027",
+        "path": "materials/data/images/000000345027.jpg",
+        "score": 0.248035728931427,
+        "clip_score": 0.2540719509124756
+      }
+    ],
+    "metrics": {
+      "strict_p5": 1.0,
+      "related_p5": 1.0,
+      "pooled_ndcg5": 1.0,
+      "strict_top1": 1
+    },
+    "missing_judgments": [],
+    "elapsed_seconds": 0.01052979999803938
+  },
+  {
+    "id": "S05",
+    "category": "subject",
+    "query": "A plate of food.",
+    "results": [
+      {
+        "rank": 1,
+        "image_id": "coco-000000320664",
+        "path": "materials/data/images/000000320664.jpg",
+        "score": 0.2913413345813751,
+        "clip_score": 0.2839076519012451
+      },
+      {
+        "rank": 2,
+        "image_id": "coco-000000419312",
+        "path": "materials/data/images/000000419312.jpg",
+        "score": 0.28980767726898193,
+        "clip_score": 0.286418616771698
+      },
+      {
+        "rank": 3,
+        "image_id": "coco-000000250766",
+        "path": "materials/data/images/000000250766.jpg",
+        "score": 0.2855360507965088,
+        "clip_score": 0.28107962012290955
+      },
+      {
+        "rank": 4,
+        "image_id": "coco-000000460494",
+        "path": "materials/data/images/000000460494.jpg",
+        "score": 0.2817820906639099,
+        "clip_score": 0.27451974153518677
+      },
+      {
+        "rank": 5,
+        "image_id": "coco-000000017714",
+        "path": "materials/data/images/000000017714.jpg",
+        "score": 0.27457109093666077,
+        "clip_score": 0.27106595039367676
+      },
+      {
+        "rank": 6,
+        "image_id": "coco-000000579091",
+        "path": "materials/data/images/000000579091.jpg",
+        "score": 0.26961827278137207,
+        "clip_score": 0.2626705467700958
+      },
+      {
+        "rank": 7,
+        "image_id": "coco-000000347335",
+        "path": "materials/data/images/000000347335.jpg",
+        "score": 0.2679271996021271,
+        "clip_score": 0.2649102807044983
+      },
+      {
+        "rank": 8,
+        "image_id": "coco-000000511453",
+        "path": "materials/data/images/000000511453.jpg",
+        "score": 0.2678026556968689,
+        "clip_score": 0.26255375146865845
+      },
+      {
+        "rank": 9,
+        "image_id": "coco-000000541634",
+        "path": "materials/data/images/000000541634.jpg",
+        "score": 0.2666293680667877,
+        "clip_score": 0.26437824964523315
+      },
+      {
+        "rank": 10,
+        "image_id": "coco-000000256916",
+        "path": "materials/data/images/000000256916.jpg",
+        "score": 0.2651919424533844,
+        "clip_score": 0.25843197107315063
+      }
+    ],
+    "metrics": {
+      "strict_p5": 1.0,
+      "related_p5": 1.0,
+      "pooled_ndcg5": 1.0,
+      "strict_top1": 1
+    },
+    "missing_judgments": [],
+    "elapsed_seconds": 0.022278099997492973
+  },
+  {
+    "id": "A01",
+    "category": "action",
+    "query": "A person riding a bicycle.",
+    "results": [
+      {
+        "rank": 1,
+        "image_id": "coco-000000144333",
+        "path": "materials/data/images/000000144333.jpg",
+        "score": 0.29597049951553345,
+        "clip_score": 0.30569449067115784
+      },
+      {
+        "rank": 2,
+        "image_id": "coco-000000549390",
+        "path": "materials/data/images/000000549390.jpg",
+        "score": 0.2887091338634491,
+        "clip_score": 0.2887091338634491
+      },
+      {
+        "rank": 3,
+        "image_id": "coco-000000546976",
+        "path": "materials/data/images/000000546976.jpg",
+        "score": 0.2812429666519165,
+        "clip_score": 0.28566184639930725
+      },
+      {
+        "rank": 4,
+        "image_id": "coco-000000424162",
+        "path": "materials/data/images/000000424162.jpg",
+        "score": 0.27373290061950684,
+        "clip_score": 0.27373290061950684
+      },
+      {
+        "rank": 5,
+        "image_id": "coco-000000135670",
+        "path": "materials/data/images/000000135670.jpg",
+        "score": 0.26440665125846863,
+        "clip_score": 0.26440665125846863
+      },
+      {
+        "rank": 6,
+        "image_id": "coco-000000135410",
+        "path": "materials/data/images/000000135410.jpg",
+        "score": 0.2624873220920563,
+        "clip_score": 0.2624873220920563
+      },
+      {
+        "rank": 7,
+        "image_id": "coco-000000274687",
+        "path": "materials/data/images/000000274687.jpg",
+        "score": 0.2603892982006073,
+        "clip_score": 0.2603892982006073
+      },
+      {
+        "rank": 8,
+        "image_id": "coco-000000345027",
+        "path": "materials/data/images/000000345027.jpg",
+        "score": 0.256962388753891,
+        "clip_score": 0.2629986107349396
+      },
+      {
+        "rank": 9,
+        "image_id": "coco-000000336232",
+        "path": "materials/data/images/000000336232.jpg",
+        "score": 0.25622087717056274,
+        "clip_score": 0.2570602595806122
+      },
+      {
+        "rank": 10,
+        "image_id": "coco-000000357737",
+        "path": "materials/data/images/000000357737.jpg",
+        "score": 0.2515699863433838,
+        "clip_score": 0.2515699863433838
+      }
+    ],
+    "metrics": {
+      "strict_p5": 0.4,
+      "related_p5": 0.8,
+      "pooled_ndcg5": 0.9194888330036862,
+      "strict_top1": 1
+    },
+    "missing_judgments": [],
+    "elapsed_seconds": 0.010781900000438327
+  },
+  {
+    "id": "A02",
+    "category": "action",
+    "query": "A person surfing a wave.",
+    "results": [
+      {
+        "rank": 1,
+        "image_id": "coco-000000122672",
+        "path": "materials/data/images/000000122672.jpg",
+        "score": 0.3268927037715912,
+        "clip_score": 0.3268927037715912
+      },
+      {
+        "rank": 2,
+        "image_id": "coco-000000389197",
+        "path": "materials/data/images/000000389197.jpg",
+        "score": 0.3257150948047638,
+        "clip_score": 0.3257150948047638
+      },
+      {
+        "rank": 3,
+        "image_id": "coco-000000199442",
+        "path": "materials/data/images/000000199442.jpg",
+        "score": 0.3098065257072449,
+        "clip_score": 0.3098065257072449
+      },
+      {
+        "rank": 4,
+        "image_id": "coco-000000449603",
+        "path": "materials/data/images/000000449603.jpg",
+        "score": 0.3030818998813629,
+        "clip_score": 0.3030818998813629
+      },
+      {
+        "rank": 5,
+        "image_id": "coco-000000535858",
+        "path": "materials/data/images/000000535858.jpg",
+        "score": 0.30122900009155273,
+        "clip_score": 0.30122900009155273
+      },
+      {
+        "rank": 6,
+        "image_id": "coco-000000063154",
+        "path": "materials/data/images/000000063154.jpg",
+        "score": 0.2990831732749939,
+        "clip_score": 0.2990831732749939
+      },
+      {
+        "rank": 7,
+        "image_id": "coco-000000148739",
+        "path": "materials/data/images/000000148739.jpg",
+        "score": 0.2988341450691223,
+        "clip_score": 0.2988341450691223
+      },
+      {
+        "rank": 8,
+        "image_id": "coco-000000471756",
+        "path": "materials/data/images/000000471756.jpg",
+        "score": 0.29564446210861206,
+        "clip_score": 0.29564446210861206
+      },
+      {
+        "rank": 9,
+        "image_id": "coco-000000574520",
+        "path": "materials/data/images/000000574520.jpg",
+        "score": 0.2922344505786896,
+        "clip_score": 0.2922344505786896
+      },
+      {
+        "rank": 10,
+        "image_id": "coco-000000516318",
+        "path": "materials/data/images/000000516318.jpg",
+        "score": 0.29092296957969666,
+        "clip_score": 0.29092296957969666
+      }
+    ],
+    "metrics": {
+      "strict_p5": 0.8,
+      "related_p5": 1.0,
+      "pooled_ndcg5": 0.9125299483251055,
+      "strict_top1": 1
+    },
+    "missing_judgments": [],
+    "elapsed_seconds": 0.010799899999256013
+  },
+  {
+    "id": "A03",
+    "category": "action",
+    "query": "A dog running.",
+    "results": [
+      {
+        "rank": 1,
+        "image_id": "coco-000000355905",
+        "path": "materials/data/images/000000355905.jpg",
+        "score": 0.30064907670021057,
+        "clip_score": 0.30064907670021057
+      },
+      {
+        "rank": 2,
+        "image_id": "coco-000000364636",
+        "path": "materials/data/images/000000364636.jpg",
+        "score": 0.285220205783844,
+        "clip_score": 0.285220205783844
+      },
+      {
+        "rank": 3,
+        "image_id": "coco-000000221693",
+        "path": "materials/data/images/000000221693.jpg",
+        "score": 0.28186750411987305,
+        "clip_score": 0.28186750411987305
+      },
+      {
+        "rank": 4,
+        "image_id": "coco-000000138492",
+        "path": "materials/data/images/000000138492.jpg",
+        "score": 0.270513653755188,
+        "clip_score": 0.270513653755188
+      },
+      {
+        "rank": 5,
+        "image_id": "coco-000000238039",
+        "path": "materials/data/images/000000238039.jpg",
+        "score": 0.26862066984176636,
+        "clip_score": 0.29262590408325195
+      },
+      {
+        "rank": 6,
+        "image_id": "coco-000000149568",
+        "path": "materials/data/images/000000149568.jpg",
+        "score": 0.2637217938899994,
+        "clip_score": 0.2637217938899994
+      },
+      {
+        "rank": 7,
+        "image_id": "coco-000000225184",
+        "path": "materials/data/images/000000225184.jpg",
+        "score": 0.26370325684547424,
+        "clip_score": 0.2799614667892456
+      },
+      {
+        "rank": 8,
+        "image_id": "coco-000000338624",
+        "path": "materials/data/images/000000338624.jpg",
+        "score": 0.2635604739189148,
+        "clip_score": 0.2635604739189148
+      },
+      {
+        "rank": 9,
+        "image_id": "coco-000000343803",
+        "path": "materials/data/images/000000343803.jpg",
+        "score": 0.26168179512023926,
+        "clip_score": 0.26168179512023926
+      },
+      {
+        "rank": 10,
+        "image_id": "coco-000000253386",
+        "path": "materials/data/images/000000253386.jpg",
+        "score": 0.2577137053012848,
+        "clip_score": 0.2577137053012848
+      }
+    ],
+    "metrics": {
+      "strict_p5": 0.4,
+      "related_p5": 1.0,
+      "pooled_ndcg5": 0.7603739868614454,
+      "strict_top1": 0
+    },
+    "missing_judgments": [],
+    "elapsed_seconds": 0.01076199999806704
+  },
+  {
+    "id": "A04",
+    "category": "action",
+    "query": "A person holding an umbrella.",
+    "results": [
+      {
+        "rank": 1,
+        "image_id": "coco-000000360960",
+        "path": "materials/data/images/000000360960.jpg",
+        "score": 0.340652197599411,
+        "clip_score": 0.340652197599411
+      },
+      {
+        "rank": 2,
+        "image_id": "coco-000000232563",
+        "path": "materials/data/images/000000232563.jpg",
+        "score": 0.3201170265674591,
+        "clip_score": 0.3201170265674591
+      },
+      {
+        "rank": 3,
+        "image_id": "coco-000000575243",
+        "path": "materials/data/images/000000575243.jpg",
+        "score": 0.29553595185279846,
+        "clip_score": 0.29553595185279846
+      },
+      {
+        "rank": 4,
+        "image_id": "coco-000000455157",
+        "path": "materials/data/images/000000455157.jpg",
+        "score": 0.2916721999645233,
+        "clip_score": 0.2916721999645233
+      },
+      {
+        "rank": 5,
+        "image_id": "coco-000000333745",
+        "path": "materials/data/images/000000333745.jpg",
+        "score": 0.284726619720459,
+        "clip_score": 0.284726619720459
+      },
+      {
+        "rank": 6,
+        "image_id": "coco-000000191845",
+        "path": "materials/data/images/000000191845.jpg",
+        "score": 0.2834343910217285,
+        "clip_score": 0.2834343910217285
+      },
+      {
+        "rank": 7,
+        "image_id": "coco-000000177861",
+        "path": "materials/data/images/000000177861.jpg",
+        "score": 0.2776724696159363,
+        "clip_score": 0.2776724696159363
+      },
+      {
+        "rank": 8,
+        "image_id": "coco-000000326627",
+        "path": "materials/data/images/000000326627.jpg",
+        "score": 0.27444133162498474,
+        "clip_score": 0.27444133162498474
+      },
+      {
+        "rank": 9,
+        "image_id": "coco-000000213033",
+        "path": "materials/data/images/000000213033.jpg",
+        "score": 0.2719956934452057,
+        "clip_score": 0.2719956934452057
+      },
+      {
+        "rank": 10,
+        "image_id": "coco-000000203580",
+        "path": "materials/data/images/000000203580.jpg",
+        "score": 0.27019622921943665,
+        "clip_score": 0.27019622921943665
+      }
+    ],
+    "metrics": {
+      "strict_p5": 0.8,
+      "related_p5": 1.0,
+      "pooled_ndcg5": 0.9026211001048624,
+      "strict_top1": 1
+    },
+    "missing_judgments": [],
+    "elapsed_seconds": 0.011746299998776522
+  },
+  {
+    "id": "A05",
+    "category": "action",
+    "query": "A person cutting food with a knife.",
+    "results": [
+      {
+        "rank": 1,
+        "image_id": "coco-000000284764",
+        "path": "materials/data/images/000000284764.jpg",
+        "score": 0.3108362853527069,
+        "clip_score": 0.31701165437698364
+      },
+      {
+        "rank": 2,
+        "image_id": "coco-000000570471",
+        "path": "materials/data/images/000000570471.jpg",
+        "score": 0.30767011642456055,
+        "clip_score": 0.30857861042022705
+      },
+      {
+        "rank": 3,
+        "image_id": "coco-000000182611",
+        "path": "materials/data/images/000000182611.jpg",
+        "score": 0.2997155785560608,
+        "clip_score": 0.2976509630680084
+      },
+      {
+        "rank": 4,
+        "image_id": "coco-000000400794",
+        "path": "materials/data/images/000000400794.jpg",
+        "score": 0.296771764755249,
+        "clip_score": 0.2986965775489807
+      },
+      {
+        "rank": 5,
+        "image_id": "coco-000000144003",
+        "path": "materials/data/images/000000144003.jpg",
+        "score": 0.2827034592628479,
+        "clip_score": 0.2795989513397217
+      },
+      {
+        "rank": 6,
+        "image_id": "coco-000000246968",
+        "path": "materials/data/images/000000246968.jpg",
+        "score": 0.2802709937095642,
+        "clip_score": 0.2751612067222595
+      },
+      {
+        "rank": 7,
+        "image_id": "coco-000000054654",
+        "path": "materials/data/images/000000054654.jpg",
+        "score": 0.2801312506198883,
+        "clip_score": 0.2802104949951172
+      },
+      {
+        "rank": 8,
+        "image_id": "coco-000000502737",
+        "path": "materials/data/images/000000502737.jpg",
+        "score": 0.27976691722869873,
+        "clip_score": 0.2844877541065216
+      },
+      {
+        "rank": 9,
+        "image_id": "coco-000000261116",
+        "path": "materials/data/images/000000261116.jpg",
+        "score": 0.2797315716743469,
+        "clip_score": 0.2770047187805176
+      },
+      {
+        "rank": 10,
+        "image_id": "coco-000000580294",
+        "path": "materials/data/images/000000580294.jpg",
+        "score": 0.2780774235725403,
+        "clip_score": 0.2791789174079895
+      }
+    ],
+    "metrics": {
+      "strict_p5": 0.8,
+      "related_p5": 1.0,
+      "pooled_ndcg5": 0.9891413446337513,
+      "strict_top1": 1
+    },
+    "missing_judgments": [],
+    "elapsed_seconds": 0.02214299999832292
+  },
+  {
+    "id": "E01",
+    "category": "edge_small",
+    "query": "A dog near the edge of the image.",
+    "results": [
+      {
+        "rank": 1,
+        "image_id": "coco-000000446522",
+        "path": "materials/data/images/000000446522.jpg",
+        "score": 0.27955949306488037,
+        "clip_score": 0.27955949306488037
+      },
+      {
+        "rank": 2,
+        "image_id": "coco-000000153217",
+        "path": "materials/data/images/000000153217.jpg",
+        "score": 0.26569896936416626,
+        "clip_score": 0.26569896936416626
+      },
+      {
+        "rank": 3,
+        "image_id": "coco-000000427034",
+        "path": "materials/data/images/000000427034.jpg",
+        "score": 0.26516586542129517,
+        "clip_score": 0.26516586542129517
+      },
+      {
+        "rank": 4,
+        "image_id": "coco-000000490171",
+        "path": "materials/data/images/000000490171.jpg",
+        "score": 0.2647656798362732,
+        "clip_score": 0.2647656798362732
+      },
+      {
+        "rank": 5,
+        "image_id": "coco-000000253386",
+        "path": "materials/data/images/000000253386.jpg",
+        "score": 0.2645253539085388,
+        "clip_score": 0.2645253539085388
+      },
+      {
+        "rank": 6,
+        "image_id": "coco-000000355905",
+        "path": "materials/data/images/000000355905.jpg",
+        "score": 0.26400327682495117,
+        "clip_score": 0.26400327682495117
+      },
+      {
+        "rank": 7,
+        "image_id": "coco-000000225184",
+        "path": "materials/data/images/000000225184.jpg",
+        "score": 0.263858824968338,
+        "clip_score": 0.2801170349121094
+      },
+      {
+        "rank": 8,
+        "image_id": "coco-000000311190",
+        "path": "materials/data/images/000000311190.jpg",
+        "score": 0.26379138231277466,
+        "clip_score": 0.26379138231277466
+      },
+      {
+        "rank": 9,
+        "image_id": "coco-000000221693",
+        "path": "materials/data/images/000000221693.jpg",
+        "score": 0.26359546184539795,
+        "clip_score": 0.26359546184539795
+      },
+      {
+        "rank": 10,
+        "image_id": "coco-000000149568",
+        "path": "materials/data/images/000000149568.jpg",
+        "score": 0.25930917263031006,
+        "clip_score": 0.25930917263031006
+      }
+    ],
+    "metrics": {
+      "strict_p5": 0.2,
+      "related_p5": 0.8,
+      "pooled_ndcg5": 0.6704166459920575,
+      "strict_top1": 0
+    },
+    "missing_judgments": [],
+    "elapsed_seconds": 0.01150680000137072
+  },
+  {
+    "id": "E02",
+    "category": "edge_small",
+    "query": "A person standing on the right side of the image.",
+    "results": [
+      {
+        "rank": 1,
+        "image_id": "coco-000000333745",
+        "path": "materials/data/images/000000333745.jpg",
+        "score": 0.28583934903144836,
+        "clip_score": 0.28583934903144836
+      },
+      {
+        "rank": 2,
+        "image_id": "coco-000000163057",
+        "path": "materials/data/images/000000163057.jpg",
+        "score": 0.2822958528995514,
+        "clip_score": 0.2822958528995514
+      },
+      {
+        "rank": 3,
+        "image_id": "coco-000000326627",
+        "path": "materials/data/images/000000326627.jpg",
+        "score": 0.2758214473724365,
+        "clip_score": 0.2758214473724365
+      },
+      {
+        "rank": 4,
+        "image_id": "coco-000000007977",
+        "path": "materials/data/images/000000007977.jpg",
+        "score": 0.2740093767642975,
+        "clip_score": 0.2740093767642975
+      },
+      {
+        "rank": 5,
+        "image_id": "coco-000000007511",
+        "path": "materials/data/images/000000007511.jpg",
+        "score": 0.2734972834587097,
+        "clip_score": 0.2734972834587097
+      },
+      {
+        "rank": 6,
+        "image_id": "coco-000000175387",
+        "path": "materials/data/images/000000175387.jpg",
+        "score": 0.27260327339172363,
+        "clip_score": 0.27260327339172363
+      },
+      {
+        "rank": 7,
+        "image_id": "coco-000000501023",
+        "path": "materials/data/images/000000501023.jpg",
+        "score": 0.27176252007484436,
+        "clip_score": 0.27176252007484436
+      },
+      {
+        "rank": 8,
+        "image_id": "coco-000000470952",
+        "path": "materials/data/images/000000470952.jpg",
+        "score": 0.26940304040908813,
+        "clip_score": 0.26940304040908813
+      },
+      {
+        "rank": 9,
+        "image_id": "coco-000000568710",
+        "path": "materials/data/images/000000568710.jpg",
+        "score": 0.2692015767097473,
+        "clip_score": 0.2692015767097473
+      },
+      {
+        "rank": 10,
+        "image_id": "coco-000000105912",
+        "path": "materials/data/images/000000105912.jpg",
+        "score": 0.26886704564094543,
+        "clip_score": 0.26886704564094543
+      }
+    ],
+    "metrics": {
+      "strict_p5": 0.4,
+      "related_p5": 0.8,
+      "pooled_ndcg5": 0.5069341939523102,
+      "strict_top1": 0
+    },
+    "missing_judgments": [],
+    "elapsed_seconds": 0.01147819999823696
+  },
+  {
+    "id": "E03",
+    "category": "edge_small",
+    "query": "A small airplane high in the sky.",
+    "results": [
+      {
+        "rank": 1,
+        "image_id": "coco-000000545407",
+        "path": "materials/data/images/000000545407.jpg",
+        "score": 0.2797388732433319,
+        "clip_score": 0.2797388732433319
+      },
+      {
+        "rank": 2,
+        "image_id": "coco-000000135673",
+        "path": "materials/data/images/000000135673.jpg",
+        "score": 0.2778557538986206,
+        "clip_score": 0.2778557538986206
+      },
+      {
+        "rank": 3,
+        "image_id": "coco-000000144114",
+        "path": "materials/data/images/000000144114.jpg",
+        "score": 0.26253893971443176,
+        "clip_score": 0.26253893971443176
+      },
+      {
+        "rank": 4,
+        "image_id": "coco-000000137950",
+        "path": "materials/data/images/000000137950.jpg",
+        "score": 0.25821685791015625,
+        "clip_score": 0.25821685791015625
+      },
+      {
+        "rank": 5,
+        "image_id": "coco-000000161044",
+        "path": "materials/data/images/000000161044.jpg",
+        "score": 0.2507140636444092,
+        "clip_score": 0.2507140636444092
+      },
+      {
+        "rank": 6,
+        "image_id": "coco-000000452122",
+        "path": "materials/data/images/000000452122.jpg",
+        "score": 0.25060325860977173,
+        "clip_score": 0.25060325860977173
+      },
+      {
+        "rank": 7,
+        "image_id": "coco-000000134886",
+        "path": "materials/data/images/000000134886.jpg",
+        "score": 0.2504701018333435,
+        "clip_score": 0.2504701018333435
+      },
+      {
+        "rank": 8,
+        "image_id": "coco-000000425221",
+        "path": "materials/data/images/000000425221.jpg",
+        "score": 0.24397456645965576,
+        "clip_score": 0.24397456645965576
+      },
+      {
+        "rank": 9,
+        "image_id": "coco-000000502599",
+        "path": "materials/data/images/000000502599.jpg",
+        "score": 0.24383306503295898,
+        "clip_score": 0.24383306503295898
+      },
+      {
+        "rank": 10,
+        "image_id": "coco-000000300659",
+        "path": "materials/data/images/000000300659.jpg",
+        "score": 0.24298591911792755,
+        "clip_score": 0.24298591911792755
+      }
+    ],
+    "metrics": {
+      "strict_p5": 0.4,
+      "related_p5": 1.0,
+      "pooled_ndcg5": 0.8025392158797567,
+      "strict_top1": 0
+    },
+    "missing_judgments": [],
+    "elapsed_seconds": 0.010839599999599159
+  },
+  {
+    "id": "E04",
+    "category": "edge_small",
+    "query": "A small bird in a wide outdoor scene.",
+    "results": [
+      {
+        "rank": 1,
+        "image_id": "coco-000000489046",
+        "path": "materials/data/images/000000489046.jpg",
+        "score": 0.30490198731422424,
+        "clip_score": 0.30490198731422424
+      },
+      {
+        "rank": 2,
+        "image_id": "coco-000000494188",
+        "path": "materials/data/images/000000494188.jpg",
+        "score": 0.28680312633514404,
+        "clip_score": 0.28680312633514404
+      },
+      {
+        "rank": 3,
+        "image_id": "coco-000000407518",
+        "path": "materials/data/images/000000407518.jpg",
+        "score": 0.2855779528617859,
+        "clip_score": 0.2855779528617859
+      },
+      {
+        "rank": 4,
+        "image_id": "coco-000000357060",
+        "path": "materials/data/images/000000357060.jpg",
+        "score": 0.2795271873474121,
+        "clip_score": 0.2795271873474121
+      },
+      {
+        "rank": 5,
+        "image_id": "coco-000000197870",
+        "path": "materials/data/images/000000197870.jpg",
+        "score": 0.2707715928554535,
+        "clip_score": 0.2707715928554535
+      },
+      {
+        "rank": 6,
+        "image_id": "coco-000000456496",
+        "path": "materials/data/images/000000456496.jpg",
+        "score": 0.270007461309433,
+        "clip_score": 0.270007461309433
+      },
+      {
+        "rank": 7,
+        "image_id": "coco-000000126107",
+        "path": "materials/data/images/000000126107.jpg",
+        "score": 0.26845574378967285,
+        "clip_score": 0.26845574378967285
+      },
+      {
+        "rank": 8,
+        "image_id": "coco-000000549136",
+        "path": "materials/data/images/000000549136.jpg",
+        "score": 0.26384568214416504,
+        "clip_score": 0.26384568214416504
+      },
+      {
+        "rank": 9,
+        "image_id": "coco-000000210032",
+        "path": "materials/data/images/000000210032.jpg",
+        "score": 0.26213860511779785,
+        "clip_score": 0.26213860511779785
+      },
+      {
+        "rank": 10,
+        "image_id": "coco-000000492992",
+        "path": "materials/data/images/000000492992.jpg",
+        "score": 0.25736528635025024,
+        "clip_score": 0.25736528635025024
+      }
+    ],
+    "metrics": {
+      "strict_p5": 0.6,
+      "related_p5": 1.0,
+      "pooled_ndcg5": 0.7442890884191097,
+      "strict_top1": 1
+    },
+    "missing_judgments": [],
+    "elapsed_seconds": 0.011458400000265101
+  },
+  {
+    "id": "E05",
+    "category": "edge_small",
+    "query": "A traffic light near the top of the image.",
+    "results": [
+      {
+        "rank": 1,
+        "image_id": "coco-000000166391",
+        "path": "materials/data/images/000000166391.jpg",
+        "score": 0.30080920457839966,
+        "clip_score": 0.30080920457839966
+      },
+      {
+        "rank": 2,
+        "image_id": "coco-000000289222",
+        "path": "materials/data/images/000000289222.jpg",
+        "score": 0.2924436330795288,
+        "clip_score": 0.2924436330795288
+      },
+      {
+        "rank": 3,
+        "image_id": "coco-000000032941",
+        "path": "materials/data/images/000000032941.jpg",
+        "score": 0.28503939509391785,
+        "clip_score": 0.28503939509391785
+      },
+      {
+        "rank": 4,
+        "image_id": "coco-000000520009",
+        "path": "materials/data/images/000000520009.jpg",
+        "score": 0.28481781482696533,
+        "clip_score": 0.28481781482696533
+      },
+      {
+        "rank": 5,
+        "image_id": "coco-000000453841",
+        "path": "materials/data/images/000000453841.jpg",
+        "score": 0.2844141721725464,
+        "clip_score": 0.2844141721725464
+      },
+      {
+        "rank": 6,
+        "image_id": "coco-000000326627",
+        "path": "materials/data/images/000000326627.jpg",
+        "score": 0.278459370136261,
+        "clip_score": 0.278459370136261
+      },
+      {
+        "rank": 7,
+        "image_id": "coco-000000343976",
+        "path": "materials/data/images/000000343976.jpg",
+        "score": 0.2751321792602539,
+        "clip_score": 0.2751321792602539
+      },
+      {
+        "rank": 8,
+        "image_id": "coco-000000571943",
+        "path": "materials/data/images/000000571943.jpg",
+        "score": 0.27001601457595825,
+        "clip_score": 0.27001601457595825
+      },
+      {
+        "rank": 9,
+        "image_id": "coco-000000244379",
+        "path": "materials/data/images/000000244379.jpg",
+        "score": 0.269128680229187,
+        "clip_score": 0.269128680229187
+      },
+      {
+        "rank": 10,
+        "image_id": "coco-000000024027",
+        "path": "materials/data/images/000000024027.jpg",
+        "score": 0.2656857967376709,
+        "clip_score": 0.2656857967376709
+      }
+    ],
+    "metrics": {
+      "strict_p5": 0.4,
+      "related_p5": 1.0,
+      "pooled_ndcg5": 0.7603739868614454,
+      "strict_top1": 0
+    },
+    "missing_judgments": [],
+    "elapsed_seconds": 0.011324699997203425
+  },
+  {
+    "id": "C01",
+    "category": "color",
+    "query": "A red bus.",
+    "results": [
+      {
+        "rank": 1,
+        "image_id": "coco-000000148508",
+        "path": "materials/data/images/000000148508.jpg",
+        "score": 0.29337385296821594,
+        "clip_score": 0.29337385296821594
+      },
+      {
+        "rank": 2,
+        "image_id": "coco-000000568290",
+        "path": "materials/data/images/000000568290.jpg",
+        "score": 0.2908029854297638,
+        "clip_score": 0.2908029854297638
+      },
+      {
+        "rank": 3,
+        "image_id": "coco-000000550691",
+        "path": "materials/data/images/000000550691.jpg",
+        "score": 0.2795395851135254,
+        "clip_score": 0.2795395851135254
+      },
+      {
+        "rank": 4,
+        "image_id": "coco-000000455085",
+        "path": "materials/data/images/000000455085.jpg",
+        "score": 0.2701406180858612,
+        "clip_score": 0.2701406180858612
+      },
+      {
+        "rank": 5,
+        "image_id": "coco-000000499775",
+        "path": "materials/data/images/000000499775.jpg",
+        "score": 0.2677115797996521,
+        "clip_score": 0.2677115797996521
+      },
+      {
+        "rank": 6,
+        "image_id": "coco-000000355817",
+        "path": "materials/data/images/000000355817.jpg",
+        "score": 0.26614540815353394,
+        "clip_score": 0.26614540815353394
+      },
+      {
+        "rank": 7,
+        "image_id": "coco-000000520009",
+        "path": "materials/data/images/000000520009.jpg",
+        "score": 0.2649698555469513,
+        "clip_score": 0.2649698555469513
+      },
+      {
+        "rank": 8,
+        "image_id": "coco-000000165039",
+        "path": "materials/data/images/000000165039.jpg",
+        "score": 0.25744491815567017,
+        "clip_score": 0.25744491815567017
+      },
+      {
+        "rank": 9,
+        "image_id": "coco-000000463730",
+        "path": "materials/data/images/000000463730.jpg",
+        "score": 0.2553505003452301,
+        "clip_score": 0.2553505003452301
+      },
+      {
+        "rank": 10,
+        "image_id": "coco-000000206487",
+        "path": "materials/data/images/000000206487.jpg",
+        "score": 0.25420305132865906,
+        "clip_score": 0.25420305132865906
+      }
+    ],
+    "metrics": {
+      "strict_p5": 0.6,
+      "related_p5": 1.0,
+      "pooled_ndcg5": 0.8932868997079265,
+      "strict_top1": 1
+    },
+    "missing_judgments": [],
+    "elapsed_seconds": 0.010583500003122026
+  },
+  {
+    "id": "C02",
+    "category": "color",
+    "query": "A yellow banana.",
+    "results": [
+      {
+        "rank": 1,
+        "image_id": "coco-000000457262",
+        "path": "materials/data/images/000000457262.jpg",
+        "score": 0.29101184010505676,
+        "clip_score": 0.29101184010505676
+      },
+      {
+        "rank": 2,
+        "image_id": "coco-000000012667",
+        "path": "materials/data/images/000000012667.jpg",
+        "score": 0.2830100953578949,
+        "clip_score": 0.2830100953578949
+      },
+      {
+        "rank": 3,
+        "image_id": "coco-000000346707",
+        "path": "materials/data/images/000000346707.jpg",
+        "score": 0.2582835853099823,
+        "clip_score": 0.2582835853099823
+      },
+      {
+        "rank": 4,
+        "image_id": "coco-000000013004",
+        "path": "materials/data/images/000000013004.jpg",
+        "score": 0.24699415266513824,
+        "clip_score": 0.24699415266513824
+      },
+      {
+        "rank": 5,
+        "image_id": "coco-000000521540",
+        "path": "materials/data/images/000000521540.jpg",
+        "score": 0.24610675871372223,
+        "clip_score": 0.24610675871372223
+      },
+      {
+        "rank": 6,
+        "image_id": "coco-000000189078",
+        "path": "materials/data/images/000000189078.jpg",
+        "score": 0.24474534392356873,
+        "clip_score": 0.24573886394500732
+      },
+      {
+        "rank": 7,
+        "image_id": "coco-000000323895",
+        "path": "materials/data/images/000000323895.jpg",
+        "score": 0.24394182860851288,
+        "clip_score": 0.24394182860851288
+      },
+      {
+        "rank": 8,
+        "image_id": "coco-000000352760",
+        "path": "materials/data/images/000000352760.jpg",
+        "score": 0.24351471662521362,
+        "clip_score": 0.24614867568016052
+      },
+      {
+        "rank": 9,
+        "image_id": "coco-000000272049",
+        "path": "materials/data/images/000000272049.jpg",
+        "score": 0.23569613695144653,
+        "clip_score": 0.23569613695144653
+      },
+      {
+        "rank": 10,
+        "image_id": "coco-000000400794",
+        "path": "materials/data/images/000000400794.jpg",
+        "score": 0.23341919481754303,
+        "clip_score": 0.23523738980293274
+      }
+    ],
+    "metrics": {
+      "strict_p5": 0.6,
+      "related_p5": 1.0,
+      "pooled_ndcg5": 0.8652512718034021,
+      "strict_top1": 1
+    },
+    "missing_judgments": [],
+    "elapsed_seconds": 0.010895299998082919
+  },
+  {
+    "id": "C03",
+    "category": "color",
+    "query": "A black and white cat.",
+    "results": [
+      {
+        "rank": 1,
+        "image_id": "coco-000000333772",
+        "path": "materials/data/images/000000333772.jpg",
+        "score": 0.2832722067832947,
+        "clip_score": 0.2832722067832947
+      },
+      {
+        "rank": 2,
+        "image_id": "coco-000000118515",
+        "path": "materials/data/images/000000118515.jpg",
+        "score": 0.27403971552848816,
+        "clip_score": 0.27403971552848816
+      },
+      {
+        "rank": 3,
+        "image_id": "coco-000000001675",
+        "path": "materials/data/images/000000001675.jpg",
+        "score": 0.27196574211120605,
+        "clip_score": 0.27196574211120605
+      },
+      {
+        "rank": 4,
+        "image_id": "coco-000000456292",
+        "path": "materials/data/images/000000456292.jpg",
+        "score": 0.2623119056224823,
+        "clip_score": 0.2623119056224823
+      },
+      {
+        "rank": 5,
+        "image_id": "coco-000000540928",
+        "path": "materials/data/images/000000540928.jpg",
+        "score": 0.2581316828727722,
+        "clip_score": 0.2581316828727722
+      },
+      {
+        "rank": 6,
+        "image_id": "coco-000000545826",
+        "path": "materials/data/images/000000545826.jpg",
+        "score": 0.2549324631690979,
+        "clip_score": 0.2549324631690979
+      },
+      {
+        "rank": 7,
+        "image_id": "coco-000000107087",
+        "path": "materials/data/images/000000107087.jpg",
+        "score": 0.25464215874671936,
+        "clip_score": 0.25464215874671936
+      },
+      {
+        "rank": 8,
+        "image_id": "coco-000000138492",
+        "path": "materials/data/images/000000138492.jpg",
+        "score": 0.2513517439365387,
+        "clip_score": 0.2541176676750183
+      },
+      {
+        "rank": 9,
+        "image_id": "coco-000000015497",
+        "path": "materials/data/images/000000015497.jpg",
+        "score": 0.2499111443758011,
+        "clip_score": 0.2499111443758011
+      },
+      {
+        "rank": 10,
+        "image_id": "coco-000000153217",
+        "path": "materials/data/images/000000153217.jpg",
+        "score": 0.24967461824417114,
+        "clip_score": 0.2517385184764862
+      }
+    ],
+    "metrics": {
+      "strict_p5": 0.8,
+      "related_p5": 1.0,
+      "pooled_ndcg5": 0.8573424901769817,
+      "strict_top1": 1
+    },
+    "missing_judgments": [],
+    "elapsed_seconds": 0.010796099999424769
+  },
+  {
+    "id": "C04",
+    "category": "color",
+    "query": "A blue train.",
+    "results": [
+      {
+        "rank": 1,
+        "image_id": "coco-000000303863",
+        "path": "materials/data/images/000000303863.jpg",
+        "score": 0.28248167037963867,
+        "clip_score": 0.28248167037963867
+      },
+      {
+        "rank": 2,
+        "image_id": "coco-000000155443",
+        "path": "materials/data/images/000000155443.jpg",
+        "score": 0.2707178592681885,
+        "clip_score": 0.2707178592681885
+      },
+      {
+        "rank": 3,
+        "image_id": "coco-000000184400",
+        "path": "materials/data/images/000000184400.jpg",
+        "score": 0.2673770487308502,
+        "clip_score": 0.2673770487308502
+      },
+      {
+        "rank": 4,
+        "image_id": "coco-000000127624",
+        "path": "materials/data/images/000000127624.jpg",
+        "score": 0.26559582352638245,
+        "clip_score": 0.26559582352638245
+      },
+      {
+        "rank": 5,
+        "image_id": "coco-000000249643",
+        "path": "materials/data/images/000000249643.jpg",
+        "score": 0.2606995403766632,
+        "clip_score": 0.2606995403766632
+      },
+      {
+        "rank": 6,
+        "image_id": "coco-000000482585",
+        "path": "materials/data/images/000000482585.jpg",
+        "score": 0.25909242033958435,
+        "clip_score": 0.25909242033958435
+      },
+      {
+        "rank": 7,
+        "image_id": "coco-000000049060",
+        "path": "materials/data/images/000000049060.jpg",
+        "score": 0.25708699226379395,
+        "clip_score": 0.25708699226379395
+      },
+      {
+        "rank": 8,
+        "image_id": "coco-000000050165",
+        "path": "materials/data/images/000000050165.jpg",
+        "score": 0.2549533247947693,
+        "clip_score": 0.2549533247947693
+      },
+      {
+        "rank": 9,
+        "image_id": "coco-000000231169",
+        "path": "materials/data/images/000000231169.jpg",
+        "score": 0.25423189997673035,
+        "clip_score": 0.25423189997673035
+      },
+      {
+        "rank": 10,
+        "image_id": "coco-000000042563",
+        "path": "materials/data/images/000000042563.jpg",
+        "score": 0.2520827054977417,
+        "clip_score": 0.2520827054977417
+      }
+    ],
+    "metrics": {
+      "strict_p5": 0.6,
+      "related_p5": 1.0,
+      "pooled_ndcg5": 0.8932868997079265,
+      "strict_top1": 1
+    },
+    "missing_judgments": [],
+    "elapsed_seconds": 0.01014220000070054
+  },
+  {
+    "id": "C05",
+    "category": "color",
+    "query": "A red car.",
+    "results": [
+      {
+        "rank": 1,
+        "image_id": "coco-000000065485",
+        "path": "materials/data/images/000000065485.jpg",
+        "score": 0.2566409707069397,
+        "clip_score": 0.2566409707069397
+      },
+      {
+        "rank": 2,
+        "image_id": "coco-000000034071",
+        "path": "materials/data/images/000000034071.jpg",
+        "score": 0.24744108319282532,
+        "clip_score": 0.24744108319282532
+      },
+      {
+        "rank": 3,
+        "image_id": "coco-000000140286",
+        "path": "materials/data/images/000000140286.jpg",
+        "score": 0.2465687096118927,
+        "clip_score": 0.2465687096118927
+      },
+      {
+        "rank": 4,
+        "image_id": "coco-000000086220",
+        "path": "materials/data/images/000000086220.jpg",
+        "score": 0.24608206748962402,
+        "clip_score": 0.24608206748962402
+      },
+      {
+        "rank": 5,
+        "image_id": "coco-000000453841",
+        "path": "materials/data/images/000000453841.jpg",
+        "score": 0.24071389436721802,
+        "clip_score": 0.24071389436721802
+      },
+      {
+        "rank": 6,
+        "image_id": "coco-000000088265",
+        "path": "materials/data/images/000000088265.jpg",
+        "score": 0.23805534839630127,
+        "clip_score": 0.24387605488300323
+      },
+      {
+        "rank": 7,
+        "image_id": "coco-000000361506",
+        "path": "materials/data/images/000000361506.jpg",
+        "score": 0.23639096319675446,
+        "clip_score": 0.23867081105709076
+      },
+      {
+        "rank": 8,
+        "image_id": "coco-000000396903",
+        "path": "materials/data/images/000000396903.jpg",
+        "score": 0.2343401461839676,
+        "clip_score": 0.2343401461839676
+      },
+      {
+        "rank": 9,
+        "image_id": "coco-000000023272",
+        "path": "materials/data/images/000000023272.jpg",
+        "score": 0.23345540463924408,
+        "clip_score": 0.23345540463924408
+      },
+      {
+        "rank": 10,
+        "image_id": "coco-000000166391",
+        "path": "materials/data/images/000000166391.jpg",
+        "score": 0.22948220372200012,
+        "clip_score": 0.2298530638217926
+      }
+    ],
+    "metrics": {
+      "strict_p5": 0.4,
+      "related_p5": 0.6,
+      "pooled_ndcg5": 0.7392913723522897,
+      "strict_top1": 1
+    },
+    "missing_judgments": [],
+    "elapsed_seconds": 0.01036299999759649
+  },
+  {
+    "id": "R01",
+    "category": "relation",
+    "query": "A cat sitting on a chair.",
+    "results": [
+      {
+        "rank": 1,
+        "image_id": "coco-000000213445",
+        "path": "materials/data/images/000000213445.jpg",
+        "score": 0.29545101523399353,
+        "clip_score": 0.290045827627182
+      },
+      {
+        "rank": 2,
+        "image_id": "coco-000000540928",
+        "path": "materials/data/images/000000540928.jpg",
+        "score": 0.2907659113407135,
+        "clip_score": 0.28988176584243774
+      },
+      {
+        "rank": 3,
+        "image_id": "coco-000000118515",
+        "path": "materials/data/images/000000118515.jpg",
+        "score": 0.2806225121021271,
+        "clip_score": 0.2747894525527954
+      },
+      {
+        "rank": 4,
+        "image_id": "coco-000000333772",
+        "path": "materials/data/images/000000333772.jpg",
+        "score": 0.28053200244903564,
+        "clip_score": 0.2801212966442108
+      },
+      {
+        "rank": 5,
+        "image_id": "coco-000000520531",
+        "path": "materials/data/images/000000520531.jpg",
+        "score": 0.26984256505966187,
+        "clip_score": 0.27030009031295776
+      },
+      {
+        "rank": 6,
+        "image_id": "coco-000000015497",
+        "path": "materials/data/images/000000015497.jpg",
+        "score": 0.25473272800445557,
+        "clip_score": 0.2550079822540283
+      },
+      {
+        "rank": 7,
+        "image_id": "coco-000000424545",
+        "path": "materials/data/images/000000424545.jpg",
+        "score": 0.2538434863090515,
+        "clip_score": 0.250691682100296
+      },
+      {
+        "rank": 8,
+        "image_id": "coco-000000360943",
+        "path": "materials/data/images/000000360943.jpg",
+        "score": 0.25225216150283813,
+        "clip_score": 0.24936261773109436
+      },
+      {
+        "rank": 9,
+        "image_id": "coco-000000119828",
+        "path": "materials/data/images/000000119828.jpg",
+        "score": 0.2518269419670105,
+        "clip_score": 0.25301262736320496
+      },
+      {
+        "rank": 10,
+        "image_id": "coco-000000446522",
+        "path": "materials/data/images/000000446522.jpg",
+        "score": 0.25172778964042664,
+        "clip_score": 0.2529029846191406
+      }
+    ],
+    "metrics": {
+      "strict_p5": 0.0,
+      "related_p5": 1.0,
+      "pooled_ndcg5": 1.0,
+      "strict_top1": 0
+    },
+    "missing_judgments": [],
+    "elapsed_seconds": 0.022062500000174623
+  },
+  {
+    "id": "R02",
+    "category": "relation",
+    "query": "A dog standing next to a person.",
+    "results": [
+      {
+        "rank": 1,
+        "image_id": "coco-000000149568",
+        "path": "materials/data/images/000000149568.jpg",
+        "score": 0.29312849044799805,
+        "clip_score": 0.29312849044799805
+      },
+      {
+        "rank": 2,
+        "image_id": "coco-000000424162",
+        "path": "materials/data/images/000000424162.jpg",
+        "score": 0.2854306101799011,
+        "clip_score": 0.2854306101799011
+      },
+      {
+        "rank": 3,
+        "image_id": "coco-000000338624",
+        "path": "materials/data/images/000000338624.jpg",
+        "score": 0.27621006965637207,
+        "clip_score": 0.27621006965637207
+      },
+      {
+        "rank": 4,
+        "image_id": "coco-000000295478",
+        "path": "materials/data/images/000000295478.jpg",
+        "score": 0.2731076180934906,
+        "clip_score": 0.2731076180934906
+      },
+      {
+        "rank": 5,
+        "image_id": "coco-000000494869",
+        "path": "materials/data/images/000000494869.jpg",
+        "score": 0.2656683325767517,
+        "clip_score": 0.2656683325767517
+      },
+      {
+        "rank": 6,
+        "image_id": "coco-000000153217",
+        "path": "materials/data/images/000000153217.jpg",
+        "score": 0.25419628620147705,
+        "clip_score": 0.25419628620147705
+      },
+      {
+        "rank": 7,
+        "image_id": "coco-000000289594",
+        "path": "materials/data/images/000000289594.jpg",
+        "score": 0.25376030802726746,
+        "clip_score": 0.25376030802726746
+      },
+      {
+        "rank": 8,
+        "image_id": "coco-000000253386",
+        "path": "materials/data/images/000000253386.jpg",
+        "score": 0.25090813636779785,
+        "clip_score": 0.25090813636779785
+      },
+      {
+        "rank": 9,
+        "image_id": "coco-000000032887",
+        "path": "materials/data/images/000000032887.jpg",
+        "score": 0.24789053201675415,
+        "clip_score": 0.24789053201675415
+      },
+      {
+        "rank": 10,
+        "image_id": "coco-000000446522",
+        "path": "materials/data/images/000000446522.jpg",
+        "score": 0.24690809845924377,
+        "clip_score": 0.24690809845924377
+      }
+    ],
+    "metrics": {
+      "strict_p5": 0.4,
+      "related_p5": 1.0,
+      "pooled_ndcg5": 1.0,
+      "strict_top1": 1
+    },
+    "missing_judgments": [],
+    "elapsed_seconds": 0.011136199998873053
+  },
+  {
+    "id": "R03",
+    "category": "relation",
+    "query": "A person riding a horse.",
+    "results": [
+      {
+        "rank": 1,
+        "image_id": "coco-000000275392",
+        "path": "materials/data/images/000000275392.jpg",
+        "score": 0.31510695815086365,
+        "clip_score": 0.31510695815086365
+      },
+      {
+        "rank": 2,
+        "image_id": "coco-000000356261",
+        "path": "materials/data/images/000000356261.jpg",
+        "score": 0.28847283124923706,
+        "clip_score": 0.28847283124923706
+      },
+      {
+        "rank": 3,
+        "image_id": "coco-000000045070",
+        "path": "materials/data/images/000000045070.jpg",
+        "score": 0.2881509065628052,
+        "clip_score": 0.2881509065628052
+      },
+      {
+        "rank": 4,
+        "image_id": "coco-000000227686",
+        "path": "materials/data/images/000000227686.jpg",
+        "score": 0.2670615613460541,
+        "clip_score": 0.2670615613460541
+      },
+      {
+        "rank": 5,
+        "image_id": "coco-000000456015",
+        "path": "materials/data/images/000000456015.jpg",
+        "score": 0.2663004696369171,
+        "clip_score": 0.2663004696369171
+      },
+      {
+        "rank": 6,
+        "image_id": "coco-000000242724",
+        "path": "materials/data/images/000000242724.jpg",
+        "score": 0.26285210251808167,
+        "clip_score": 0.26285210251808167
+      },
+      {
+        "rank": 7,
+        "image_id": "coco-000000223188",
+        "path": "materials/data/images/000000223188.jpg",
+        "score": 0.262151837348938,
+        "clip_score": 0.2649390399456024
+      },
+      {
+        "rank": 8,
+        "image_id": "coco-000000067213",
+        "path": "materials/data/images/000000067213.jpg",
+        "score": 0.2581738233566284,
+        "clip_score": 0.2581738233566284
+      },
+      {
+        "rank": 9,
+        "image_id": "coco-000000206487",
+        "path": "materials/data/images/000000206487.jpg",
+        "score": 0.257884681224823,
+        "clip_score": 0.257884681224823
+      },
+      {
+        "rank": 10,
+        "image_id": "coco-000000361506",
+        "path": "materials/data/images/000000361506.jpg",
+        "score": 0.25787919759750366,
+        "clip_score": 0.2582433819770813
+      }
+    ],
+    "metrics": {
+      "strict_p5": 0.6,
+      "related_p5": 1.0,
+      "pooled_ndcg5": 0.8328094783921471,
+      "strict_top1": 1
+    },
+    "missing_judgments": [],
+    "elapsed_seconds": 0.010707300003559794
+  },
+  {
+    "id": "R04",
+    "category": "relation",
+    "query": "A cup on a table next to a plate of food.",
+    "results": [
+      {
+        "rank": 1,
+        "image_id": "coco-000000311303",
+        "path": "materials/data/images/000000311303.jpg",
+        "score": 0.29314810037612915,
+        "clip_score": 0.2883567810058594
+      },
+      {
+        "rank": 2,
+        "image_id": "coco-000000017714",
+        "path": "materials/data/images/000000017714.jpg",
+        "score": 0.28945234417915344,
+        "clip_score": 0.2866692543029785
+      },
+      {
+        "rank": 3,
+        "image_id": "coco-000000541634",
+        "path": "materials/data/images/000000541634.jpg",
+        "score": 0.28717824816703796,
+        "clip_score": 0.2840561270713806
+      },
+      {
+        "rank": 4,
+        "image_id": "coco-000000460494",
+        "path": "materials/data/images/000000460494.jpg",
+        "score": 0.28017285466194153,
+        "clip_score": 0.2745663523674011
+      },
+      {
+        "rank": 5,
+        "image_id": "coco-000000265518",
+        "path": "materials/data/images/000000265518.jpg",
+        "score": 0.27984604239463806,
+        "clip_score": 0.2726568877696991
+      },
+      {
+        "rank": 6,
+        "image_id": "coco-000000256407",
+        "path": "materials/data/images/000000256407.jpg",
+        "score": 0.27900317311286926,
+        "clip_score": 0.27336350083351135
+      },
+      {
+        "rank": 7,
+        "image_id": "coco-000000013004",
+        "path": "materials/data/images/000000013004.jpg",
+        "score": 0.2754916250705719,
+        "clip_score": 0.27785831689834595
+      },
+      {
+        "rank": 8,
+        "image_id": "coco-000000320664",
+        "path": "materials/data/images/000000320664.jpg",
+        "score": 0.2747345566749573,
+        "clip_score": 0.27098241448402405
+      },
+      {
+        "rank": 9,
+        "image_id": "coco-000000261116",
+        "path": "materials/data/images/000000261116.jpg",
+        "score": 0.27062955498695374,
+        "clip_score": 0.2680346369743347
+      },
+      {
+        "rank": 10,
+        "image_id": "coco-000000419312",
+        "path": "materials/data/images/000000419312.jpg",
+        "score": 0.27047011256217957,
+        "clip_score": 0.27238166332244873
+      }
+    ],
+    "metrics": {
+      "strict_p5": 1.0,
+      "related_p5": 1.0,
+      "pooled_ndcg5": 1.0,
+      "strict_top1": 1
+    },
+    "missing_judgments": [],
+    "elapsed_seconds": 0.025633699999161763
+  },
+  {
+    "id": "R05",
+    "category": "relation",
+    "query": "A bicycle leaning against a wall.",
+    "results": [
+      {
+        "rank": 1,
+        "image_id": "coco-000000274687",
+        "path": "materials/data/images/000000274687.jpg",
+        "score": 0.2793911099433899,
+        "clip_score": 0.2793911099433899
+      },
+      {
+        "rank": 2,
+        "image_id": "coco-000000135670",
+        "path": "materials/data/images/000000135670.jpg",
+        "score": 0.254763662815094,
+        "clip_score": 0.254763662815094
+      },
+      {
+        "rank": 3,
+        "image_id": "coco-000000288391",
+        "path": "materials/data/images/000000288391.jpg",
+        "score": 0.24598662555217743,
+        "clip_score": 0.25433096289634705
+      },
+      {
+        "rank": 4,
+        "image_id": "coco-000000144333",
+        "path": "materials/data/images/000000144333.jpg",
+        "score": 0.24129699170589447,
+        "clip_score": 0.25102096796035767
+      },
+      {
+        "rank": 5,
+        "image_id": "coco-000000070774",
+        "path": "materials/data/images/000000070774.jpg",
+        "score": 0.2361936718225479,
+        "clip_score": 0.24193266034126282
+      },
+      {
+        "rank": 6,
+        "image_id": "coco-000000549136",
+        "path": "materials/data/images/000000549136.jpg",
+        "score": 0.23505720496177673,
+        "clip_score": 0.23505720496177673
+      },
+      {
+        "rank": 7,
+        "image_id": "coco-000000541291",
+        "path": "materials/data/images/000000541291.jpg",
+        "score": 0.22902362048625946,
+        "clip_score": 0.23101218044757843
+      },
+      {
+        "rank": 8,
+        "image_id": "coco-000000417043",
+        "path": "materials/data/images/000000417043.jpg",
+        "score": 0.2232365608215332,
+        "clip_score": 0.22467049956321716
+      },
+      {
+        "rank": 9,
+        "image_id": "coco-000000135410",
+        "path": "materials/data/images/000000135410.jpg",
+        "score": 0.2199394255876541,
+        "clip_score": 0.2199394255876541
+      },
+      {
+        "rank": 10,
+        "image_id": "coco-000000193717",
+        "path": "materials/data/images/000000193717.jpg",
+        "score": 0.21727898716926575,
+        "clip_score": 0.21727898716926575
+      }
+    ],
+    "metrics": {
+      "strict_p5": 0.0,
+      "related_p5": 0.8,
+      "pooled_ndcg5": 0.830419897363192,
+      "strict_top1": 0
+    },
+    "missing_judgments": [],
+    "elapsed_seconds": 0.011221900000236928
+  }
+]

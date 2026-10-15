@@ -1,0 +1,85 @@
+{
+  "query": "A dog running on the beach.",
+  "ranking": {
+    "version": "object-guard-multiobject-prompt-v1",
+    "contrast_weight": 0.5,
+    "prompt_weight": 0.5,
+    "vocabulary_sha256": "602d47c1987b184602ccb845e5772abfa989cf00d98516e5ad1043035c732e5b",
+    "multiobject_policy": "average normalized original/photo text features; no class penalty",
+    "single_object_policy": "subtract positive part of competing-object advantage",
+    "fallback": "original whole-sentence cosine for negation, alternatives or unknown objects"
+  },
+  "elapsed_seconds": 0.0144,
+  "results": [
+    {
+      "rank": 1,
+      "image_id": "coco-000000355905",
+      "path": "materials/data/images/000000355905.jpg",
+      "score": 0.31735435128211975,
+      "clip_score": 0.31735435128211975
+    },
+    {
+      "rank": 2,
+      "image_id": "coco-000000364636",
+      "path": "materials/data/images/000000364636.jpg",
+      "score": 0.2638781666755676,
+      "clip_score": 0.2638781666755676
+    },
+    {
+      "rank": 3,
+      "image_id": "coco-000000535608",
+      "path": "materials/data/images/000000535608.jpg",
+      "score": 0.254112184047699,
+      "clip_score": 0.254112184047699
+    },
+    {
+      "rank": 4,
+      "image_id": "coco-000000425227",
+      "path": "materials/data/images/000000425227.jpg",
+      "score": 0.2538161277770996,
+      "clip_score": 0.2538161277770996
+    },
+    {
+      "rank": 5,
+      "image_id": "coco-000000074646",
+      "path": "materials/data/images/000000074646.jpg",
+      "score": 0.2525748610496521,
+      "clip_score": 0.2525748610496521
+    },
+    {
+      "rank": 6,
+      "image_id": "coco-000000490171",
+      "path": "materials/data/images/000000490171.jpg",
+      "score": 0.2519964575767517,
+      "clip_score": 0.2519964575767517
+    },
+    {
+      "rank": 7,
+      "image_id": "coco-000000345027",
+      "path": "materials/data/images/000000345027.jpg",
+      "score": 0.2421332448720932,
+      "clip_score": 0.2421332448720932
+    },
+    {
+      "rank": 8,
+      "image_id": "coco-000000007511",
+      "path": "materials/data/images/000000007511.jpg",
+      "score": 0.24200204014778137,
+      "clip_score": 0.24200204014778137
+    },
+    {
+      "rank": 9,
+      "image_id": "coco-000000057760",
+      "path": "materials/data/images/000000057760.jpg",
+      "score": 0.23979075253009796,
+      "clip_score": 0.23979075253009796
+    },
+    {
+      "rank": 10,
+      "image_id": "coco-000000149568",
+      "path": "materials/data/images/000000149568.jpg",
+      "score": 0.2367091029882431,
+      "clip_score": 0.2367091029882431
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "reviewer": "Assistant visual review; provisional judgments, not an independent human gold standard. One shared grade per query/image for both variants.",
+  "rubric": {"2":"Main entity and explicit conditions visibly match", "1":"Main content related but condition missing, contradicted or uncertain", "0":"Main target absent"},
+  "grades_by_review_order": {
+    "V01": [0,2,2,2,1],
+    "V02": [2,2,1,1,1],
+    "V03": [2,2,2,2,1],
+    "V04": [1,2,1,2,2],
+    "V05": [2,2,2,2,2],
+    "V06": [1,2,1,1,2],
+    "V07": [2,1,0,0,0,1,1,1],
+    "V08": [2,2,0,1,1],
+    "V09": [2,2,0,0,0,1,1,1],
+    "V10": [2,2,0,1,2]
+  },
+  "notes": {
+    "V01":"Rank 1 is the previously confirmed black cat, so the black-dog error remains. Dark gray poodle is partial under black-coat condition.",
+    "V02":"First two cats are beside a window. Original 001675 is a cat on a laptop; original 014007 is on a refrigerator, with no window visible.",
+    "V03":"Walking with umbrella on wet/rainy streets matches; stationary man on dry pavement is partial. Plural phrasing is treated as an activity description, not an exact person count.",
+    "V04":"Kitesurfing is related but board type ambiguous; body surfing does not establish balancing on a surfboard. Standing surfers on waves match.",
+    "V05":"All five show parked motorcycles outdoors; original 498709 inspected to confirm outdoor street context.",
+    "V06":"Green/white bus bodies match. Yellow/silver buses, blue buses and uncertain yellow-green color at sunset are partial.",
+    "V07":"Standing shorebird matches. Flying gull, street pigeon, bird on a branch and bird on a post are partial. Beach-only/kite images contain no confirmed bird.",
+    "V08":"First two sit on bicycles. Motorcycle is not bicycle; standing beside bicycles and a partial foreground bicycle do not confirm sitting on one.",
+    "V09":"First two are white airplanes in blue sky. Parked airliner, red aerobatic airplanes and aircraft against gray cloud are partial. Kites and ski jumping have no airplane.",
+    "V10":"Original 460494 confirms a fork beside the red meal plate. Clock with decorative cups is unrelated. A dessert on a stone serving plate is partial for meal."
+  }
+}

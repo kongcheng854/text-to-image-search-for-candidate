@@ -1,0 +1,14 @@
+{
+  "selected": {
+    "version": "object-guard-multiobject-prompt-v1",
+    "contrast_weight": 0.5,
+    "prompt_weight": 0.5,
+    "vocabulary_sha256": "602d47c1987b184602ccb845e5772abfa989cf00d98516e5ad1043035c732e5b",
+    "multiobject_policy": "average normalized original/photo text features; no class penalty",
+    "single_object_policy": "subtract positive part of competing-object advantage",
+    "fallback": "original whole-sentence cosine for negation, alternatives or unknown objects"
+  },
+  "development_queries": "evaluation/queries.json",
+  "validation_queries_sha256_before_run": "790a9087f6b4d175546c1bc65aeedc7785d5988c69f60cdc1fe627d9aab14dda",
+  "selection_reason": "Conservative single-object contrast and multi-object prompt averaging; global view variants rejected on development set."
+}

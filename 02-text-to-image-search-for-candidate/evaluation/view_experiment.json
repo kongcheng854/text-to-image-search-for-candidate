@@ -1,0 +1,3649 @@
+{
+  "signature": {
+    "model": {
+      "model_id": "openai/clip-vit-base-patch32",
+      "model_revision": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268",
+      "dimension": 512,
+      "pipeline": "clip-rgb-center-crop-fp32-l2-v1",
+      "metric": "cosine"
+    },
+    "dataset_sha256": "8e5e3b4aab744ed876fd6d74b90f970de80e3a1823e0ad268c2b20430a79dde6",
+    "view": "PIL-ImageOps.pad-224-bicubic-fill-123-117-104-v1"
+  },
+  "encoding_seconds": 29.156811699998798,
+  "queries": [
+    {
+      "id": "S01",
+      "category": "subject",
+      "query": "A cat.",
+      "required": [
+        "cat"
+      ],
+      "variants": {
+        "letterbox": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000118515",
+            "path": "materials/data/images/000000118515.jpg",
+            "score": 0.27842995524406433
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000524280",
+            "path": "materials/data/images/000000524280.jpg",
+            "score": 0.2745139002799988
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000112798",
+            "path": "materials/data/images/000000112798.jpg",
+            "score": 0.2743399739265442
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000360943",
+            "path": "materials/data/images/000000360943.jpg",
+            "score": 0.2706278860569
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000361621",
+            "path": "materials/data/images/000000361621.jpg",
+            "score": 0.2701210379600525
+          },
+          {
+            "rank": 6,
+            "image_id": "coco-000000018833",
+            "path": "materials/data/images/000000018833.jpg",
+            "score": 0.2700393795967102
+          },
+          {
+            "rank": 7,
+            "image_id": "coco-000000386457",
+            "path": "materials/data/images/000000386457.jpg",
+            "score": 0.26330217719078064
+          },
+          {
+            "rank": 8,
+            "image_id": "coco-000000515025",
+            "path": "materials/data/images/000000515025.jpg",
+            "score": 0.2629157304763794
+          },
+          {
+            "rank": 9,
+            "image_id": "coco-000000222235",
+            "path": "materials/data/images/000000222235.jpg",
+            "score": 0.26234686374664307
+          },
+          {
+            "rank": 10,
+            "image_id": "coco-000000107087",
+            "path": "materials/data/images/000000107087.jpg",
+            "score": 0.25917720794677734
+          }
+        ],
+        "dual_max": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000118515",
+            "path": "materials/data/images/000000118515.jpg",
+            "score": 0.27842995524406433
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000524280",
+            "path": "materials/data/images/000000524280.jpg",
+            "score": 0.2745139002799988
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000112798",
+            "path": "materials/data/images/000000112798.jpg",
+            "score": 0.2743399739265442
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000360943",
+            "path": "materials/data/images/000000360943.jpg",
+            "score": 0.2706278860569
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000361621",
+            "path": "materials/data/images/000000361621.jpg",
+            "score": 0.2701210379600525
+          },
+          {
+            "rank": 6,
+            "image_id": "coco-000000018833",
+            "path": "materials/data/images/000000018833.jpg",
+            "score": 0.2700393795967102
+          },
+          {
+            "rank": 7,
+            "image_id": "coco-000000386457",
+            "path": "materials/data/images/000000386457.jpg",
+            "score": 0.26330217719078064
+          },
+          {
+            "rank": 8,
+            "image_id": "coco-000000515025",
+            "path": "materials/data/images/000000515025.jpg",
+            "score": 0.2629157304763794
+          },
+          {
+            "rank": 9,
+            "image_id": "coco-000000222235",
+            "path": "materials/data/images/000000222235.jpg",
+            "score": 0.26234686374664307
+          },
+          {
+            "rank": 10,
+            "image_id": "coco-000000213445",
+            "path": "materials/data/images/000000213445.jpg",
+            "score": 0.2603321671485901
+          }
+        ]
+      },
+      "new_candidates": [
+        {
+          "rank": 1,
+          "image_id": "coco-000000361621",
+          "path": "materials/data/images/000000361621.jpg",
+          "score": 0.2701210379600525
+        }
+      ]
+    },
+    {
+      "id": "S02",
+      "category": "subject",
+      "query": "A dog.",
+      "required": [
+        "dog"
+      ],
+      "variants": {
+        "letterbox": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000106330",
+            "path": "materials/data/images/000000106330.jpg",
+            "score": 0.2730187177658081
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000138492",
+            "path": "materials/data/images/000000138492.jpg",
+            "score": 0.2715795040130615
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000253386",
+            "path": "materials/data/images/000000253386.jpg",
+            "score": 0.2710707187652588
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000221693",
+            "path": "materials/data/images/000000221693.jpg",
+            "score": 0.2685835063457489
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000446522",
+            "path": "materials/data/images/000000446522.jpg",
+            "score": 0.2523132562637329
+          },
+          {
+            "rank": 6,
+            "image_id": "coco-000000225184",
+            "path": "materials/data/images/000000225184.jpg",
+            "score": 0.251302033662796
+          },
+          {
+            "rank": 7,
+            "image_id": "coco-000000338624",
+            "path": "materials/data/images/000000338624.jpg",
+            "score": 0.2512151896953583
+          },
+          {
+            "rank": 8,
+            "image_id": "coco-000000295478",
+            "path": "materials/data/images/000000295478.jpg",
+            "score": 0.2510121166706085
+          },
+          {
+            "rank": 9,
+            "image_id": "coco-000000355905",
+            "path": "materials/data/images/000000355905.jpg",
+            "score": 0.24907365441322327
+          },
+          {
+            "rank": 10,
+            "image_id": "coco-000000421455",
+            "path": "materials/data/images/000000421455.jpg",
+            "score": 0.24703165888786316
+          }
+        ],
+        "dual_max": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000106330",
+            "path": "materials/data/images/000000106330.jpg",
+            "score": 0.2730187177658081
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000138492",
+            "path": "materials/data/images/000000138492.jpg",
+            "score": 0.2715795040130615
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000253386",
+            "path": "materials/data/images/000000253386.jpg",
+            "score": 0.2710707187652588
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000221693",
+            "path": "materials/data/images/000000221693.jpg",
+            "score": 0.2685835063457489
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000446522",
+            "path": "materials/data/images/000000446522.jpg",
+            "score": 0.26037150621414185
+          },
+          {
+            "rank": 6,
+            "image_id": "coco-000000153217",
+            "path": "materials/data/images/000000153217.jpg",
+            "score": 0.2564200162887573
+          },
+          {
+            "rank": 7,
+            "image_id": "coco-000000355905",
+            "path": "materials/data/images/000000355905.jpg",
+            "score": 0.25576716661453247
+          },
+          {
+            "rank": 8,
+            "image_id": "coco-000000421455",
+            "path": "materials/data/images/000000421455.jpg",
+            "score": 0.25230157375335693
+          },
+          {
+            "rank": 9,
+            "image_id": "coco-000000295478",
+            "path": "materials/data/images/000000295478.jpg",
+            "score": 0.25167763233184814
+          },
+          {
+            "rank": 10,
+            "image_id": "coco-000000225184",
+            "path": "materials/data/images/000000225184.jpg",
+            "score": 0.251302033662796
+          }
+        ]
+      },
+      "new_candidates": [
+        {
+          "rank": 1,
+          "image_id": "coco-000000106330",
+          "path": "materials/data/images/000000106330.jpg",
+          "score": 0.2730187177658081
+        },
+        {
+          "rank": 2,
+          "image_id": "coco-000000221693",
+          "path": "materials/data/images/000000221693.jpg",
+          "score": 0.2685835063457489
+        }
+      ]
+    },
+    {
+      "id": "S03",
+      "category": "subject",
+      "query": "An elephant.",
+      "required": [
+        "elephant"
+      ],
+      "variants": {
+        "letterbox": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000526103",
+            "path": "materials/data/images/000000526103.jpg",
+            "score": 0.2909724712371826
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000232244",
+            "path": "materials/data/images/000000232244.jpg",
+            "score": 0.2868671715259552
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000167128",
+            "path": "materials/data/images/000000167128.jpg",
+            "score": 0.28678885102272034
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000475779",
+            "path": "materials/data/images/000000475779.jpg",
+            "score": 0.28195396065711975
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000267169",
+            "path": "materials/data/images/000000267169.jpg",
+            "score": 0.28008413314819336
+          },
+          {
+            "rank": 6,
+            "image_id": "coco-000000445248",
+            "path": "materials/data/images/000000445248.jpg",
+            "score": 0.2783978283405304
+          },
+          {
+            "rank": 7,
+            "image_id": "coco-000000293300",
+            "path": "materials/data/images/000000293300.jpg",
+            "score": 0.27808377146720886
+          },
+          {
+            "rank": 8,
+            "image_id": "coco-000000562207",
+            "path": "materials/data/images/000000562207.jpg",
+            "score": 0.27741217613220215
+          },
+          {
+            "rank": 9,
+            "image_id": "coco-000000235252",
+            "path": "materials/data/images/000000235252.jpg",
+            "score": 0.2676784098148346
+          },
+          {
+            "rank": 10,
+            "image_id": "coco-000000564133",
+            "path": "materials/data/images/000000564133.jpg",
+            "score": 0.2674250900745392
+          }
+        ],
+        "dual_max": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000475779",
+            "path": "materials/data/images/000000475779.jpg",
+            "score": 0.3010753393173218
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000526103",
+            "path": "materials/data/images/000000526103.jpg",
+            "score": 0.2929380536079407
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000232244",
+            "path": "materials/data/images/000000232244.jpg",
+            "score": 0.2868671715259552
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000167128",
+            "path": "materials/data/images/000000167128.jpg",
+            "score": 0.28678885102272034
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000293300",
+            "path": "materials/data/images/000000293300.jpg",
+            "score": 0.2824385464191437
+          },
+          {
+            "rank": 6,
+            "image_id": "coco-000000267169",
+            "path": "materials/data/images/000000267169.jpg",
+            "score": 0.28008413314819336
+          },
+          {
+            "rank": 7,
+            "image_id": "coco-000000445248",
+            "path": "materials/data/images/000000445248.jpg",
+            "score": 0.2783978283405304
+          },
+          {
+            "rank": 8,
+            "image_id": "coco-000000562207",
+            "path": "materials/data/images/000000562207.jpg",
+            "score": 0.27741217613220215
+          },
+          {
+            "rank": 9,
+            "image_id": "coco-000000235252",
+            "path": "materials/data/images/000000235252.jpg",
+            "score": 0.2676784098148346
+          },
+          {
+            "rank": 10,
+            "image_id": "coco-000000564133",
+            "path": "materials/data/images/000000564133.jpg",
+            "score": 0.2674250900745392
+          }
+        ]
+      },
+      "new_candidates": []
+    },
+    {
+      "id": "S04",
+      "category": "subject",
+      "query": "A bicycle.",
+      "required": [
+        "bicycle"
+      ],
+      "variants": {
+        "letterbox": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000070774",
+            "path": "materials/data/images/000000070774.jpg",
+            "score": 0.29397642612457275
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000274687",
+            "path": "materials/data/images/000000274687.jpg",
+            "score": 0.28241825103759766
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000256941",
+            "path": "materials/data/images/000000256941.jpg",
+            "score": 0.2763271629810333
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000144333",
+            "path": "materials/data/images/000000144333.jpg",
+            "score": 0.26573288440704346
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000441586",
+            "path": "materials/data/images/000000441586.jpg",
+            "score": 0.2623162269592285
+          },
+          {
+            "rank": 6,
+            "image_id": "coco-000000135670",
+            "path": "materials/data/images/000000135670.jpg",
+            "score": 0.25669175386428833
+          },
+          {
+            "rank": 7,
+            "image_id": "coco-000000549390",
+            "path": "materials/data/images/000000549390.jpg",
+            "score": 0.25568443536758423
+          },
+          {
+            "rank": 8,
+            "image_id": "coco-000000135410",
+            "path": "materials/data/images/000000135410.jpg",
+            "score": 0.2552781105041504
+          },
+          {
+            "rank": 9,
+            "image_id": "coco-000000276284",
+            "path": "materials/data/images/000000276284.jpg",
+            "score": 0.2533973753452301
+          },
+          {
+            "rank": 10,
+            "image_id": "coco-000000546976",
+            "path": "materials/data/images/000000546976.jpg",
+            "score": 0.2524782419204712
+          }
+        ],
+        "dual_max": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000070774",
+            "path": "materials/data/images/000000070774.jpg",
+            "score": 0.29397642612457275
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000274687",
+            "path": "materials/data/images/000000274687.jpg",
+            "score": 0.28241825103759766
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000144333",
+            "path": "materials/data/images/000000144333.jpg",
+            "score": 0.2764102518558502
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000256941",
+            "path": "materials/data/images/000000256941.jpg",
+            "score": 0.2763271629810333
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000441586",
+            "path": "materials/data/images/000000441586.jpg",
+            "score": 0.2623162269592285
+          },
+          {
+            "rank": 6,
+            "image_id": "coco-000000546976",
+            "path": "materials/data/images/000000546976.jpg",
+            "score": 0.26197025179862976
+          },
+          {
+            "rank": 7,
+            "image_id": "coco-000000135670",
+            "path": "materials/data/images/000000135670.jpg",
+            "score": 0.2610498368740082
+          },
+          {
+            "rank": 8,
+            "image_id": "coco-000000135410",
+            "path": "materials/data/images/000000135410.jpg",
+            "score": 0.25921761989593506
+          },
+          {
+            "rank": 9,
+            "image_id": "coco-000000424162",
+            "path": "materials/data/images/000000424162.jpg",
+            "score": 0.25761353969573975
+          },
+          {
+            "rank": 10,
+            "image_id": "coco-000000549390",
+            "path": "materials/data/images/000000549390.jpg",
+            "score": 0.25568443536758423
+          }
+        ]
+      },
+      "new_candidates": [
+        {
+          "rank": 1,
+          "image_id": "coco-000000256941",
+          "path": "materials/data/images/000000256941.jpg",
+          "score": 0.2763271629810333
+        }
+      ]
+    },
+    {
+      "id": "S05",
+      "category": "subject",
+      "query": "A plate of food.",
+      "required": [
+        "food",
+        "plate"
+      ],
+      "variants": {
+        "letterbox": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000419312",
+            "path": "materials/data/images/000000419312.jpg",
+            "score": 0.29201894998550415
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000460494",
+            "path": "materials/data/images/000000460494.jpg",
+            "score": 0.2877040207386017
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000320664",
+            "path": "materials/data/images/000000320664.jpg",
+            "score": 0.28407907485961914
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000105014",
+            "path": "materials/data/images/000000105014.jpg",
+            "score": 0.28396791219711304
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000221872",
+            "path": "materials/data/images/000000221872.jpg",
+            "score": 0.2784775495529175
+          },
+          {
+            "rank": 6,
+            "image_id": "coco-000000579091",
+            "path": "materials/data/images/000000579091.jpg",
+            "score": 0.2708406150341034
+          },
+          {
+            "rank": 7,
+            "image_id": "coco-000000276285",
+            "path": "materials/data/images/000000276285.jpg",
+            "score": 0.2699781656265259
+          },
+          {
+            "rank": 8,
+            "image_id": "coco-000000294831",
+            "path": "materials/data/images/000000294831.jpg",
+            "score": 0.2694789469242096
+          },
+          {
+            "rank": 9,
+            "image_id": "coco-000000088040",
+            "path": "materials/data/images/000000088040.jpg",
+            "score": 0.2691264748573303
+          },
+          {
+            "rank": 10,
+            "image_id": "coco-000000141328",
+            "path": "materials/data/images/000000141328.jpg",
+            "score": 0.2684440612792969
+          }
+        ],
+        "dual_max": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000419312",
+            "path": "materials/data/images/000000419312.jpg",
+            "score": 0.29201894998550415
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000460494",
+            "path": "materials/data/images/000000460494.jpg",
+            "score": 0.2877040207386017
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000320664",
+            "path": "materials/data/images/000000320664.jpg",
+            "score": 0.28407907485961914
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000105014",
+            "path": "materials/data/images/000000105014.jpg",
+            "score": 0.28396791219711304
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000250766",
+            "path": "materials/data/images/000000250766.jpg",
+            "score": 0.28107962012290955
+          },
+          {
+            "rank": 6,
+            "image_id": "coco-000000221872",
+            "path": "materials/data/images/000000221872.jpg",
+            "score": 0.2784775495529175
+          },
+          {
+            "rank": 7,
+            "image_id": "coco-000000017714",
+            "path": "materials/data/images/000000017714.jpg",
+            "score": 0.27106595039367676
+          },
+          {
+            "rank": 8,
+            "image_id": "coco-000000579091",
+            "path": "materials/data/images/000000579091.jpg",
+            "score": 0.2708406150341034
+          },
+          {
+            "rank": 9,
+            "image_id": "coco-000000276285",
+            "path": "materials/data/images/000000276285.jpg",
+            "score": 0.2699781656265259
+          },
+          {
+            "rank": 10,
+            "image_id": "coco-000000294831",
+            "path": "materials/data/images/000000294831.jpg",
+            "score": 0.2694789469242096
+          }
+        ]
+      },
+      "new_candidates": [
+        {
+          "rank": 1,
+          "image_id": "coco-000000105014",
+          "path": "materials/data/images/000000105014.jpg",
+          "score": 0.28396791219711304
+        },
+        {
+          "rank": 2,
+          "image_id": "coco-000000221872",
+          "path": "materials/data/images/000000221872.jpg",
+          "score": 0.2784775495529175
+        }
+      ]
+    },
+    {
+      "id": "A01",
+      "category": "action",
+      "query": "A person riding a bicycle.",
+      "required": [
+        "person",
+        "bicycle",
+        "riding"
+      ],
+      "variants": {
+        "letterbox": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000549390",
+            "path": "materials/data/images/000000549390.jpg",
+            "score": 0.2998538613319397
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000144333",
+            "path": "materials/data/images/000000144333.jpg",
+            "score": 0.29907697439193726
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000546976",
+            "path": "materials/data/images/000000546976.jpg",
+            "score": 0.2791594862937927
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000070774",
+            "path": "materials/data/images/000000070774.jpg",
+            "score": 0.2771344780921936
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000044877",
+            "path": "materials/data/images/000000044877.jpg",
+            "score": 0.27236998081207275
+          },
+          {
+            "rank": 6,
+            "image_id": "coco-000000256941",
+            "path": "materials/data/images/000000256941.jpg",
+            "score": 0.2681376039981842
+          },
+          {
+            "rank": 7,
+            "image_id": "coco-000000473118",
+            "path": "materials/data/images/000000473118.jpg",
+            "score": 0.2668374180793762
+          },
+          {
+            "rank": 8,
+            "image_id": "coco-000000441586",
+            "path": "materials/data/images/000000441586.jpg",
+            "score": 0.2648735046386719
+          },
+          {
+            "rank": 9,
+            "image_id": "coco-000000157365",
+            "path": "materials/data/images/000000157365.jpg",
+            "score": 0.2615866959095001
+          },
+          {
+            "rank": 10,
+            "image_id": "coco-000000135670",
+            "path": "materials/data/images/000000135670.jpg",
+            "score": 0.26025259494781494
+          }
+        ],
+        "dual_max": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000144333",
+            "path": "materials/data/images/000000144333.jpg",
+            "score": 0.30569449067115784
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000549390",
+            "path": "materials/data/images/000000549390.jpg",
+            "score": 0.2998538613319397
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000546976",
+            "path": "materials/data/images/000000546976.jpg",
+            "score": 0.28566184639930725
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000070774",
+            "path": "materials/data/images/000000070774.jpg",
+            "score": 0.2771344780921936
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000424162",
+            "path": "materials/data/images/000000424162.jpg",
+            "score": 0.27373290061950684
+          },
+          {
+            "rank": 6,
+            "image_id": "coco-000000044877",
+            "path": "materials/data/images/000000044877.jpg",
+            "score": 0.27236998081207275
+          },
+          {
+            "rank": 7,
+            "image_id": "coco-000000361506",
+            "path": "materials/data/images/000000361506.jpg",
+            "score": 0.2700733542442322
+          },
+          {
+            "rank": 8,
+            "image_id": "coco-000000256941",
+            "path": "materials/data/images/000000256941.jpg",
+            "score": 0.2681376039981842
+          },
+          {
+            "rank": 9,
+            "image_id": "coco-000000473118",
+            "path": "materials/data/images/000000473118.jpg",
+            "score": 0.2668374180793762
+          },
+          {
+            "rank": 10,
+            "image_id": "coco-000000441586",
+            "path": "materials/data/images/000000441586.jpg",
+            "score": 0.2648735046386719
+          }
+        ]
+      },
+      "new_candidates": [
+        {
+          "rank": 1,
+          "image_id": "coco-000000070774",
+          "path": "materials/data/images/000000070774.jpg",
+          "score": 0.2771344780921936
+        },
+        {
+          "rank": 2,
+          "image_id": "coco-000000044877",
+          "path": "materials/data/images/000000044877.jpg",
+          "score": 0.27236998081207275
+        }
+      ]
+    },
+    {
+      "id": "A02",
+      "category": "action",
+      "query": "A person surfing a wave.",
+      "required": [
+        "person",
+        "surfboard",
+        "surfing wave"
+      ],
+      "variants": {
+        "letterbox": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000389197",
+            "path": "materials/data/images/000000389197.jpg",
+            "score": 0.32014763355255127
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000063154",
+            "path": "materials/data/images/000000063154.jpg",
+            "score": 0.3179449439048767
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000230819",
+            "path": "materials/data/images/000000230819.jpg",
+            "score": 0.3134356141090393
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000148739",
+            "path": "materials/data/images/000000148739.jpg",
+            "score": 0.3128543496131897
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000574520",
+            "path": "materials/data/images/000000574520.jpg",
+            "score": 0.31281137466430664
+          },
+          {
+            "rank": 6,
+            "image_id": "coco-000000395903",
+            "path": "materials/data/images/000000395903.jpg",
+            "score": 0.3117711842060089
+          },
+          {
+            "rank": 7,
+            "image_id": "coco-000000516318",
+            "path": "materials/data/images/000000516318.jpg",
+            "score": 0.30989307165145874
+          },
+          {
+            "rank": 8,
+            "image_id": "coco-000000449603",
+            "path": "materials/data/images/000000449603.jpg",
+            "score": 0.30930060148239136
+          },
+          {
+            "rank": 9,
+            "image_id": "coco-000000535858",
+            "path": "materials/data/images/000000535858.jpg",
+            "score": 0.30902421474456787
+          },
+          {
+            "rank": 10,
+            "image_id": "coco-000000377113",
+            "path": "materials/data/images/000000377113.jpg",
+            "score": 0.30536383390426636
+          }
+        ],
+        "dual_max": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000122672",
+            "path": "materials/data/images/000000122672.jpg",
+            "score": 0.3268927037715912
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000389197",
+            "path": "materials/data/images/000000389197.jpg",
+            "score": 0.3257150948047638
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000063154",
+            "path": "materials/data/images/000000063154.jpg",
+            "score": 0.3179449439048767
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000230819",
+            "path": "materials/data/images/000000230819.jpg",
+            "score": 0.3134356141090393
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000148739",
+            "path": "materials/data/images/000000148739.jpg",
+            "score": 0.3128543496131897
+          },
+          {
+            "rank": 6,
+            "image_id": "coco-000000574520",
+            "path": "materials/data/images/000000574520.jpg",
+            "score": 0.31281137466430664
+          },
+          {
+            "rank": 7,
+            "image_id": "coco-000000395903",
+            "path": "materials/data/images/000000395903.jpg",
+            "score": 0.3117711842060089
+          },
+          {
+            "rank": 8,
+            "image_id": "coco-000000516318",
+            "path": "materials/data/images/000000516318.jpg",
+            "score": 0.30989307165145874
+          },
+          {
+            "rank": 9,
+            "image_id": "coco-000000199442",
+            "path": "materials/data/images/000000199442.jpg",
+            "score": 0.3098065257072449
+          },
+          {
+            "rank": 10,
+            "image_id": "coco-000000449603",
+            "path": "materials/data/images/000000449603.jpg",
+            "score": 0.30930060148239136
+          }
+        ]
+      },
+      "new_candidates": [
+        {
+          "rank": 1,
+          "image_id": "coco-000000230819",
+          "path": "materials/data/images/000000230819.jpg",
+          "score": 0.3134356141090393
+        }
+      ]
+    },
+    {
+      "id": "A03",
+      "category": "action",
+      "query": "A dog running.",
+      "required": [
+        "dog",
+        "running"
+      ],
+      "variants": {
+        "letterbox": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000221693",
+            "path": "materials/data/images/000000221693.jpg",
+            "score": 0.29385578632354736
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000355905",
+            "path": "materials/data/images/000000355905.jpg",
+            "score": 0.2916439473628998
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000509403",
+            "path": "materials/data/images/000000509403.jpg",
+            "score": 0.29109126329421997
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000138492",
+            "path": "materials/data/images/000000138492.jpg",
+            "score": 0.2875553369522095
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000225184",
+            "path": "materials/data/images/000000225184.jpg",
+            "score": 0.27825549244880676
+          },
+          {
+            "rank": 6,
+            "image_id": "coco-000000490171",
+            "path": "materials/data/images/000000490171.jpg",
+            "score": 0.2753744125366211
+          },
+          {
+            "rank": 7,
+            "image_id": "coco-000000161044",
+            "path": "materials/data/images/000000161044.jpg",
+            "score": 0.2726864814758301
+          },
+          {
+            "rank": 8,
+            "image_id": "coco-000000338624",
+            "path": "materials/data/images/000000338624.jpg",
+            "score": 0.2719308137893677
+          },
+          {
+            "rank": 9,
+            "image_id": "coco-000000253386",
+            "path": "materials/data/images/000000253386.jpg",
+            "score": 0.27128592133522034
+          },
+          {
+            "rank": 10,
+            "image_id": "coco-000000151516",
+            "path": "materials/data/images/000000151516.jpg",
+            "score": 0.2680145800113678
+          }
+        ],
+        "dual_max": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000355905",
+            "path": "materials/data/images/000000355905.jpg",
+            "score": 0.30064907670021057
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000221693",
+            "path": "materials/data/images/000000221693.jpg",
+            "score": 0.29385578632354736
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000238039",
+            "path": "materials/data/images/000000238039.jpg",
+            "score": 0.29262590408325195
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000509403",
+            "path": "materials/data/images/000000509403.jpg",
+            "score": 0.29109126329421997
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000138492",
+            "path": "materials/data/images/000000138492.jpg",
+            "score": 0.2875553369522095
+          },
+          {
+            "rank": 6,
+            "image_id": "coco-000000364636",
+            "path": "materials/data/images/000000364636.jpg",
+            "score": 0.285220205783844
+          },
+          {
+            "rank": 7,
+            "image_id": "coco-000000225184",
+            "path": "materials/data/images/000000225184.jpg",
+            "score": 0.2799614667892456
+          },
+          {
+            "rank": 8,
+            "image_id": "coco-000000490171",
+            "path": "materials/data/images/000000490171.jpg",
+            "score": 0.2753744125366211
+          },
+          {
+            "rank": 9,
+            "image_id": "coco-000000161044",
+            "path": "materials/data/images/000000161044.jpg",
+            "score": 0.2726864814758301
+          },
+          {
+            "rank": 10,
+            "image_id": "coco-000000338624",
+            "path": "materials/data/images/000000338624.jpg",
+            "score": 0.2719308137893677
+          }
+        ]
+      },
+      "new_candidates": [
+        {
+          "rank": 1,
+          "image_id": "coco-000000509403",
+          "path": "materials/data/images/000000509403.jpg",
+          "score": 0.29109126329421997
+        }
+      ]
+    },
+    {
+      "id": "A04",
+      "category": "action",
+      "query": "A person holding an umbrella.",
+      "required": [
+        "person",
+        "holding umbrella"
+      ],
+      "variants": {
+        "letterbox": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000360960",
+            "path": "materials/data/images/000000360960.jpg",
+            "score": 0.32508379220962524
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000256941",
+            "path": "materials/data/images/000000256941.jpg",
+            "score": 0.31300634145736694
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000203580",
+            "path": "materials/data/images/000000203580.jpg",
+            "score": 0.3093824088573456
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000232563",
+            "path": "materials/data/images/000000232563.jpg",
+            "score": 0.30003228783607483
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000575243",
+            "path": "materials/data/images/000000575243.jpg",
+            "score": 0.29843130707740784
+          },
+          {
+            "rank": 6,
+            "image_id": "coco-000000455157",
+            "path": "materials/data/images/000000455157.jpg",
+            "score": 0.2916721999645233
+          },
+          {
+            "rank": 7,
+            "image_id": "coco-000000191845",
+            "path": "materials/data/images/000000191845.jpg",
+            "score": 0.28505539894104004
+          },
+          {
+            "rank": 8,
+            "image_id": "coco-000000313588",
+            "path": "materials/data/images/000000313588.jpg",
+            "score": 0.28332847356796265
+          },
+          {
+            "rank": 9,
+            "image_id": "coco-000000333745",
+            "path": "materials/data/images/000000333745.jpg",
+            "score": 0.28307461738586426
+          },
+          {
+            "rank": 10,
+            "image_id": "coco-000000033221",
+            "path": "materials/data/images/000000033221.jpg",
+            "score": 0.27641353011131287
+          }
+        ],
+        "dual_max": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000360960",
+            "path": "materials/data/images/000000360960.jpg",
+            "score": 0.340652197599411
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000232563",
+            "path": "materials/data/images/000000232563.jpg",
+            "score": 0.3201170265674591
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000256941",
+            "path": "materials/data/images/000000256941.jpg",
+            "score": 0.31300634145736694
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000203580",
+            "path": "materials/data/images/000000203580.jpg",
+            "score": 0.3093824088573456
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000575243",
+            "path": "materials/data/images/000000575243.jpg",
+            "score": 0.29843130707740784
+          },
+          {
+            "rank": 6,
+            "image_id": "coco-000000455157",
+            "path": "materials/data/images/000000455157.jpg",
+            "score": 0.2916721999645233
+          },
+          {
+            "rank": 7,
+            "image_id": "coco-000000191845",
+            "path": "materials/data/images/000000191845.jpg",
+            "score": 0.28505539894104004
+          },
+          {
+            "rank": 8,
+            "image_id": "coco-000000333745",
+            "path": "materials/data/images/000000333745.jpg",
+            "score": 0.284726619720459
+          },
+          {
+            "rank": 9,
+            "image_id": "coco-000000313588",
+            "path": "materials/data/images/000000313588.jpg",
+            "score": 0.28332847356796265
+          },
+          {
+            "rank": 10,
+            "image_id": "coco-000000514797",
+            "path": "materials/data/images/000000514797.jpg",
+            "score": 0.2822873592376709
+          }
+        ]
+      },
+      "new_candidates": [
+        {
+          "rank": 1,
+          "image_id": "coco-000000256941",
+          "path": "materials/data/images/000000256941.jpg",
+          "score": 0.31300634145736694
+        },
+        {
+          "rank": 2,
+          "image_id": "coco-000000203580",
+          "path": "materials/data/images/000000203580.jpg",
+          "score": 0.3093824088573456
+        }
+      ]
+    },
+    {
+      "id": "A05",
+      "category": "action",
+      "query": "A person cutting food with a knife.",
+      "required": [
+        "person",
+        "food",
+        "cutting with knife"
+      ],
+      "variants": {
+        "letterbox": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000284764",
+            "path": "materials/data/images/000000284764.jpg",
+            "score": 0.30751073360443115
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000570471",
+            "path": "materials/data/images/000000570471.jpg",
+            "score": 0.30483800172805786
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000182611",
+            "path": "materials/data/images/000000182611.jpg",
+            "score": 0.27731233835220337
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000294831",
+            "path": "materials/data/images/000000294831.jpg",
+            "score": 0.27666348218917847
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000580294",
+            "path": "materials/data/images/000000580294.jpg",
+            "score": 0.27589336037635803
+          },
+          {
+            "rank": 6,
+            "image_id": "coco-000000142620",
+            "path": "materials/data/images/000000142620.jpg",
+            "score": 0.273194819688797
+          },
+          {
+            "rank": 7,
+            "image_id": "coco-000000400794",
+            "path": "materials/data/images/000000400794.jpg",
+            "score": 0.2723727524280548
+          },
+          {
+            "rank": 8,
+            "image_id": "coco-000000054654",
+            "path": "materials/data/images/000000054654.jpg",
+            "score": 0.27231335639953613
+          },
+          {
+            "rank": 9,
+            "image_id": "coco-000000334417",
+            "path": "materials/data/images/000000334417.jpg",
+            "score": 0.2684170603752136
+          },
+          {
+            "rank": 10,
+            "image_id": "coco-000000480936",
+            "path": "materials/data/images/000000480936.jpg",
+            "score": 0.2682706117630005
+          }
+        ],
+        "dual_max": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000284764",
+            "path": "materials/data/images/000000284764.jpg",
+            "score": 0.31701165437698364
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000570471",
+            "path": "materials/data/images/000000570471.jpg",
+            "score": 0.30857861042022705
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000400794",
+            "path": "materials/data/images/000000400794.jpg",
+            "score": 0.2986965775489807
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000182611",
+            "path": "materials/data/images/000000182611.jpg",
+            "score": 0.2976509630680084
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000502737",
+            "path": "materials/data/images/000000502737.jpg",
+            "score": 0.2844877541065216
+          },
+          {
+            "rank": 6,
+            "image_id": "coco-000000054654",
+            "path": "materials/data/images/000000054654.jpg",
+            "score": 0.2802104949951172
+          },
+          {
+            "rank": 7,
+            "image_id": "coco-000000144003",
+            "path": "materials/data/images/000000144003.jpg",
+            "score": 0.2795989513397217
+          },
+          {
+            "rank": 8,
+            "image_id": "coco-000000580294",
+            "path": "materials/data/images/000000580294.jpg",
+            "score": 0.2791789174079895
+          },
+          {
+            "rank": 9,
+            "image_id": "coco-000000261116",
+            "path": "materials/data/images/000000261116.jpg",
+            "score": 0.2770047187805176
+          },
+          {
+            "rank": 10,
+            "image_id": "coco-000000294831",
+            "path": "materials/data/images/000000294831.jpg",
+            "score": 0.27666348218917847
+          }
+        ]
+      },
+      "new_candidates": [
+        {
+          "rank": 1,
+          "image_id": "coco-000000294831",
+          "path": "materials/data/images/000000294831.jpg",
+          "score": 0.27666348218917847
+        }
+      ]
+    },
+    {
+      "id": "E01",
+      "category": "edge_small",
+      "query": "A dog near the edge of the image.",
+      "required": [
+        "dog",
+        "near image border"
+      ],
+      "variants": {
+        "letterbox": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000225184",
+            "path": "materials/data/images/000000225184.jpg",
+            "score": 0.30285343527793884
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000151516",
+            "path": "materials/data/images/000000151516.jpg",
+            "score": 0.29937535524368286
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000490171",
+            "path": "materials/data/images/000000490171.jpg",
+            "score": 0.29789140820503235
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000161044",
+            "path": "materials/data/images/000000161044.jpg",
+            "score": 0.29531630873680115
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000253386",
+            "path": "materials/data/images/000000253386.jpg",
+            "score": 0.28997528553009033
+          },
+          {
+            "rank": 6,
+            "image_id": "coco-000000221693",
+            "path": "materials/data/images/000000221693.jpg",
+            "score": 0.2877427339553833
+          },
+          {
+            "rank": 7,
+            "image_id": "coco-000000509403",
+            "path": "materials/data/images/000000509403.jpg",
+            "score": 0.28381457924842834
+          },
+          {
+            "rank": 8,
+            "image_id": "coco-000000456496",
+            "path": "materials/data/images/000000456496.jpg",
+            "score": 0.2831030488014221
+          },
+          {
+            "rank": 9,
+            "image_id": "coco-000000106330",
+            "path": "materials/data/images/000000106330.jpg",
+            "score": 0.282978892326355
+          },
+          {
+            "rank": 10,
+            "image_id": "coco-000000338624",
+            "path": "materials/data/images/000000338624.jpg",
+            "score": 0.2809382677078247
+          }
+        ],
+        "dual_max": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000225184",
+            "path": "materials/data/images/000000225184.jpg",
+            "score": 0.30285343527793884
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000151516",
+            "path": "materials/data/images/000000151516.jpg",
+            "score": 0.29937535524368286
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000490171",
+            "path": "materials/data/images/000000490171.jpg",
+            "score": 0.29789140820503235
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000161044",
+            "path": "materials/data/images/000000161044.jpg",
+            "score": 0.29531630873680115
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000253386",
+            "path": "materials/data/images/000000253386.jpg",
+            "score": 0.28997528553009033
+          },
+          {
+            "rank": 6,
+            "image_id": "coco-000000221693",
+            "path": "materials/data/images/000000221693.jpg",
+            "score": 0.2877427339553833
+          },
+          {
+            "rank": 7,
+            "image_id": "coco-000000509403",
+            "path": "materials/data/images/000000509403.jpg",
+            "score": 0.28381457924842834
+          },
+          {
+            "rank": 8,
+            "image_id": "coco-000000456496",
+            "path": "materials/data/images/000000456496.jpg",
+            "score": 0.2831030488014221
+          },
+          {
+            "rank": 9,
+            "image_id": "coco-000000106330",
+            "path": "materials/data/images/000000106330.jpg",
+            "score": 0.282978892326355
+          },
+          {
+            "rank": 10,
+            "image_id": "coco-000000338624",
+            "path": "materials/data/images/000000338624.jpg",
+            "score": 0.2809382677078247
+          }
+        ]
+      },
+      "new_candidates": [
+        {
+          "rank": 1,
+          "image_id": "coco-000000151516",
+          "path": "materials/data/images/000000151516.jpg",
+          "score": 0.29937535524368286
+        },
+        {
+          "rank": 2,
+          "image_id": "coco-000000161044",
+          "path": "materials/data/images/000000161044.jpg",
+          "score": 0.29531630873680115
+        }
+      ]
+    },
+    {
+      "id": "E02",
+      "category": "edge_small",
+      "query": "A person standing on the right side of the image.",
+      "required": [
+        "person",
+        "standing",
+        "image right"
+      ],
+      "variants": {
+        "letterbox": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000389532",
+            "path": "materials/data/images/000000389532.jpg",
+            "score": 0.29517731070518494
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000343803",
+            "path": "materials/data/images/000000343803.jpg",
+            "score": 0.2938482463359833
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000474344",
+            "path": "materials/data/images/000000474344.jpg",
+            "score": 0.29137468338012695
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000000802",
+            "path": "materials/data/images/000000000802.jpg",
+            "score": 0.2907716631889343
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000347265",
+            "path": "materials/data/images/000000347265.jpg",
+            "score": 0.29014652967453003
+          },
+          {
+            "rank": 6,
+            "image_id": "coco-000000215259",
+            "path": "materials/data/images/000000215259.jpg",
+            "score": 0.28898873925209045
+          },
+          {
+            "rank": 7,
+            "image_id": "coco-000000148508",
+            "path": "materials/data/images/000000148508.jpg",
+            "score": 0.28837648034095764
+          },
+          {
+            "rank": 8,
+            "image_id": "coco-000000372349",
+            "path": "materials/data/images/000000372349.jpg",
+            "score": 0.2868393659591675
+          },
+          {
+            "rank": 9,
+            "image_id": "coco-000000161044",
+            "path": "materials/data/images/000000161044.jpg",
+            "score": 0.2864255905151367
+          },
+          {
+            "rank": 10,
+            "image_id": "coco-000000162858",
+            "path": "materials/data/images/000000162858.jpg",
+            "score": 0.28641605377197266
+          }
+        ],
+        "dual_max": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000389532",
+            "path": "materials/data/images/000000389532.jpg",
+            "score": 0.29517731070518494
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000343803",
+            "path": "materials/data/images/000000343803.jpg",
+            "score": 0.2938482463359833
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000474344",
+            "path": "materials/data/images/000000474344.jpg",
+            "score": 0.29137468338012695
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000000802",
+            "path": "materials/data/images/000000000802.jpg",
+            "score": 0.2907716631889343
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000347265",
+            "path": "materials/data/images/000000347265.jpg",
+            "score": 0.29014652967453003
+          },
+          {
+            "rank": 6,
+            "image_id": "coco-000000215259",
+            "path": "materials/data/images/000000215259.jpg",
+            "score": 0.28898873925209045
+          },
+          {
+            "rank": 7,
+            "image_id": "coco-000000148508",
+            "path": "materials/data/images/000000148508.jpg",
+            "score": 0.28837648034095764
+          },
+          {
+            "rank": 8,
+            "image_id": "coco-000000372349",
+            "path": "materials/data/images/000000372349.jpg",
+            "score": 0.2868393659591675
+          },
+          {
+            "rank": 9,
+            "image_id": "coco-000000161044",
+            "path": "materials/data/images/000000161044.jpg",
+            "score": 0.2864255905151367
+          },
+          {
+            "rank": 10,
+            "image_id": "coco-000000162858",
+            "path": "materials/data/images/000000162858.jpg",
+            "score": 0.28641605377197266
+          }
+        ]
+      },
+      "new_candidates": [
+        {
+          "rank": 1,
+          "image_id": "coco-000000389532",
+          "path": "materials/data/images/000000389532.jpg",
+          "score": 0.29517731070518494
+        },
+        {
+          "rank": 2,
+          "image_id": "coco-000000343803",
+          "path": "materials/data/images/000000343803.jpg",
+          "score": 0.2938482463359833
+        },
+        {
+          "rank": 3,
+          "image_id": "coco-000000474344",
+          "path": "materials/data/images/000000474344.jpg",
+          "score": 0.29137468338012695
+        },
+        {
+          "rank": 4,
+          "image_id": "coco-000000000802",
+          "path": "materials/data/images/000000000802.jpg",
+          "score": 0.2907716631889343
+        },
+        {
+          "rank": 5,
+          "image_id": "coco-000000347265",
+          "path": "materials/data/images/000000347265.jpg",
+          "score": 0.29014652967453003
+        }
+      ]
+    },
+    {
+      "id": "E03",
+      "category": "edge_small",
+      "query": "A small airplane high in the sky.",
+      "required": [
+        "airplane",
+        "small in frame",
+        "sky"
+      ],
+      "variants": {
+        "letterbox": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000545407",
+            "path": "materials/data/images/000000545407.jpg",
+            "score": 0.3070915937423706
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000161044",
+            "path": "materials/data/images/000000161044.jpg",
+            "score": 0.2986917495727539
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000135673",
+            "path": "materials/data/images/000000135673.jpg",
+            "score": 0.29532933235168457
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000144114",
+            "path": "materials/data/images/000000144114.jpg",
+            "score": 0.29052913188934326
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000452122",
+            "path": "materials/data/images/000000452122.jpg",
+            "score": 0.2809901237487793
+          },
+          {
+            "rank": 6,
+            "image_id": "coco-000000392481",
+            "path": "materials/data/images/000000392481.jpg",
+            "score": 0.2806677520275116
+          },
+          {
+            "rank": 7,
+            "image_id": "coco-000000024027",
+            "path": "materials/data/images/000000024027.jpg",
+            "score": 0.27971914410591125
+          },
+          {
+            "rank": 8,
+            "image_id": "coco-000000382743",
+            "path": "materials/data/images/000000382743.jpg",
+            "score": 0.26843926310539246
+          },
+          {
+            "rank": 9,
+            "image_id": "coco-000000300659",
+            "path": "materials/data/images/000000300659.jpg",
+            "score": 0.2657760977745056
+          },
+          {
+            "rank": 10,
+            "image_id": "coco-000000502599",
+            "path": "materials/data/images/000000502599.jpg",
+            "score": 0.26453709602355957
+          }
+        ],
+        "dual_max": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000545407",
+            "path": "materials/data/images/000000545407.jpg",
+            "score": 0.3070915937423706
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000161044",
+            "path": "materials/data/images/000000161044.jpg",
+            "score": 0.2986917495727539
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000135673",
+            "path": "materials/data/images/000000135673.jpg",
+            "score": 0.29532933235168457
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000144114",
+            "path": "materials/data/images/000000144114.jpg",
+            "score": 0.29052913188934326
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000452122",
+            "path": "materials/data/images/000000452122.jpg",
+            "score": 0.2809901237487793
+          },
+          {
+            "rank": 6,
+            "image_id": "coco-000000392481",
+            "path": "materials/data/images/000000392481.jpg",
+            "score": 0.2806677520275116
+          },
+          {
+            "rank": 7,
+            "image_id": "coco-000000024027",
+            "path": "materials/data/images/000000024027.jpg",
+            "score": 0.27971914410591125
+          },
+          {
+            "rank": 8,
+            "image_id": "coco-000000382743",
+            "path": "materials/data/images/000000382743.jpg",
+            "score": 0.26843926310539246
+          },
+          {
+            "rank": 9,
+            "image_id": "coco-000000007511",
+            "path": "materials/data/images/000000007511.jpg",
+            "score": 0.26601600646972656
+          },
+          {
+            "rank": 10,
+            "image_id": "coco-000000300659",
+            "path": "materials/data/images/000000300659.jpg",
+            "score": 0.2657760977745056
+          }
+        ]
+      },
+      "new_candidates": [
+        {
+          "rank": 1,
+          "image_id": "coco-000000161044",
+          "path": "materials/data/images/000000161044.jpg",
+          "score": 0.2986917495727539
+        },
+        {
+          "rank": 2,
+          "image_id": "coco-000000452122",
+          "path": "materials/data/images/000000452122.jpg",
+          "score": 0.2809901237487793
+        }
+      ]
+    },
+    {
+      "id": "E04",
+      "category": "edge_small",
+      "query": "A small bird in a wide outdoor scene.",
+      "required": [
+        "bird",
+        "small in frame",
+        "wide outdoor scene"
+      ],
+      "variants": {
+        "letterbox": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000489046",
+            "path": "materials/data/images/000000489046.jpg",
+            "score": 0.314663290977478
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000197870",
+            "path": "materials/data/images/000000197870.jpg",
+            "score": 0.30358293652534485
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000161044",
+            "path": "materials/data/images/000000161044.jpg",
+            "score": 0.2859804034233093
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000407518",
+            "path": "materials/data/images/000000407518.jpg",
+            "score": 0.285127729177475
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000494188",
+            "path": "materials/data/images/000000494188.jpg",
+            "score": 0.27943527698516846
+          },
+          {
+            "rank": 6,
+            "image_id": "coco-000000357060",
+            "path": "materials/data/images/000000357060.jpg",
+            "score": 0.2757059931755066
+          },
+          {
+            "rank": 7,
+            "image_id": "coco-000000456496",
+            "path": "materials/data/images/000000456496.jpg",
+            "score": 0.27239885926246643
+          },
+          {
+            "rank": 8,
+            "image_id": "coco-000000076261",
+            "path": "materials/data/images/000000076261.jpg",
+            "score": 0.2713342010974884
+          },
+          {
+            "rank": 9,
+            "image_id": "coco-000000389532",
+            "path": "materials/data/images/000000389532.jpg",
+            "score": 0.2692376971244812
+          },
+          {
+            "rank": 10,
+            "image_id": "coco-000000392481",
+            "path": "materials/data/images/000000392481.jpg",
+            "score": 0.2673678398132324
+          }
+        ],
+        "dual_max": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000489046",
+            "path": "materials/data/images/000000489046.jpg",
+            "score": 0.314663290977478
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000197870",
+            "path": "materials/data/images/000000197870.jpg",
+            "score": 0.30358293652534485
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000494188",
+            "path": "materials/data/images/000000494188.jpg",
+            "score": 0.28680312633514404
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000161044",
+            "path": "materials/data/images/000000161044.jpg",
+            "score": 0.2859804034233093
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000407518",
+            "path": "materials/data/images/000000407518.jpg",
+            "score": 0.2855779528617859
+          },
+          {
+            "rank": 6,
+            "image_id": "coco-000000357060",
+            "path": "materials/data/images/000000357060.jpg",
+            "score": 0.2795271873474121
+          },
+          {
+            "rank": 7,
+            "image_id": "coco-000000456496",
+            "path": "materials/data/images/000000456496.jpg",
+            "score": 0.27239885926246643
+          },
+          {
+            "rank": 8,
+            "image_id": "coco-000000076261",
+            "path": "materials/data/images/000000076261.jpg",
+            "score": 0.2713342010974884
+          },
+          {
+            "rank": 9,
+            "image_id": "coco-000000389532",
+            "path": "materials/data/images/000000389532.jpg",
+            "score": 0.2692376971244812
+          },
+          {
+            "rank": 10,
+            "image_id": "coco-000000126107",
+            "path": "materials/data/images/000000126107.jpg",
+            "score": 0.26845574378967285
+          }
+        ]
+      },
+      "new_candidates": [
+        {
+          "rank": 1,
+          "image_id": "coco-000000161044",
+          "path": "materials/data/images/000000161044.jpg",
+          "score": 0.2859804034233093
+        }
+      ]
+    },
+    {
+      "id": "E05",
+      "category": "edge_small",
+      "query": "A traffic light near the top of the image.",
+      "required": [
+        "traffic light",
+        "near image top"
+      ],
+      "variants": {
+        "letterbox": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000166391",
+            "path": "materials/data/images/000000166391.jpg",
+            "score": 0.3201834559440613
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000453841",
+            "path": "materials/data/images/000000453841.jpg",
+            "score": 0.30853143334388733
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000289222",
+            "path": "materials/data/images/000000289222.jpg",
+            "score": 0.2969703674316406
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000339870",
+            "path": "materials/data/images/000000339870.jpg",
+            "score": 0.2832182049751282
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000520009",
+            "path": "materials/data/images/000000520009.jpg",
+            "score": 0.28265437483787537
+          },
+          {
+            "rank": 6,
+            "image_id": "coco-000000162858",
+            "path": "materials/data/images/000000162858.jpg",
+            "score": 0.28226667642593384
+          },
+          {
+            "rank": 7,
+            "image_id": "coco-000000309173",
+            "path": "materials/data/images/000000309173.jpg",
+            "score": 0.28175511956214905
+          },
+          {
+            "rank": 8,
+            "image_id": "coco-000000549136",
+            "path": "materials/data/images/000000549136.jpg",
+            "score": 0.2812896966934204
+          },
+          {
+            "rank": 9,
+            "image_id": "coco-000000244379",
+            "path": "materials/data/images/000000244379.jpg",
+            "score": 0.28039664030075073
+          },
+          {
+            "rank": 10,
+            "image_id": "coco-000000153782",
+            "path": "materials/data/images/000000153782.jpg",
+            "score": 0.27978163957595825
+          }
+        ],
+        "dual_max": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000166391",
+            "path": "materials/data/images/000000166391.jpg",
+            "score": 0.3201834559440613
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000453841",
+            "path": "materials/data/images/000000453841.jpg",
+            "score": 0.30853143334388733
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000289222",
+            "path": "materials/data/images/000000289222.jpg",
+            "score": 0.2969703674316406
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000032941",
+            "path": "materials/data/images/000000032941.jpg",
+            "score": 0.28503939509391785
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000520009",
+            "path": "materials/data/images/000000520009.jpg",
+            "score": 0.28481781482696533
+          },
+          {
+            "rank": 6,
+            "image_id": "coco-000000339870",
+            "path": "materials/data/images/000000339870.jpg",
+            "score": 0.2832182049751282
+          },
+          {
+            "rank": 7,
+            "image_id": "coco-000000162858",
+            "path": "materials/data/images/000000162858.jpg",
+            "score": 0.28226667642593384
+          },
+          {
+            "rank": 8,
+            "image_id": "coco-000000309173",
+            "path": "materials/data/images/000000309173.jpg",
+            "score": 0.28175511956214905
+          },
+          {
+            "rank": 9,
+            "image_id": "coco-000000549136",
+            "path": "materials/data/images/000000549136.jpg",
+            "score": 0.2812896966934204
+          },
+          {
+            "rank": 10,
+            "image_id": "coco-000000244379",
+            "path": "materials/data/images/000000244379.jpg",
+            "score": 0.28039664030075073
+          }
+        ]
+      },
+      "new_candidates": [
+        {
+          "rank": 1,
+          "image_id": "coco-000000339870",
+          "path": "materials/data/images/000000339870.jpg",
+          "score": 0.2832182049751282
+        }
+      ]
+    },
+    {
+      "id": "C01",
+      "category": "color",
+      "query": "A red bus.",
+      "required": [
+        "bus",
+        "red bus body"
+      ],
+      "variants": {
+        "letterbox": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000148508",
+            "path": "materials/data/images/000000148508.jpg",
+            "score": 0.29677149653434753
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000568290",
+            "path": "materials/data/images/000000568290.jpg",
+            "score": 0.2916094660758972
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000165039",
+            "path": "materials/data/images/000000165039.jpg",
+            "score": 0.27676495909690857
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000315187",
+            "path": "materials/data/images/000000315187.jpg",
+            "score": 0.26964229345321655
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000138979",
+            "path": "materials/data/images/000000138979.jpg",
+            "score": 0.26824045181274414
+          },
+          {
+            "rank": 6,
+            "image_id": "coco-000000550691",
+            "path": "materials/data/images/000000550691.jpg",
+            "score": 0.26696428656578064
+          },
+          {
+            "rank": 7,
+            "image_id": "coco-000000455085",
+            "path": "materials/data/images/000000455085.jpg",
+            "score": 0.261508584022522
+          },
+          {
+            "rank": 8,
+            "image_id": "coco-000000355240",
+            "path": "materials/data/images/000000355240.jpg",
+            "score": 0.2600889801979065
+          },
+          {
+            "rank": 9,
+            "image_id": "coco-000000272049",
+            "path": "materials/data/images/000000272049.jpg",
+            "score": 0.2533552050590515
+          },
+          {
+            "rank": 10,
+            "image_id": "coco-000000050165",
+            "path": "materials/data/images/000000050165.jpg",
+            "score": 0.25190457701683044
+          }
+        ],
+        "dual_max": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000148508",
+            "path": "materials/data/images/000000148508.jpg",
+            "score": 0.29677149653434753
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000568290",
+            "path": "materials/data/images/000000568290.jpg",
+            "score": 0.2916094660758972
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000550691",
+            "path": "materials/data/images/000000550691.jpg",
+            "score": 0.2795395851135254
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000165039",
+            "path": "materials/data/images/000000165039.jpg",
+            "score": 0.27676495909690857
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000455085",
+            "path": "materials/data/images/000000455085.jpg",
+            "score": 0.2701406180858612
+          },
+          {
+            "rank": 6,
+            "image_id": "coco-000000315187",
+            "path": "materials/data/images/000000315187.jpg",
+            "score": 0.26964229345321655
+          },
+          {
+            "rank": 7,
+            "image_id": "coco-000000138979",
+            "path": "materials/data/images/000000138979.jpg",
+            "score": 0.26824045181274414
+          },
+          {
+            "rank": 8,
+            "image_id": "coco-000000499775",
+            "path": "materials/data/images/000000499775.jpg",
+            "score": 0.2677115797996521
+          },
+          {
+            "rank": 9,
+            "image_id": "coco-000000355817",
+            "path": "materials/data/images/000000355817.jpg",
+            "score": 0.26614540815353394
+          },
+          {
+            "rank": 10,
+            "image_id": "coco-000000520009",
+            "path": "materials/data/images/000000520009.jpg",
+            "score": 0.2649698555469513
+          }
+        ]
+      },
+      "new_candidates": [
+        {
+          "rank": 1,
+          "image_id": "coco-000000315187",
+          "path": "materials/data/images/000000315187.jpg",
+          "score": 0.26964229345321655
+        },
+        {
+          "rank": 2,
+          "image_id": "coco-000000138979",
+          "path": "materials/data/images/000000138979.jpg",
+          "score": 0.26824045181274414
+        }
+      ]
+    },
+    {
+      "id": "C02",
+      "category": "color",
+      "query": "A yellow banana.",
+      "required": [
+        "banana",
+        "yellow banana skin"
+      ],
+      "variants": {
+        "letterbox": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000457262",
+            "path": "materials/data/images/000000457262.jpg",
+            "score": 0.29101184010505676
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000009378",
+            "path": "materials/data/images/000000009378.jpg",
+            "score": 0.25096485018730164
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000323895",
+            "path": "materials/data/images/000000323895.jpg",
+            "score": 0.24783647060394287
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000189078",
+            "path": "materials/data/images/000000189078.jpg",
+            "score": 0.24320943653583527
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000346707",
+            "path": "materials/data/images/000000346707.jpg",
+            "score": 0.23945915699005127
+          },
+          {
+            "rank": 6,
+            "image_id": "coco-000000012667",
+            "path": "materials/data/images/000000012667.jpg",
+            "score": 0.2380751371383667
+          },
+          {
+            "rank": 7,
+            "image_id": "coco-000000013004",
+            "path": "materials/data/images/000000013004.jpg",
+            "score": 0.2370264083147049
+          },
+          {
+            "rank": 8,
+            "image_id": "coco-000000283070",
+            "path": "materials/data/images/000000283070.jpg",
+            "score": 0.23673325777053833
+          },
+          {
+            "rank": 9,
+            "image_id": "coco-000000334417",
+            "path": "materials/data/images/000000334417.jpg",
+            "score": 0.23655477166175842
+          },
+          {
+            "rank": 10,
+            "image_id": "coco-000000352618",
+            "path": "materials/data/images/000000352618.jpg",
+            "score": 0.23561029136180878
+          }
+        ],
+        "dual_max": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000457262",
+            "path": "materials/data/images/000000457262.jpg",
+            "score": 0.29101184010505676
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000012667",
+            "path": "materials/data/images/000000012667.jpg",
+            "score": 0.2830100953578949
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000346707",
+            "path": "materials/data/images/000000346707.jpg",
+            "score": 0.2582835853099823
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000009378",
+            "path": "materials/data/images/000000009378.jpg",
+            "score": 0.25096485018730164
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000323895",
+            "path": "materials/data/images/000000323895.jpg",
+            "score": 0.24783647060394287
+          },
+          {
+            "rank": 6,
+            "image_id": "coco-000000013004",
+            "path": "materials/data/images/000000013004.jpg",
+            "score": 0.24699415266513824
+          },
+          {
+            "rank": 7,
+            "image_id": "coco-000000352760",
+            "path": "materials/data/images/000000352760.jpg",
+            "score": 0.24614867568016052
+          },
+          {
+            "rank": 8,
+            "image_id": "coco-000000521540",
+            "path": "materials/data/images/000000521540.jpg",
+            "score": 0.24610675871372223
+          },
+          {
+            "rank": 9,
+            "image_id": "coco-000000189078",
+            "path": "materials/data/images/000000189078.jpg",
+            "score": 0.24573886394500732
+          },
+          {
+            "rank": 10,
+            "image_id": "coco-000000283070",
+            "path": "materials/data/images/000000283070.jpg",
+            "score": 0.23673325777053833
+          }
+        ]
+      },
+      "new_candidates": [
+        {
+          "rank": 1,
+          "image_id": "coco-000000009378",
+          "path": "materials/data/images/000000009378.jpg",
+          "score": 0.25096485018730164
+        }
+      ]
+    },
+    {
+      "id": "C03",
+      "category": "color",
+      "query": "A black and white cat.",
+      "required": [
+        "cat",
+        "both black and white fur"
+      ],
+      "variants": {
+        "letterbox": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000153217",
+            "path": "materials/data/images/000000153217.jpg",
+            "score": 0.26354843378067017
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000545826",
+            "path": "materials/data/images/000000545826.jpg",
+            "score": 0.2598322927951813
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000564280",
+            "path": "materials/data/images/000000564280.jpg",
+            "score": 0.2597368359565735
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000333772",
+            "path": "materials/data/images/000000333772.jpg",
+            "score": 0.25907278060913086
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000107087",
+            "path": "materials/data/images/000000107087.jpg",
+            "score": 0.2566576898097992
+          },
+          {
+            "rank": 6,
+            "image_id": "coco-000000118515",
+            "path": "materials/data/images/000000118515.jpg",
+            "score": 0.25360631942749023
+          },
+          {
+            "rank": 7,
+            "image_id": "coco-000000001675",
+            "path": "materials/data/images/000000001675.jpg",
+            "score": 0.2518061697483063
+          },
+          {
+            "rank": 8,
+            "image_id": "coco-000000119828",
+            "path": "materials/data/images/000000119828.jpg",
+            "score": 0.24877092242240906
+          },
+          {
+            "rank": 9,
+            "image_id": "coco-000000015497",
+            "path": "materials/data/images/000000015497.jpg",
+            "score": 0.2465926706790924
+          },
+          {
+            "rank": 10,
+            "image_id": "coco-000000456496",
+            "path": "materials/data/images/000000456496.jpg",
+            "score": 0.24638235569000244
+          }
+        ],
+        "dual_max": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000333772",
+            "path": "materials/data/images/000000333772.jpg",
+            "score": 0.2832722067832947
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000118515",
+            "path": "materials/data/images/000000118515.jpg",
+            "score": 0.27403971552848816
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000001675",
+            "path": "materials/data/images/000000001675.jpg",
+            "score": 0.27196574211120605
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000153217",
+            "path": "materials/data/images/000000153217.jpg",
+            "score": 0.26354843378067017
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000456292",
+            "path": "materials/data/images/000000456292.jpg",
+            "score": 0.2623119056224823
+          },
+          {
+            "rank": 6,
+            "image_id": "coco-000000545826",
+            "path": "materials/data/images/000000545826.jpg",
+            "score": 0.2598322927951813
+          },
+          {
+            "rank": 7,
+            "image_id": "coco-000000564280",
+            "path": "materials/data/images/000000564280.jpg",
+            "score": 0.2597368359565735
+          },
+          {
+            "rank": 8,
+            "image_id": "coco-000000540928",
+            "path": "materials/data/images/000000540928.jpg",
+            "score": 0.2581316828727722
+          },
+          {
+            "rank": 9,
+            "image_id": "coco-000000107087",
+            "path": "materials/data/images/000000107087.jpg",
+            "score": 0.2566576898097992
+          },
+          {
+            "rank": 10,
+            "image_id": "coco-000000138492",
+            "path": "materials/data/images/000000138492.jpg",
+            "score": 0.2541176676750183
+          }
+        ]
+      },
+      "new_candidates": [
+        {
+          "rank": 1,
+          "image_id": "coco-000000564280",
+          "path": "materials/data/images/000000564280.jpg",
+          "score": 0.2597368359565735
+        }
+      ]
+    },
+    {
+      "id": "C04",
+      "category": "color",
+      "query": "A blue train.",
+      "required": [
+        "train",
+        "blue train body"
+      ],
+      "variants": {
+        "letterbox": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000303863",
+            "path": "materials/data/images/000000303863.jpg",
+            "score": 0.29303306341171265
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000231169",
+            "path": "materials/data/images/000000231169.jpg",
+            "score": 0.27956366539001465
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000155443",
+            "path": "materials/data/images/000000155443.jpg",
+            "score": 0.2771591544151306
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000440508",
+            "path": "materials/data/images/000000440508.jpg",
+            "score": 0.27406370639801025
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000184400",
+            "path": "materials/data/images/000000184400.jpg",
+            "score": 0.27196815609931946
+          },
+          {
+            "rank": 6,
+            "image_id": "coco-000000249643",
+            "path": "materials/data/images/000000249643.jpg",
+            "score": 0.26878926157951355
+          },
+          {
+            "rank": 7,
+            "image_id": "coco-000000127624",
+            "path": "materials/data/images/000000127624.jpg",
+            "score": 0.26559582352638245
+          },
+          {
+            "rank": 8,
+            "image_id": "coco-000000323828",
+            "path": "materials/data/images/000000323828.jpg",
+            "score": 0.2637605667114258
+          },
+          {
+            "rank": 9,
+            "image_id": "coco-000000307598",
+            "path": "materials/data/images/000000307598.jpg",
+            "score": 0.26323240995407104
+          },
+          {
+            "rank": 10,
+            "image_id": "coco-000000130566",
+            "path": "materials/data/images/000000130566.jpg",
+            "score": 0.2630351781845093
+          }
+        ],
+        "dual_max": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000303863",
+            "path": "materials/data/images/000000303863.jpg",
+            "score": 0.29303306341171265
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000231169",
+            "path": "materials/data/images/000000231169.jpg",
+            "score": 0.27956366539001465
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000155443",
+            "path": "materials/data/images/000000155443.jpg",
+            "score": 0.2771591544151306
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000440508",
+            "path": "materials/data/images/000000440508.jpg",
+            "score": 0.27406370639801025
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000184400",
+            "path": "materials/data/images/000000184400.jpg",
+            "score": 0.27196815609931946
+          },
+          {
+            "rank": 6,
+            "image_id": "coco-000000249643",
+            "path": "materials/data/images/000000249643.jpg",
+            "score": 0.26878926157951355
+          },
+          {
+            "rank": 7,
+            "image_id": "coco-000000127624",
+            "path": "materials/data/images/000000127624.jpg",
+            "score": 0.26559582352638245
+          },
+          {
+            "rank": 8,
+            "image_id": "coco-000000323828",
+            "path": "materials/data/images/000000323828.jpg",
+            "score": 0.2637605667114258
+          },
+          {
+            "rank": 9,
+            "image_id": "coco-000000307598",
+            "path": "materials/data/images/000000307598.jpg",
+            "score": 0.26323240995407104
+          },
+          {
+            "rank": 10,
+            "image_id": "coco-000000130566",
+            "path": "materials/data/images/000000130566.jpg",
+            "score": 0.2630351781845093
+          }
+        ]
+      },
+      "new_candidates": [
+        {
+          "rank": 1,
+          "image_id": "coco-000000440508",
+          "path": "materials/data/images/000000440508.jpg",
+          "score": 0.27406370639801025
+        }
+      ]
+    },
+    {
+      "id": "C05",
+      "category": "color",
+      "query": "A red car.",
+      "required": [
+        "car",
+        "red car body"
+      ],
+      "variants": {
+        "letterbox": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000065485",
+            "path": "materials/data/images/000000065485.jpg",
+            "score": 0.2700791656970978
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000453841",
+            "path": "materials/data/images/000000453841.jpg",
+            "score": 0.25644630193710327
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000568290",
+            "path": "materials/data/images/000000568290.jpg",
+            "score": 0.25425446033477783
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000148508",
+            "path": "materials/data/images/000000148508.jpg",
+            "score": 0.25216221809387207
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000050165",
+            "path": "materials/data/images/000000050165.jpg",
+            "score": 0.24748995900154114
+          },
+          {
+            "rank": 6,
+            "image_id": "coco-000000355240",
+            "path": "materials/data/images/000000355240.jpg",
+            "score": 0.24582020938396454
+          },
+          {
+            "rank": 7,
+            "image_id": "coco-000000527220",
+            "path": "materials/data/images/000000527220.jpg",
+            "score": 0.24538540840148926
+          },
+          {
+            "rank": 8,
+            "image_id": "coco-000000018737",
+            "path": "materials/data/images/000000018737.jpg",
+            "score": 0.24384306371212006
+          },
+          {
+            "rank": 9,
+            "image_id": "coco-000000563281",
+            "path": "materials/data/images/000000563281.jpg",
+            "score": 0.24349312484264374
+          },
+          {
+            "rank": 10,
+            "image_id": "coco-000000026204",
+            "path": "materials/data/images/000000026204.jpg",
+            "score": 0.24248048663139343
+          }
+        ],
+        "dual_max": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000065485",
+            "path": "materials/data/images/000000065485.jpg",
+            "score": 0.2700791656970978
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000453841",
+            "path": "materials/data/images/000000453841.jpg",
+            "score": 0.25644630193710327
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000050165",
+            "path": "materials/data/images/000000050165.jpg",
+            "score": 0.25469574332237244
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000568290",
+            "path": "materials/data/images/000000568290.jpg",
+            "score": 0.25425446033477783
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000148508",
+            "path": "materials/data/images/000000148508.jpg",
+            "score": 0.2527260184288025
+          },
+          {
+            "rank": 6,
+            "image_id": "coco-000000034071",
+            "path": "materials/data/images/000000034071.jpg",
+            "score": 0.24744108319282532
+          },
+          {
+            "rank": 7,
+            "image_id": "coco-000000140286",
+            "path": "materials/data/images/000000140286.jpg",
+            "score": 0.2465687096118927
+          },
+          {
+            "rank": 8,
+            "image_id": "coco-000000086220",
+            "path": "materials/data/images/000000086220.jpg",
+            "score": 0.24608206748962402
+          },
+          {
+            "rank": 9,
+            "image_id": "coco-000000355240",
+            "path": "materials/data/images/000000355240.jpg",
+            "score": 0.24582020938396454
+          },
+          {
+            "rank": 10,
+            "image_id": "coco-000000527220",
+            "path": "materials/data/images/000000527220.jpg",
+            "score": 0.24538540840148926
+          }
+        ]
+      },
+      "new_candidates": [
+        {
+          "rank": 1,
+          "image_id": "coco-000000453841",
+          "path": "materials/data/images/000000453841.jpg",
+          "score": 0.25644630193710327
+        }
+      ]
+    },
+    {
+      "id": "R01",
+      "category": "relation",
+      "query": "A cat sitting on a chair.",
+      "required": [
+        "cat",
+        "chair",
+        "cat sitting on chair"
+      ],
+      "variants": {
+        "letterbox": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000213445",
+            "path": "materials/data/images/000000213445.jpg",
+            "score": 0.29012179374694824
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000540928",
+            "path": "materials/data/images/000000540928.jpg",
+            "score": 0.2747581899166107
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000446522",
+            "path": "materials/data/images/000000446522.jpg",
+            "score": 0.25964105129241943
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000118515",
+            "path": "materials/data/images/000000118515.jpg",
+            "score": 0.25832945108413696
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000360943",
+            "path": "materials/data/images/000000360943.jpg",
+            "score": 0.25675252079963684
+          },
+          {
+            "rank": 6,
+            "image_id": "coco-000000545826",
+            "path": "materials/data/images/000000545826.jpg",
+            "score": 0.2565280795097351
+          },
+          {
+            "rank": 7,
+            "image_id": "coco-000000520531",
+            "path": "materials/data/images/000000520531.jpg",
+            "score": 0.25627076625823975
+          },
+          {
+            "rank": 8,
+            "image_id": "coco-000000564280",
+            "path": "materials/data/images/000000564280.jpg",
+            "score": 0.25373026728630066
+          },
+          {
+            "rank": 9,
+            "image_id": "coco-000000333772",
+            "path": "materials/data/images/000000333772.jpg",
+            "score": 0.2514606714248657
+          },
+          {
+            "rank": 10,
+            "image_id": "coco-000000112798",
+            "path": "materials/data/images/000000112798.jpg",
+            "score": 0.2510640621185303
+          }
+        ],
+        "dual_max": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000213445",
+            "path": "materials/data/images/000000213445.jpg",
+            "score": 0.29012179374694824
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000540928",
+            "path": "materials/data/images/000000540928.jpg",
+            "score": 0.28988176584243774
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000333772",
+            "path": "materials/data/images/000000333772.jpg",
+            "score": 0.2801212966442108
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000118515",
+            "path": "materials/data/images/000000118515.jpg",
+            "score": 0.2747894525527954
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000520531",
+            "path": "materials/data/images/000000520531.jpg",
+            "score": 0.27030009031295776
+          },
+          {
+            "rank": 6,
+            "image_id": "coco-000000446522",
+            "path": "materials/data/images/000000446522.jpg",
+            "score": 0.25964105129241943
+          },
+          {
+            "rank": 7,
+            "image_id": "coco-000000360943",
+            "path": "materials/data/images/000000360943.jpg",
+            "score": 0.25675252079963684
+          },
+          {
+            "rank": 8,
+            "image_id": "coco-000000545826",
+            "path": "materials/data/images/000000545826.jpg",
+            "score": 0.2565280795097351
+          },
+          {
+            "rank": 9,
+            "image_id": "coco-000000015497",
+            "path": "materials/data/images/000000015497.jpg",
+            "score": 0.2550079822540283
+          },
+          {
+            "rank": 10,
+            "image_id": "coco-000000564280",
+            "path": "materials/data/images/000000564280.jpg",
+            "score": 0.25373026728630066
+          }
+        ]
+      },
+      "new_candidates": []
+    },
+    {
+      "id": "R02",
+      "category": "relation",
+      "query": "A dog standing next to a person.",
+      "required": [
+        "dog",
+        "person",
+        "dog standing beside person"
+      ],
+      "variants": {
+        "letterbox": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000149568",
+            "path": "materials/data/images/000000149568.jpg",
+            "score": 0.27893608808517456
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000338624",
+            "path": "materials/data/images/000000338624.jpg",
+            "score": 0.2741847336292267
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000289594",
+            "path": "materials/data/images/000000289594.jpg",
+            "score": 0.2686178982257843
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000424162",
+            "path": "materials/data/images/000000424162.jpg",
+            "score": 0.2633807063102722
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000295478",
+            "path": "materials/data/images/000000295478.jpg",
+            "score": 0.26322177052497864
+          },
+          {
+            "rank": 6,
+            "image_id": "coco-000000456496",
+            "path": "materials/data/images/000000456496.jpg",
+            "score": 0.2625405490398407
+          },
+          {
+            "rank": 7,
+            "image_id": "coco-000000509403",
+            "path": "materials/data/images/000000509403.jpg",
+            "score": 0.26037999987602234
+          },
+          {
+            "rank": 8,
+            "image_id": "coco-000000225184",
+            "path": "materials/data/images/000000225184.jpg",
+            "score": 0.2586127817630768
+          },
+          {
+            "rank": 9,
+            "image_id": "coco-000000449909",
+            "path": "materials/data/images/000000449909.jpg",
+            "score": 0.25481337308883667
+          },
+          {
+            "rank": 10,
+            "image_id": "coco-000000138492",
+            "path": "materials/data/images/000000138492.jpg",
+            "score": 0.25188860297203064
+          }
+        ],
+        "dual_max": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000149568",
+            "path": "materials/data/images/000000149568.jpg",
+            "score": 0.29312849044799805
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000424162",
+            "path": "materials/data/images/000000424162.jpg",
+            "score": 0.2854306101799011
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000338624",
+            "path": "materials/data/images/000000338624.jpg",
+            "score": 0.27621006965637207
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000295478",
+            "path": "materials/data/images/000000295478.jpg",
+            "score": 0.2731076180934906
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000289594",
+            "path": "materials/data/images/000000289594.jpg",
+            "score": 0.2686178982257843
+          },
+          {
+            "rank": 6,
+            "image_id": "coco-000000494869",
+            "path": "materials/data/images/000000494869.jpg",
+            "score": 0.2656683325767517
+          },
+          {
+            "rank": 7,
+            "image_id": "coco-000000456496",
+            "path": "materials/data/images/000000456496.jpg",
+            "score": 0.2625405490398407
+          },
+          {
+            "rank": 8,
+            "image_id": "coco-000000509403",
+            "path": "materials/data/images/000000509403.jpg",
+            "score": 0.26037999987602234
+          },
+          {
+            "rank": 9,
+            "image_id": "coco-000000225184",
+            "path": "materials/data/images/000000225184.jpg",
+            "score": 0.2586127817630768
+          },
+          {
+            "rank": 10,
+            "image_id": "coco-000000449909",
+            "path": "materials/data/images/000000449909.jpg",
+            "score": 0.25481337308883667
+          }
+        ]
+      },
+      "new_candidates": []
+    },
+    {
+      "id": "R03",
+      "category": "relation",
+      "query": "A person riding a horse.",
+      "required": [
+        "person",
+        "horse",
+        "riding"
+      ],
+      "variants": {
+        "letterbox": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000275392",
+            "path": "materials/data/images/000000275392.jpg",
+            "score": 0.29025083780288696
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000367818",
+            "path": "materials/data/images/000000367818.jpg",
+            "score": 0.2838820219039917
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000045070",
+            "path": "materials/data/images/000000045070.jpg",
+            "score": 0.28108012676239014
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000223188",
+            "path": "materials/data/images/000000223188.jpg",
+            "score": 0.2714552879333496
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000227686",
+            "path": "materials/data/images/000000227686.jpg",
+            "score": 0.27143898606300354
+          },
+          {
+            "rank": 6,
+            "image_id": "coco-000000415748",
+            "path": "materials/data/images/000000415748.jpg",
+            "score": 0.25876739621162415
+          },
+          {
+            "rank": 7,
+            "image_id": "coco-000000456015",
+            "path": "materials/data/images/000000456015.jpg",
+            "score": 0.25854024291038513
+          },
+          {
+            "rank": 8,
+            "image_id": "coco-000000356261",
+            "path": "materials/data/images/000000356261.jpg",
+            "score": 0.2565893530845642
+          },
+          {
+            "rank": 9,
+            "image_id": "coco-000000088265",
+            "path": "materials/data/images/000000088265.jpg",
+            "score": 0.255763441324234
+          },
+          {
+            "rank": 10,
+            "image_id": "coco-000000161044",
+            "path": "materials/data/images/000000161044.jpg",
+            "score": 0.2557077705860138
+          }
+        ],
+        "dual_max": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000275392",
+            "path": "materials/data/images/000000275392.jpg",
+            "score": 0.31510695815086365
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000356261",
+            "path": "materials/data/images/000000356261.jpg",
+            "score": 0.28847283124923706
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000045070",
+            "path": "materials/data/images/000000045070.jpg",
+            "score": 0.2881509065628052
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000367818",
+            "path": "materials/data/images/000000367818.jpg",
+            "score": 0.2838820219039917
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000223188",
+            "path": "materials/data/images/000000223188.jpg",
+            "score": 0.2714552879333496
+          },
+          {
+            "rank": 6,
+            "image_id": "coco-000000227686",
+            "path": "materials/data/images/000000227686.jpg",
+            "score": 0.27143898606300354
+          },
+          {
+            "rank": 7,
+            "image_id": "coco-000000456015",
+            "path": "materials/data/images/000000456015.jpg",
+            "score": 0.2663004696369171
+          },
+          {
+            "rank": 8,
+            "image_id": "coco-000000242724",
+            "path": "materials/data/images/000000242724.jpg",
+            "score": 0.26285210251808167
+          },
+          {
+            "rank": 9,
+            "image_id": "coco-000000415748",
+            "path": "materials/data/images/000000415748.jpg",
+            "score": 0.25876739621162415
+          },
+          {
+            "rank": 10,
+            "image_id": "coco-000000361506",
+            "path": "materials/data/images/000000361506.jpg",
+            "score": 0.2582433819770813
+          }
+        ]
+      },
+      "new_candidates": [
+        {
+          "rank": 1,
+          "image_id": "coco-000000367818",
+          "path": "materials/data/images/000000367818.jpg",
+          "score": 0.2838820219039917
+        }
+      ]
+    },
+    {
+      "id": "R04",
+      "category": "relation",
+      "query": "A cup on a table next to a plate of food.",
+      "required": [
+        "cup",
+        "plate of food",
+        "both on table and adjacent"
+      ],
+      "variants": {
+        "letterbox": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000311303",
+            "path": "materials/data/images/000000311303.jpg",
+            "score": 0.3139016032218933
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000460494",
+            "path": "materials/data/images/000000460494.jpg",
+            "score": 0.2889088988304138
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000541634",
+            "path": "materials/data/images/000000541634.jpg",
+            "score": 0.2840561270713806
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000172571",
+            "path": "materials/data/images/000000172571.jpg",
+            "score": 0.28258877992630005
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000017714",
+            "path": "materials/data/images/000000017714.jpg",
+            "score": 0.281919002532959
+          },
+          {
+            "rank": 6,
+            "image_id": "coco-000000389109",
+            "path": "materials/data/images/000000389109.jpg",
+            "score": 0.2803085148334503
+          },
+          {
+            "rank": 7,
+            "image_id": "coco-000000105014",
+            "path": "materials/data/images/000000105014.jpg",
+            "score": 0.2764745354652405
+          },
+          {
+            "rank": 8,
+            "image_id": "coco-000000419312",
+            "path": "materials/data/images/000000419312.jpg",
+            "score": 0.27571752667427063
+          },
+          {
+            "rank": 9,
+            "image_id": "coco-000000095786",
+            "path": "materials/data/images/000000095786.jpg",
+            "score": 0.27537938952445984
+          },
+          {
+            "rank": 10,
+            "image_id": "coco-000000013004",
+            "path": "materials/data/images/000000013004.jpg",
+            "score": 0.27495336532592773
+          }
+        ],
+        "dual_max": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000311303",
+            "path": "materials/data/images/000000311303.jpg",
+            "score": 0.3139016032218933
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000460494",
+            "path": "materials/data/images/000000460494.jpg",
+            "score": 0.2889088988304138
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000017714",
+            "path": "materials/data/images/000000017714.jpg",
+            "score": 0.2866692543029785
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000541634",
+            "path": "materials/data/images/000000541634.jpg",
+            "score": 0.2840561270713806
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000172571",
+            "path": "materials/data/images/000000172571.jpg",
+            "score": 0.28258877992630005
+          },
+          {
+            "rank": 6,
+            "image_id": "coco-000000389109",
+            "path": "materials/data/images/000000389109.jpg",
+            "score": 0.2803085148334503
+          },
+          {
+            "rank": 7,
+            "image_id": "coco-000000013004",
+            "path": "materials/data/images/000000013004.jpg",
+            "score": 0.27785831689834595
+          },
+          {
+            "rank": 8,
+            "image_id": "coco-000000105014",
+            "path": "materials/data/images/000000105014.jpg",
+            "score": 0.2764745354652405
+          },
+          {
+            "rank": 9,
+            "image_id": "coco-000000419312",
+            "path": "materials/data/images/000000419312.jpg",
+            "score": 0.27571752667427063
+          },
+          {
+            "rank": 10,
+            "image_id": "coco-000000095786",
+            "path": "materials/data/images/000000095786.jpg",
+            "score": 0.27537938952445984
+          }
+        ]
+      },
+      "new_candidates": [
+        {
+          "rank": 1,
+          "image_id": "coco-000000172571",
+          "path": "materials/data/images/000000172571.jpg",
+          "score": 0.28258877992630005
+        }
+      ]
+    },
+    {
+      "id": "R05",
+      "category": "relation",
+      "query": "A bicycle leaning against a wall.",
+      "required": [
+        "bicycle",
+        "wall",
+        "bicycle leaning against wall"
+      ],
+      "variants": {
+        "letterbox": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000070774",
+            "path": "materials/data/images/000000070774.jpg",
+            "score": 0.28515616059303284
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000256941",
+            "path": "materials/data/images/000000256941.jpg",
+            "score": 0.27113986015319824
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000274687",
+            "path": "materials/data/images/000000274687.jpg",
+            "score": 0.26983922719955444
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000144333",
+            "path": "materials/data/images/000000144333.jpg",
+            "score": 0.2555222809314728
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000473118",
+            "path": "materials/data/images/000000473118.jpg",
+            "score": 0.24638156592845917
+          },
+          {
+            "rank": 6,
+            "image_id": "coco-000000135670",
+            "path": "materials/data/images/000000135670.jpg",
+            "score": 0.24473705887794495
+          },
+          {
+            "rank": 7,
+            "image_id": "coco-000000389532",
+            "path": "materials/data/images/000000389532.jpg",
+            "score": 0.2351578176021576
+          },
+          {
+            "rank": 8,
+            "image_id": "coco-000000361506",
+            "path": "materials/data/images/000000361506.jpg",
+            "score": 0.23499980568885803
+          },
+          {
+            "rank": 9,
+            "image_id": "coco-000000276284",
+            "path": "materials/data/images/000000276284.jpg",
+            "score": 0.2347993552684784
+          },
+          {
+            "rank": 10,
+            "image_id": "coco-000000018737",
+            "path": "materials/data/images/000000018737.jpg",
+            "score": 0.23195382952690125
+          }
+        ],
+        "dual_max": [
+          {
+            "rank": 1,
+            "image_id": "coco-000000070774",
+            "path": "materials/data/images/000000070774.jpg",
+            "score": 0.28515616059303284
+          },
+          {
+            "rank": 2,
+            "image_id": "coco-000000274687",
+            "path": "materials/data/images/000000274687.jpg",
+            "score": 0.2793911099433899
+          },
+          {
+            "rank": 3,
+            "image_id": "coco-000000256941",
+            "path": "materials/data/images/000000256941.jpg",
+            "score": 0.27113986015319824
+          },
+          {
+            "rank": 4,
+            "image_id": "coco-000000144333",
+            "path": "materials/data/images/000000144333.jpg",
+            "score": 0.2555222809314728
+          },
+          {
+            "rank": 5,
+            "image_id": "coco-000000135670",
+            "path": "materials/data/images/000000135670.jpg",
+            "score": 0.254763662815094
+          },
+          {
+            "rank": 6,
+            "image_id": "coco-000000288391",
+            "path": "materials/data/images/000000288391.jpg",
+            "score": 0.25433096289634705
+          },
+          {
+            "rank": 7,
+            "image_id": "coco-000000473118",
+            "path": "materials/data/images/000000473118.jpg",
+            "score": 0.24638156592845917
+          },
+          {
+            "rank": 8,
+            "image_id": "coco-000000389532",
+            "path": "materials/data/images/000000389532.jpg",
+            "score": 0.2351578176021576
+          },
+          {
+            "rank": 9,
+            "image_id": "coco-000000549136",
+            "path": "materials/data/images/000000549136.jpg",
+            "score": 0.23505720496177673
+          },
+          {
+            "rank": 10,
+            "image_id": "coco-000000361506",
+            "path": "materials/data/images/000000361506.jpg",
+            "score": 0.23499980568885803
+          }
+        ]
+      },
+      "new_candidates": [
+        {
+          "rank": 1,
+          "image_id": "coco-000000256941",
+          "path": "materials/data/images/000000256941.jpg",
+          "score": 0.27113986015319824
+        },
+        {
+          "rank": 2,
+          "image_id": "coco-000000473118",
+          "path": "materials/data/images/000000473118.jpg",
+          "score": 0.24638156592845917
+        }
+      ]
+    }
+  ]
+}

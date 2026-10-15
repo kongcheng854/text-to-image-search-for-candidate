@@ -1,0 +1,287 @@
+{
+  "ranking": {
+    "version": "object-guard-multiobject-prompt-v1",
+    "contrast_weight": 0.5,
+    "prompt_weight": 0.5,
+    "vocabulary_sha256": "602d47c1987b184602ccb845e5772abfa989cf00d98516e5ad1043035c732e5b",
+    "multiobject_policy": "average normalized original/photo text features; no class penalty",
+    "single_object_policy": "subtract positive part of competing-object advantage",
+    "fallback": "original whole-sentence cosine for negation, alternatives or unknown objects"
+  },
+  "development": {
+    "all": {
+      "baseline": {
+        "strict_p5": 0.552,
+        "related_p5": 0.896,
+        "pooled_ndcg5": 0.8303953204335248,
+        "strict_top1": 0.72
+      },
+      "optimized": {
+        "strict_p5": 0.6,
+        "related_p5": 0.9440000000000001,
+        "pooled_ndcg5": 0.8684326620360235,
+        "strict_top1": 0.72
+      }
+    },
+    "subject": {
+      "baseline": {
+        "strict_p5": 0.92,
+        "related_p5": 0.92,
+        "pooled_ndcg5": 0.9368703095040971,
+        "strict_top1": 1
+      },
+      "optimized": {
+        "strict_p5": 0.96,
+        "related_p5": 0.96,
+        "pooled_ndcg5": 0.9660839794726384,
+        "strict_top1": 1
+      }
+    },
+    "action": {
+      "baseline": {
+        "strict_p5": 0.6,
+        "related_p5": 0.92,
+        "pooled_ndcg5": 0.8730220575678644,
+        "strict_top1": 0.8
+      },
+      "optimized": {
+        "strict_p5": 0.64,
+        "related_p5": 0.96,
+        "pooled_ndcg5": 0.8968310425857702,
+        "strict_top1": 0.8
+      }
+    },
+    "edge_small": {
+      "baseline": {
+        "strict_p5": 0.36,
+        "related_p5": 0.8,
+        "pooled_ndcg5": 0.6292516184119051,
+        "strict_top1": 0.2
+      },
+      "optimized": {
+        "strict_p5": 0.4,
+        "related_p5": 0.92,
+        "pooled_ndcg5": 0.6969106262209359,
+        "strict_top1": 0.2
+      }
+    },
+    "color": {
+      "baseline": {
+        "strict_p5": 0.52,
+        "related_p5": 0.88,
+        "pooled_ndcg5": 0.7996625215117171,
+        "strict_top1": 1
+      },
+      "optimized": {
+        "strict_p5": 0.6,
+        "related_p5": 0.92,
+        "pooled_ndcg5": 0.8496917867497054,
+        "strict_top1": 1
+      }
+    },
+    "relation": {
+      "baseline": {
+        "strict_p5": 0.36,
+        "related_p5": 0.96,
+        "pooled_ndcg5": 0.9131700951720403,
+        "strict_top1": 0.6
+      },
+      "optimized": {
+        "strict_p5": 0.4,
+        "related_p5": 0.96,
+        "pooled_ndcg5": 0.9326458751510678,
+        "strict_top1": 0.6
+      }
+    }
+  },
+  "validation": {
+    "baseline": {
+      "strict_p5": 0.54,
+      "related_p5": 0.8200000000000001,
+      "pooled_ndcg5": 0.8808926680926465,
+      "strict_top1": 0.7
+    },
+    "optimized": {
+      "strict_p5": 0.54,
+      "related_p5": 0.9400000000000001,
+      "pooled_ndcg5": 0.9337074976001083,
+      "strict_top1": 0.7
+    }
+  },
+  "validation_queries": [
+    {
+      "id": "V01",
+      "query": "A black dog.",
+      "baseline": {
+        "strict_p5": 0.6,
+        "related_p5": 0.8,
+        "pooled_ndcg5": 0.7432691650927198,
+        "strict_top1": 0
+      },
+      "optimized": {
+        "strict_p5": 0.6,
+        "related_p5": 0.8,
+        "pooled_ndcg5": 0.7432691650927198,
+        "strict_top1": 0
+      }
+    },
+    {
+      "id": "V02",
+      "query": "A cat resting beside a window.",
+      "baseline": {
+        "strict_p5": 0.4,
+        "related_p5": 1.0,
+        "pooled_ndcg5": 1.0,
+        "strict_top1": 1
+      },
+      "optimized": {
+        "strict_p5": 0.4,
+        "related_p5": 1.0,
+        "pooled_ndcg5": 1.0,
+        "strict_top1": 1
+      }
+    },
+    {
+      "id": "V03",
+      "query": "People walking with umbrellas in the rain.",
+      "baseline": {
+        "strict_p5": 0.8,
+        "related_p5": 1.0,
+        "pooled_ndcg5": 1.0,
+        "strict_top1": 1
+      },
+      "optimized": {
+        "strict_p5": 0.8,
+        "related_p5": 1.0,
+        "pooled_ndcg5": 1.0,
+        "strict_top1": 1
+      }
+    },
+    {
+      "id": "V04",
+      "query": "A person balancing on a surfboard in the ocean.",
+      "baseline": {
+        "strict_p5": 0.6,
+        "related_p5": 1.0,
+        "pooled_ndcg5": 0.8106961231285943,
+        "strict_top1": 0
+      },
+      "optimized": {
+        "strict_p5": 0.6,
+        "related_p5": 1.0,
+        "pooled_ndcg5": 0.8106961231285943,
+        "strict_top1": 0
+      }
+    },
+    {
+      "id": "V05",
+      "query": "A motorcycle parked outdoors.",
+      "baseline": {
+        "strict_p5": 1.0,
+        "related_p5": 1.0,
+        "pooled_ndcg5": 1.0,
+        "strict_top1": 1
+      },
+      "optimized": {
+        "strict_p5": 1.0,
+        "related_p5": 1.0,
+        "pooled_ndcg5": 1.0,
+        "strict_top1": 1
+      }
+    },
+    {
+      "id": "V06",
+      "query": "A green bus on a road.",
+      "baseline": {
+        "strict_p5": 0.4,
+        "related_p5": 1.0,
+        "pooled_ndcg5": 0.8025392158797567,
+        "strict_top1": 0
+      },
+      "optimized": {
+        "strict_p5": 0.4,
+        "related_p5": 1.0,
+        "pooled_ndcg5": 0.8025392158797567,
+        "strict_top1": 0
+      }
+    },
+    {
+      "id": "V07",
+      "query": "A bird standing on a beach.",
+      "baseline": {
+        "strict_p5": 0.2,
+        "related_p5": 0.4,
+        "pooled_ndcg5": 0.7337495705923308,
+        "strict_top1": 1
+      },
+      "optimized": {
+        "strict_p5": 0.2,
+        "related_p5": 1.0,
+        "pooled_ndcg5": 1.0,
+        "strict_top1": 1
+      }
+    },
+    {
+      "id": "V08",
+      "query": "A person sitting on a bicycle.",
+      "baseline": {
+        "strict_p5": 0.4,
+        "related_p5": 0.8,
+        "pooled_ndcg5": 0.9805704719000117,
+        "strict_top1": 1
+      },
+      "optimized": {
+        "strict_p5": 0.4,
+        "related_p5": 0.8,
+        "pooled_ndcg5": 0.9805704719000117,
+        "strict_top1": 1
+      }
+    },
+    {
+      "id": "V09",
+      "query": "A white airplane flying against a blue sky.",
+      "baseline": {
+        "strict_p5": 0.4,
+        "related_p5": 0.4,
+        "pooled_ndcg5": 0.7878483464942911,
+        "strict_top1": 1
+      },
+      "optimized": {
+        "strict_p5": 0.4,
+        "related_p5": 1.0,
+        "pooled_ndcg5": 1.0,
+        "strict_top1": 1
+      }
+    },
+    {
+      "id": "V10",
+      "query": "A meal served on a plate with a fork.",
+      "baseline": {
+        "strict_p5": 0.6,
+        "related_p5": 0.8,
+        "pooled_ndcg5": 0.9502537878387615,
+        "strict_top1": 1
+      },
+      "optimized": {
+        "strict_p5": 0.6,
+        "related_p5": 0.8,
+        "pooled_ndcg5": 1.0,
+        "strict_top1": 1
+      }
+    }
+  ],
+  "validation_judgment_count": 56,
+  "review_sha256": "01a969466b9aa6a7df0ebdbeec4d29e1199269b3b4b995f84471a34a6faadd33",
+  "validation_queries_sha256": "790a9087f6b4d175546c1bc65aeedc7785d5988c69f60cdc1fe627d9aab14dda",
+  "engine_load_seconds": 5.26300270000138,
+  "peak_working_set_mb": 571.8671875,
+  "median_query_ms": {
+    "baseline": 11.870850001287181,
+    "optimized": 11.453400000391412
+  },
+  "mean_query_ms": {
+    "baseline": 11.833889999979874,
+    "optimized": 12.314660000265576
+  },
+  "limitations": "Provisional assistant visual labels. Development was used for selection; 10 validation queries were frozen before selection and did not tune weights. Small same-gallery sample, no claim of statistical significance or complete-corpus recall."
+}
